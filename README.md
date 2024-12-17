@@ -2,6 +2,16 @@
  
 comet-to-vitis-hls is a project focused on converting the Comet RISC-V ISA processor simulator into a Vitis HLS-compatible design. This conversion aims to enable hardware acceleration of the Comet simulator, making it suitable for use in FPGA-based systems. The project refactors the existing Comet simulator code to make it compatible with Xilinx Vitis HLS.
 
+## hls_component
+
+### Implementation files
+- includes: Header files to initialize classes/structs for src files.
+- src: Contains main implementation of processor.
+
+### Testing files
+- basic_tests: Basic algorithm tests
+- riscv-compliance: comet RISC-V compliance header model file and makefiles
+
 ## Goals
 - Convert the Comet RISC-V ISA simulator codebase to be compatible with Vitis HLS.
 
