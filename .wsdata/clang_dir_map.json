@@ -1,0 +1,19 @@
+{
+  "workspaceRoot": "C:\\Users\\kwokt\\Documents\\CometConvert",
+  "mapping": {
+    "hls_component\\src\\atomicTest.cpp": "hls_component",
+    "hls_component\\src\\riscvISA.cpp": "hls_component",
+    "hls_component\\src\\basic_simulator.cpp": "hls_component",
+    "hls_component\\riscvISA.cpp": "hls_component",
+    "hls_component\\test.cpp": "hls_component",
+    "hls_component\\main.cpp": "hls_component",
+    "hls_component\\src\\main.cpp": "hls_component",
+    "hls_component\\src\\elfFile.cpp": "hls_component",
+    "hls_component\\elfFile.cpp": "hls_component",
+    "hls_component\\atomicTest.cpp": "hls_component",
+    "hls_component\\Untitled.cpp": "hls_component",
+    "hls_component\\basic_simulator.cpp": "hls_component",
+    "hls_component\\src\\core.cpp": "hls_component",
+    "hls_component\\core.cpp": "hls_component"
+  }
+}

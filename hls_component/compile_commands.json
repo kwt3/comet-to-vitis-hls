@@ -1,0 +1,158 @@
+[
+  {
+    "directory": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\src\\core.cpp"
+    ],
+    "file": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\src\\core.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\src\\riscvISA.cpp"
+    ],
+    "file": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\src\\riscvISA.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\core.cpp"
+    ],
+    "file": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\core.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\elfFile.cpp"
+    ],
+    "file": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\elfFile.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\main.cpp"
+    ],
+    "file": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\main.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\basic_simulator.cpp"
+    ],
+    "file": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\basic_simulator.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\src\\basic_simulator.cpp"
+    ],
+    "file": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\src\\basic_simulator.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\src\\atomicTest.cpp"
+    ],
+    "file": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\src\\atomicTest.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\atomicTest.cpp"
+    ],
+    "file": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\atomicTest.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\src\\elfFile.cpp"
+    ],
+    "file": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\src\\elfFile.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\riscvISA.cpp"
+    ],
+    "file": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\riscvISA.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\Untitled.cpp"
+    ],
+    "file": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\Untitled.cpp"
+  },
+  {
+    "directory": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\src\\main.cpp"
+    ],
+    "file": "C:\\Users\\kwokt\\Documents\\CometConvert\\hls_component\\src\\main.cpp"
+  }
+]
