@@ -1,0 +1,724 @@
+---
+MainSourceFile:  'C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/comet_to_vitis_hls/hls_component/hls_component/hls/.autopilot/db/riscvISA.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_214_1:  '
+    FileOffset:      214
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          880479
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_214_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_217_2:  '
+    FileOffset:      217
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          880547
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_217_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_249_1:  '
+    FileOffset:      249
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          881275
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_249_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_264_1:  '
+    FileOffset:      264
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          881558
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_264_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_284_1:  '
+    FileOffset:      284
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          881939
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_284_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_308_1:  '
+    FileOffset:      308
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          882519
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_308_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_312_2:  '
+    FileOffset:      312
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          882634
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_312_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_393_1:  '
+    FileOffset:      393
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          884977
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_393_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_397_2:  '
+    FileOffset:      397
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          885116
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_397_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_414_1:  '
+    FileOffset:      414
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          885556
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_414_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_510_1:  '
+    FileOffset:      510
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          887849
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_510_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_511_2:  '
+    FileOffset:      511
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          887886
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_511_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_518_3:  '
+    FileOffset:      518
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          888091
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_518_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_520_4:  '
+    FileOffset:      520
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          888195
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_520_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_527_5:  '
+    FileOffset:      527
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          888401
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_527_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_529_6:  '
+    FileOffset:      529
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          888505
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_529_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_560_1:  '
+    FileOffset:      560
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          889467
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_560_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_590_1:  '
+    FileOffset:      590
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          890177
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_590_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_613_1:  '
+    FileOffset:      613
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          890738
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_613_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          892589
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_706_1:  '
+    FileOffset:      706
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          893359
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_706_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_729_1:  '
+    FileOffset:      729
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          893926
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_729_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_781_1:  '
+    FileOffset:      781
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          895509
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_781_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_798_1:  '
+    FileOffset:      798
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          895865
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_798_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_824_1:  '
+    FileOffset:      824
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          896577
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_824_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_832_2:  '
+    FileOffset:      832
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          896728
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_832_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_834_3:  '
+    FileOffset:      834
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          896789
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_834_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_836_4:  '
+    FileOffset:      836
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          896833
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_836_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_852_5:  '
+    FileOffset:      852
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          897269
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_852_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_854_6:  '
+    FileOffset:      854
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          897326
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_854_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_870_7:  '
+    FileOffset:      870
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          898083
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_870_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_890_8:  '
+    FileOffset:      890
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          898671
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_890_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_909_9:  '
+    FileOffset:      909
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          899171
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_909_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_911_10:  '
+    FileOffset:      911
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          899232
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_911_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_995_1:  '
+    FileOffset:      995
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          902753
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_995_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1017_1:  '
+    FileOffset:      1017
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          903320
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1017_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1047_1:  '
+    FileOffset:      1047
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          904299
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1047_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1077_1:  '
+    FileOffset:      1077
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          905278
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1077_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1112_1:  '
+    FileOffset:      1112
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          906539
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1112_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1118_2:  '
+    FileOffset:      1118
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          906715
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1118_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1130_1:  '
+    FileOffset:      1130
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          907095
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1130_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1136_2:  '
+    FileOffset:      1136
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          907284
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1136_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1189_1:  '
+    FileOffset:      1189
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          908909
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1189_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1199_2:  '
+    FileOffset:      1199
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          909226
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1199_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1226_1:  '
+    FileOffset:      1226
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          910008
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1226_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1232_2:  '
+    FileOffset:      1232
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          910211
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1232_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1253_1:  '
+    FileOffset:      1253
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          910724
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1253_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1280_1:  '
+    FileOffset:      1280
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          911483
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1280_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1284_2:  '
+    FileOffset:      1284
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          911659
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1284_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1289_3:  '
+    FileOffset:      1289
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          911767
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1289_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1301_1:  '
+    FileOffset:      1301
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          912106
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1301_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1306_2:  '
+    FileOffset:      1306
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          912264
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1306_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1308_3:  '
+    FileOffset:      1308
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          912319
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1308_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1319_4:  '
+    FileOffset:      1319
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          912580
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1319_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1321_5:  '
+    FileOffset:      1321
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          912626
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1321_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1323_6:  '
+    FileOffset:      1323
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          912671
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1323_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1334_7:  '
+    FileOffset:      1334
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          912940
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1334_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1339_8:  '
+    FileOffset:      1339
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          913073
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1339_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1354_1:  '
+    FileOffset:      1354
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          913402
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1354_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1359_2:  '
+    FileOffset:      1359
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          913515
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1359_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1408_1:  '
+    FileOffset:      1408
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          914597
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1408_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1470_1:  '
+    FileOffset:      1470
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          915976
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1470_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1536_1:  '
+    FileOffset:      1536
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          919402
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1536_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2567_1:  '
+    FileOffset:      2567
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          952900
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2567_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2588_1:  '
+    FileOffset:      2588
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          953238
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2588_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2618_1:  '
+    FileOffset:      2618
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          953889
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2618_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3218_1:  '
+    FileOffset:      3218
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          1054853
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3218_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3223_1:  '
+    FileOffset:      3223
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          1055005
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3223_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3224_1:  '
+    FileOffset:      3224
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          1055150
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3224_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3225_1:  '
+    FileOffset:      3225
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          1055309
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3225_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3226_1:  '
+    FileOffset:      3226
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          1055472
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3226_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3227_1:  '
+    FileOffset:      3227
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          1055633
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3227_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3228_1:  '
+    FileOffset:      3228
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          1055798
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3228_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3229_1:  '
+    FileOffset:      3229
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          1055955
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3229_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3230_1:  '
+    FileOffset:      3230
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          1056116
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3230_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3231_1:  '
+    FileOffset:      3231
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          1056275
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3231_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3232_1:  '
+    FileOffset:      3232
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          1056438
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3232_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3233_1:  '
+    FileOffset:      3233
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          1056607
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3233_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3234_1:  '
+    FileOffset:      3234
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\ac_int.h'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          1056780
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3234_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_180_1:  '
+    FileOffset:      180
+    FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\riscvISA_comet_to_vitis_hls\riscvISA.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp'
+        Offset:          1063527
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_180_1: '
+...

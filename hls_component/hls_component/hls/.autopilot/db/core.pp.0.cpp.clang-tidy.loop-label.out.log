@@ -1,0 +1,420 @@
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29351:5: warning: Added loop label VITIS_LOOP_214_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < -N; i++)
+    ^~~
+    VITIS_LOOP_214_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29351:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29354:5: warning: Added loop label VITIS_LOOP_217_2:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++)
+    ^~~
+    VITIS_LOOP_217_2: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29354:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29386:3: warning: Added loop label VITIS_LOOP_249_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < N; i++)
+  ^~~
+  VITIS_LOOP_249_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29386:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29401:3: warning: Added loop label VITIS_LOOP_264_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < N; i++)
+  ^~~
+  VITIS_LOOP_264_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29401:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29421:3: warning: Added loop label VITIS_LOOP_284_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < N; i++)
+  ^~~
+  VITIS_LOOP_284_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29421:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29445:3: warning: Added loop label VITIS_LOOP_308_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < M2; i++)
+  ^~~
+  VITIS_LOOP_308_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29445:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29449:3: warning: Added loop label VITIS_LOOP_312_2:   [xilinx-label-all-loops]
+  for (int i = M2; i < M1; i++)
+  ^~~
+  VITIS_LOOP_312_2: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29449:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29530:3: warning: Added loop label VITIS_LOOP_393_1:   [xilinx-label-all-loops]
+  for (int i = M1 - 2; i >= M2; i--) {
+  ^~~
+  VITIS_LOOP_393_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29530:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29534:3: warning: Added loop label VITIS_LOOP_397_2:   [xilinx-label-all-loops]
+  for (int i = M2 - 1; i >= 0; i--) {
+  ^~~
+  VITIS_LOOP_397_2: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29534:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29551:3: warning: Added loop label VITIS_LOOP_414_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < N; i++)
+  ^~~
+  VITIS_LOOP_414_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29551:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29647:5: warning: Added loop label VITIS_LOOP_510_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < T1; k++) {
+    ^~~
+    VITIS_LOOP_510_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29647:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29648:7: warning: Added loop label VITIS_LOOP_511_2:   [xilinx-label-all-loops]
+      for (int i = 0; i < k + 1; i++)
+      ^~~
+      VITIS_LOOP_511_2: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29648:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29655:5: warning: Added loop label VITIS_LOOP_518_3:   [xilinx-label-all-loops]
+    for (int k = T1; k < T2; k++) {
+    ^~~
+    VITIS_LOOP_518_3: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29655:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29657:7: warning: Added loop label VITIS_LOOP_520_4:   [xilinx-label-all-loops]
+      for (int i = 0; i < M2 - 1; i++)
+      ^~~
+      VITIS_LOOP_520_4: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29657:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29664:5: warning: Added loop label VITIS_LOOP_527_5:   [xilinx-label-all-loops]
+    for (int k = T2; k < T3; k++) {
+    ^~~
+    VITIS_LOOP_527_5: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29664:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29666:7: warning: Added loop label VITIS_LOOP_529_6:   [xilinx-label-all-loops]
+      for (int i = k - T2 + 1; i < M2 - 1; i++)
+      ^~~
+      VITIS_LOOP_529_6: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29666:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29697:3: warning: Added loop label VITIS_LOOP_560_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < N; i++) {
+  ^~~
+  VITIS_LOOP_560_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29697:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29727:3: warning: Added loop label VITIS_LOOP_590_1:   [xilinx-label-all-loops]
+  for (int i = 1; i < N - 1; i++) {
+  ^~~
+  VITIS_LOOP_590_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29727:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29750:3: warning: Added loop label VITIS_LOOP_613_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < N; i++) {
+  ^~~
+  VITIS_LOOP_613_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29750:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29813:3: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+  for (int i = 1; i < N - 1; i++) {
+  ^~~
+  VITIS_LOOP_676_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29813:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29843:3: warning: Added loop label VITIS_LOOP_706_1:   [xilinx-label-all-loops]
+  for (int i = 1; i < N - 1; i++) {
+  ^~~
+  VITIS_LOOP_706_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29843:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29866:3: warning: Added loop label VITIS_LOOP_729_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < N; i++) {
+  ^~~
+  VITIS_LOOP_729_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29866:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29918:3: warning: Added loop label VITIS_LOOP_781_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < N; i++)
+  ^~~
+  VITIS_LOOP_781_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29918:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29935:3: warning: Added loop label VITIS_LOOP_798_1:   [xilinx-label-all-loops]
+  for (int k = 0; k < ((N) < (Nr) ? (N) : (Nr)); k++) {
+  ^~~
+  VITIS_LOOP_798_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29935:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29961:3: warning: Added loop label VITIS_LOOP_824_1:   [xilinx-label-all-loops]
+  for (d_msi = D - 1; d_msi > 0 && !d[d_msi]; d_msi--) {
+  ^~~
+  VITIS_LOOP_824_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29961:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29969:3: warning: Added loop label VITIS_LOOP_832_2:   [xilinx-label-all-loops]
+  for (n_msi = N - 1; n_msi > 0 && !n[n_msi]; n_msi--) {
+  ^~~
+  VITIS_LOOP_832_2: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29969:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29971:3: warning: Added loop label VITIS_LOOP_834_3:   [xilinx-label-all-loops]
+  for (int i = 0; i < Q; i++)
+  ^~~
+  VITIS_LOOP_834_3: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29971:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29973:3: warning: Added loop label VITIS_LOOP_836_4:   [xilinx-label-all-loops]
+  for (int i = 0; i < R; i++)
+  ^~~
+  VITIS_LOOP_836_4: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29973:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29989:5: warning: Added loop label VITIS_LOOP_852_5:   [xilinx-label-all-loops]
+    for (int k = n_msi; k >= 0; k--)
+    ^~~
+    VITIS_LOOP_852_5: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29989:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29991:5: warning: Added loop label VITIS_LOOP_854_6:   [xilinx-label-all-loops]
+    for (int k = n_mss; k >= d_mss; k--) {
+    ^~~
+    VITIS_LOOP_854_6: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:29991:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30007:7: warning: Added loop label VITIS_LOOP_870_7:   [xilinx-label-all-loops]
+      for (int j = 0; j <= d_msi; j++) {
+      ^~~
+      VITIS_LOOP_870_7: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30007:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30027:9: warning: Added loop label VITIS_LOOP_890_8:   [xilinx-label-all-loops]
+        for (int j = 0; j <= d_msi; j++) {
+        ^~~
+        VITIS_LOOP_890_8: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30027:9: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30046:7: warning: Added loop label VITIS_LOOP_909_9:   [xilinx-label-all-loops]
+      for (int j = 0; j <= r_msi; j++)
+      ^~~
+      VITIS_LOOP_909_9: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30046:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30048:7: warning: Added loop label VITIS_LOOP_911_10:   [xilinx-label-all-loops]
+      for (int j = r_msi + 1; j < R; j++)
+      ^~~
+      VITIS_LOOP_911_10: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30048:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30132:3: warning: Added loop label VITIS_LOOP_995_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < N; i++)
+  ^~~
+  VITIS_LOOP_995_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30132:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30154:3: warning: Added loop label VITIS_LOOP_1017_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < N; i++)
+  ^~~
+  VITIS_LOOP_1017_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30154:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30184:3: warning: Added loop label VITIS_LOOP_1047_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < N; i++)
+  ^~~
+  VITIS_LOOP_1047_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30184:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30214:3: warning: Added loop label VITIS_LOOP_1077_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < N; i++)
+  ^~~
+  VITIS_LOOP_1077_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30214:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30249:5: warning: Added loop label VITIS_LOOP_1112_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < Nr; i++) {
+    ^~~
+    VITIS_LOOP_1112_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30249:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30255:5: warning: Added loop label VITIS_LOOP_1118_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < Nr; i++)
+    ^~~
+    VITIS_LOOP_1118_2: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30255:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30267:5: warning: Added loop label VITIS_LOOP_1130_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < Nr; i++) {
+    ^~~
+    VITIS_LOOP_1130_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30267:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30273:5: warning: Added loop label VITIS_LOOP_1136_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < Nr; i++)
+    ^~~
+    VITIS_LOOP_1136_2: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30273:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30326:7: warning: Added loop label VITIS_LOOP_1189_1:   [xilinx-label-all-loops]
+      for (int i = ishift; i < M1; i++) {
+      ^~~
+      VITIS_LOOP_1189_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30326:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30336:7: warning: Added loop label VITIS_LOOP_1199_2:   [xilinx-label-all-loops]
+      for (int i = ishift; i < M1; i++)
+      ^~~
+      VITIS_LOOP_1199_2: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30336:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30363:7: warning: Added loop label VITIS_LOOP_1226_1:   [xilinx-label-all-loops]
+      for (int i = 0; i < Nr; i++) {
+      ^~~
+      VITIS_LOOP_1226_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30363:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30369:7: warning: Added loop label VITIS_LOOP_1232_2:   [xilinx-label-all-loops]
+      for (int i = 0; i < Nr; i++)
+      ^~~
+      VITIS_LOOP_1232_2: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30369:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30390:3: warning: Added loop label VITIS_LOOP_1253_1:   [xilinx-label-all-loops]
+  for (int i = N - 1; i >= 0; i--) {
+  ^~~
+  VITIS_LOOP_1253_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30390:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30417:3: warning: Added loop label VITIS_LOOP_1280_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < n; i++) {
+  ^~~
+  VITIS_LOOP_1280_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30417:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30421:5: warning: Added loop label VITIS_LOOP_1284_2:   [xilinx-label-all-loops]
+    for (bits += 32; bits > 0 && k; bits -= B) {
+    ^~~
+    VITIS_LOOP_1284_2: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30421:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30426:3: warning: Added loop label VITIS_LOOP_1289_3:   [xilinx-label-all-loops]
+  for (int i = 0; i < (w + B - 1) / B; i++)
+  ^~~
+  VITIS_LOOP_1289_3: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30426:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30438:7: warning: Added loop label VITIS_LOOP_1301_1:   [xilinx-label-all-loops]
+      for (int i = msw; i > 0; i--)
+      ^~~
+      VITIS_LOOP_1301_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30438:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30443:5: warning: Added loop label VITIS_LOOP_1306_2:   [xilinx-label-all-loops]
+    while (lsw < msw || v[msw]) {
+    ^~~~~
+    VITIS_LOOP_1306_2: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30443:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30445:7: warning: Added loop label VITIS_LOOP_1308_3:   [xilinx-label-all-loops]
+      for (int i = lsw; i <= msw; i++) {
+      ^~~
+      VITIS_LOOP_1308_3: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30445:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30456:5: warning: Added loop label VITIS_LOOP_1319_4:   [xilinx-label-all-loops]
+    for (; msw > 0 && !v[msw]; msw--) {
+    ^~~
+    VITIS_LOOP_1319_4: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30456:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30458:5: warning: Added loop label VITIS_LOOP_1321_5:   [xilinx-label-all-loops]
+    while (msw >= 0) {
+    ^~~~~
+    VITIS_LOOP_1321_5: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30458:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30460:7: warning: Added loop label VITIS_LOOP_1323_6:   [xilinx-label-all-loops]
+      for (int i = msw; i >= 0; i--) {
+      ^~~
+      VITIS_LOOP_1323_6: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30460:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30471:7: warning: Added loop label VITIS_LOOP_1334_7:   [xilinx-label-all-loops]
+      for (int i = 0; (i < 9 && !last) || rem; i++) {
+      ^~~
+      VITIS_LOOP_1334_7: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30471:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30476:5: warning: Added loop label VITIS_LOOP_1339_8:   [xilinx-label-all-loops]
+    for (int i = 0; i < k / 2; i++) {
+    ^~~
+    VITIS_LOOP_1339_8: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30476:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30491:5: warning: Added loop label VITIS_LOOP_1354_1:   [xilinx-label-all-loops]
+    while (n-- && v[n] == (neg ? ~0 : 0)) {
+    ^~~~~
+    VITIS_LOOP_1354_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30491:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30496:7: warning: Added loop label VITIS_LOOP_1359_2:   [xilinx-label-all-loops]
+      for (int i = 16; i > 0; i >>= 1) {
+      ^~~
+      VITIS_LOOP_1359_2: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30496:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30545:3: warning: Added loop label VITIS_LOOP_1408_1:   [xilinx-label-all-loops]
+  for (k = N - 1; k >= 0 && op[k] == ext_sign; k--) {
+  ^~~
+  VITIS_LOOP_1408_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30545:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30607:5: warning: Added loop label VITIS_LOOP_1470_1:   [xilinx-label-all-loops]
+    for (int i = N - 2; i >= 0; i--) {
+    ^~~
+    VITIS_LOOP_1470_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30607:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30673:7: warning: Added loop label VITIS_LOOP_1536_1:   [xilinx-label-all-loops]
+      for (int i = 1; i < N2 - 1; i++)
+      ^~~
+      VITIS_LOOP_1536_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:30673:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:31660:7: warning: Added loop label VITIS_LOOP_2567_1:   [xilinx-label-all-loops]
+      for (int i = 0; i < N - 2; i++)
+      ^~~
+      VITIS_LOOP_2567_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:31660:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:31681:5: warning: Added loop label VITIS_LOOP_2588_1:   [xilinx-label-all-loops]
+    while (str) {
+    ^~~~~
+    VITIS_LOOP_2588_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:31681:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:31711:5: warning: Added loop label VITIS_LOOP_2618_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < M; i++)
+    ^~~
+    VITIS_LOOP_2618_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:31711:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32199:3: warning: Added loop label VITIS_LOOP_3218_1:   [xilinx-label-all-loops]
+  for (int i = 0; i < n; i++)
+  ^~~
+  VITIS_LOOP_3218_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32199:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32204:93: warning: Added loop label VITIS_LOOP_3223_1:   [xilinx-label-all-loops]
+template <ac_special_val V> inline bool init_array(bool* a, int n) { bool t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
+                                                                                            ^~~
+                                                                                            VITIS_LOOP_3223_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32204:93: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32205:93: warning: Added loop label VITIS_LOOP_3224_1:   [xilinx-label-all-loops]
+template <ac_special_val V> inline bool init_array(char* a, int n) { char t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
+                                                                                            ^~~
+                                                                                            VITIS_LOOP_3224_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32205:93: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32206:107: warning: Added loop label VITIS_LOOP_3225_1:   [xilinx-label-all-loops]
+template <ac_special_val V> inline bool init_array(signed char* a, int n) { signed char t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
+                                                                                                          ^~~
+                                                                                                          VITIS_LOOP_3225_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32206:107: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32207:111: warning: Added loop label VITIS_LOOP_3226_1:   [xilinx-label-all-loops]
+template <ac_special_val V> inline bool init_array(unsigned char* a, int n) { unsigned char t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
+                                                                                                              ^~~
+                                                                                                              VITIS_LOOP_3226_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32207:111: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32208:109: warning: Added loop label VITIS_LOOP_3227_1:   [xilinx-label-all-loops]
+template <ac_special_val V> inline bool init_array(signed short* a, int n) { signed short t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
+                                                                                                            ^~~
+                                                                                                            VITIS_LOOP_3227_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32208:109: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32209:113: warning: Added loop label VITIS_LOOP_3228_1:   [xilinx-label-all-loops]
+template <ac_special_val V> inline bool init_array(unsigned short* a, int n) { unsigned short t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
+                                                                                                                ^~~
+                                                                                                                VITIS_LOOP_3228_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32209:113: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32210:105: warning: Added loop label VITIS_LOOP_3229_1:   [xilinx-label-all-loops]
+template <ac_special_val V> inline bool init_array(signed int* a, int n) { signed int t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
+                                                                                                        ^~~
+                                                                                                        VITIS_LOOP_3229_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32210:105: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32211:109: warning: Added loop label VITIS_LOOP_3230_1:   [xilinx-label-all-loops]
+template <ac_special_val V> inline bool init_array(unsigned int* a, int n) { unsigned int t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
+                                                                                                            ^~~
+                                                                                                            VITIS_LOOP_3230_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32211:109: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32212:107: warning: Added loop label VITIS_LOOP_3231_1:   [xilinx-label-all-loops]
+template <ac_special_val V> inline bool init_array(signed long* a, int n) { signed long t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
+                                                                                                          ^~~
+                                                                                                          VITIS_LOOP_3231_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32212:107: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32213:111: warning: Added loop label VITIS_LOOP_3232_1:   [xilinx-label-all-loops]
+template <ac_special_val V> inline bool init_array(unsigned long* a, int n) { unsigned long t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
+                                                                                                              ^~~
+                                                                                                              VITIS_LOOP_3232_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32213:111: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32214:117: warning: Added loop label VITIS_LOOP_3233_1:   [xilinx-label-all-loops]
+template <ac_special_val V> inline bool init_array(signed long long* a, int n) { signed long long t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
+                                                                                                                    ^~~
+                                                                                                                    VITIS_LOOP_3233_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32214:117: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32215:121: warning: Added loop label VITIS_LOOP_3234_1:   [xilinx-label-all-loops]
+template <ac_special_val V> inline bool init_array(unsigned long long* a, int n) { unsigned long long t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
+                                                                                                                        ^~~
+                                                                                                                        VITIS_LOOP_3234_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32215:121: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32374:13: warning: Added loop label VITIS_LOOP_154_1:   [xilinx-label-all-loops]
+            for (int oneWord = 0; oneWord < INTERFACE_SIZE / 4; oneWord++)
+            ^~~
+            VITIS_LOOP_154_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32374:13: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32398:13: warning: Added loop label VITIS_LOOP_178_2:   [xilinx-label-all-loops]
+            for (int oneWord = 0; oneWord < INTERFACE_SIZE / 4; oneWord++)
+            ^~~
+            VITIS_LOOP_178_2: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32398:13: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32471:5: warning: Added loop label VITIS_LOOP_83_1:   [xilinx-label-all-loops]
+    for (int oneSetElement = 0; oneSetElement < SET_SIZE; oneSetElement++) {
+    ^~~
+    VITIS_LOOP_83_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32471:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32472:7: warning: Added loop label VITIS_LOOP_84_2:   [xilinx-label-all-loops]
+      for (int oneSet = 0; oneSet < ASSOCIATIVITY; oneSet++) {
+      ^~~
+      VITIS_LOOP_84_2: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:32472:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:33590:3: warning: Added loop label VITIS_LOOP_678_1:   [xilinx-label-all-loops]
+  while (1) {
+  ^~~~~
+  VITIS_LOOP_678_1: 
+C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\core.pp.0.cpp:33590:3: note: FIX-IT applied suggested code changes

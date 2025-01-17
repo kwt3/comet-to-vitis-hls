@@ -1,0 +1,32 @@
+In file included from ../../riscvISA_comet_to_vitis_hls/core.cpp:16:
+../../riscvISA_comet_to_vitis_hls/ac_int.h:152:9: warning: unknown pragma ignored [-Winvalid-hls-pragmas]
+#pragma builtin
+        ^
+../../riscvISA_comet_to_vitis_hls/ac_int.h:166:32: warning: unused parameter 'd' [-Wunused-parameter]
+inline double mgc_floor(double d)
+                               ^
+../../riscvISA_comet_to_vitis_hls/ac_int.h:173:28: warning: unused parameter 'condition' [-Wunused-parameter]
+inline void ac_assert(bool condition, const char* file = 0, int line = 0, const char* msg = 0)
+                           ^
+../../riscvISA_comet_to_vitis_hls/ac_int.h:173:51: warning: unused parameter 'file' [-Wunused-parameter]
+inline void ac_assert(bool condition, const char* file = 0, int line = 0, const char* msg = 0)
+                                                  ^
+../../riscvISA_comet_to_vitis_hls/ac_int.h:173:65: warning: unused parameter 'line' [-Wunused-parameter]
+inline void ac_assert(bool condition, const char* file = 0, int line = 0, const char* msg = 0)
+                                                                ^
+../../riscvISA_comet_to_vitis_hls/ac_int.h:173:87: warning: unused parameter 'msg' [-Wunused-parameter]
+inline void ac_assert(bool condition, const char* file = 0, int line = 0, const char* msg = 0)
+                                                                                      ^
+../../riscvISA_comet_to_vitis_hls/ac_int.h:1901:9: warning: unknown pragma ignored [-Winvalid-hls-pragmas]
+#pragma builtin
+        ^
+../../riscvISA_comet_to_vitis_hls/ac_int.h:2473:9: warning: unknown pragma ignored [-Winvalid-hls-pragmas]
+#pragma builtin
+        ^
+../../riscvISA_comet_to_vitis_hls/ac_int.h:2868:96: warning: unused parameter 'x' [-Wunused-parameter]
+template <int W, bool S> inline std::ostream& operator<<(std::ostream& os, const ac_int<W, S>& x)
+                                                                                               ^
+directive:1:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=doCore_XLX_SEP_ PragmaOptions=name=doCore_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=doCore
+        ^
+10 warnings generated.

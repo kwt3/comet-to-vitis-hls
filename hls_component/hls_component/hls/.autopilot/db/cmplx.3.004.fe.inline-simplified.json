@@ -1,0 +1,149 @@
+{
+  "0": {
+    "basicblocks": 2,
+    "calls": "4",
+    "file": "core.cpp",
+    "fileloc": 663,
+    "instructions": 38,
+    "name": "doCore",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 2200
+  },
+  "1": {
+    "basicblocks": 95,
+    "calls": "9 9",
+    "file": "core.cpp",
+    "fileloc": 206,
+    "instructions": 621,
+    "loads": {
+      "L": 95
+    },
+    "name": "execute",
+    "stores": {
+      "L": 85
+    },
+    "total_instructions": 737
+  },
+  "2": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 44,
+    "loads": {
+      "L": 4
+    },
+    "name": "slc<7>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 44
+  },
+  "3": {
+    "basicblocks": 31,
+    "calls": "5 5",
+    "file": "memoryInterface.h",
+    "fileloc": 42,
+    "instructions": 225,
+    "loads": {
+      "L": 22
+    },
+    "name": "process",
+    "stores": {
+      "L": 22
+    },
+    "total_instructions": 439
+  },
+  "4": {
+    "basicblocks": 84,
+    "calls": "7 1 8",
+    "file": "core.cpp",
+    "fileloc": 506,
+    "instructions": 724,
+    "loads": {
+      "L": 160
+    },
+    "name": "doCycle",
+    "stores": {
+      "L": 160
+    },
+    "total_instructions": 2162
+  },
+  "5": {
+    "basicblocks": 26,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1158,
+    "instructions": 107,
+    "loads": {
+      "L": 6
+    },
+    "name": "iv_shift_r2<2, 2, true>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 107
+  },
+  "6": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 44,
+    "loads": {
+      "L": 4
+    },
+    "name": "slc<5>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 44
+  },
+  "7": {
+    "basicblocks": 15,
+    "calls": "2 6 6 6 2 2 6",
+    "file": "core.cpp",
+    "fileloc": 29,
+    "instructions": 281,
+    "loads": {
+      "L": 13
+    },
+    "name": "decode",
+    "stores": {
+      "L": 83
+    },
+    "total_instructions": 589
+  },
+  "8": {
+    "basicblocks": 49,
+    "calls": "",
+    "file": "core.cpp",
+    "fileloc": 452,
+    "instructions": 112,
+    "loads": {
+      "L": 18
+    },
+    "name": "forwardUnit",
+    "stores": {
+      "L": 15
+    },
+    "total_instructions": 112
+  },
+  "9": {
+    "basicblocks": 12,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 2370,
+    "instructions": 58,
+    "loads": {
+      "L": 5
+    },
+    "name": "operator>><5>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 58
+  }
+}
