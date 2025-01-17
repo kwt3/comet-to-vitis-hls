@@ -1,6 +1,8 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch CLANG as the compiler.
-   Compiling ../../../../../../riscvISA_comet_to_vitis_hls/dct-test.c in debug mode
+   Compiling ../../../../../design_files/dct-test.c in debug mode
+   Compiling ../../../../../design_files/core.cpp in debug mode
+   Compiling ../../../../../design_files/riscvISA.cpp in debug mode
    Generating csim.exe
 Mismatch at [0][0]: Expected 16084, Got 11422
 Mismatch at [0][1]: Expected 6656, Got 28918

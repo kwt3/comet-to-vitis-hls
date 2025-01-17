@@ -1,49 +1,19 @@
 {
   "0": {
     "basicblocks": 2,
-    "calls": "4",
+    "calls": "3",
     "file": "core.cpp",
     "fileloc": 663,
-    "instructions": 38,
+    "instructions": 48,
     "name": "doCore",
     "stores": {
       "L": 16
     },
-    "total_instructions": 2200
+    "total_instructions": 2210
   },
   "1": {
-    "basicblocks": 95,
-    "calls": "9 9",
-    "file": "core.cpp",
-    "fileloc": 206,
-    "instructions": 621,
-    "loads": {
-      "L": 95
-    },
-    "name": "execute",
-    "stores": {
-      "L": 85
-    },
-    "total_instructions": 737
-  },
-  "2": {
-    "basicblocks": 8,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 44,
-    "loads": {
-      "L": 4
-    },
-    "name": "slc<7>",
-    "stores": {
-      "L": 3
-    },
-    "total_instructions": 44
-  },
-  "3": {
     "basicblocks": 31,
-    "calls": "5 5",
+    "calls": "9 9",
     "file": "memoryInterface.h",
     "fileloc": 42,
     "instructions": 225,
@@ -56,67 +26,7 @@
     },
     "total_instructions": 439
   },
-  "4": {
-    "basicblocks": 84,
-    "calls": "7 1 8",
-    "file": "core.cpp",
-    "fileloc": 506,
-    "instructions": 724,
-    "loads": {
-      "L": 160
-    },
-    "name": "doCycle",
-    "stores": {
-      "L": 160
-    },
-    "total_instructions": 2162
-  },
-  "5": {
-    "basicblocks": 26,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1158,
-    "instructions": 107,
-    "loads": {
-      "L": 6
-    },
-    "name": "iv_shift_r2<2, 2, true>",
-    "stores": {
-      "L": 4
-    },
-    "total_instructions": 107
-  },
-  "6": {
-    "basicblocks": 8,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 44,
-    "loads": {
-      "L": 4
-    },
-    "name": "slc<5>",
-    "stores": {
-      "L": 3
-    },
-    "total_instructions": 44
-  },
-  "7": {
-    "basicblocks": 15,
-    "calls": "2 6 6 6 2 2 6",
-    "file": "core.cpp",
-    "fileloc": 29,
-    "instructions": 281,
-    "loads": {
-      "L": 13
-    },
-    "name": "decode",
-    "stores": {
-      "L": 83
-    },
-    "total_instructions": 589
-  },
-  "8": {
+  "2": {
     "basicblocks": 49,
     "calls": "",
     "file": "core.cpp",
@@ -131,7 +41,67 @@
     },
     "total_instructions": 112
   },
-  "9": {
+  "3": {
+    "basicblocks": 84,
+    "calls": "8 4 2",
+    "file": "core.cpp",
+    "fileloc": 506,
+    "instructions": 724,
+    "loads": {
+      "L": 160
+    },
+    "name": "doCycle",
+    "stores": {
+      "L": 160
+    },
+    "total_instructions": 2162
+  },
+  "4": {
+    "basicblocks": 95,
+    "calls": "7 7",
+    "file": "core.cpp",
+    "fileloc": 206,
+    "instructions": 621,
+    "loads": {
+      "L": 95
+    },
+    "name": "execute",
+    "stores": {
+      "L": 85
+    },
+    "total_instructions": 737
+  },
+  "5": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 44,
+    "loads": {
+      "L": 4
+    },
+    "name": "slc<5>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 44
+  },
+  "6": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 44,
+    "loads": {
+      "L": 4
+    },
+    "name": "slc<7>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 44
+  },
+  "7": {
     "basicblocks": 12,
     "calls": "",
     "file": "ac_int.h",
@@ -145,5 +115,35 @@
       "L": 3
     },
     "total_instructions": 58
+  },
+  "8": {
+    "basicblocks": 15,
+    "calls": "6 5 5 5 6 6 5",
+    "file": "core.cpp",
+    "fileloc": 29,
+    "instructions": 281,
+    "loads": {
+      "L": 13
+    },
+    "name": "decode",
+    "stores": {
+      "L": 83
+    },
+    "total_instructions": 589
+  },
+  "9": {
+    "basicblocks": 26,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1158,
+    "instructions": 107,
+    "loads": {
+      "L": 6
+    },
+    "name": "iv_shift_r2<2, 2, true>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 107
   }
 }

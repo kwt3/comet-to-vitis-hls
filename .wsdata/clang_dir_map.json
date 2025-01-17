@@ -1,11 +1,8 @@
 {
-  "workspaceRoot": "C:\\Users\\kwokt\\Desktop\\Vitis_HLS\\comet_to_vitis_hls",
+  "workspaceRoot": "C:\\Users\\kwokt\\Desktop\\Vitis_HLS2\\comet-to-vitis-hls",
   "mapping": {
-    "C:\\Users\\kwokt\\Desktop\\Vitis_HLS\\riscvISA_comet_to_vitis_hls\\dct-test.c": "hls_component",
-    "C:\\Users\\kwokt\\Desktop\\Vitis_HLS\\riscvISA_comet_to_vitis_hls\\core.cpp": "hls_component",
-    "C:\\Users\\kwokt\\OneDrive\\Documents\\Vitis_HLS\\riscvISA_comet_to_vitis_hls\\riscvISA.cpp": "hls_component",
-    "C:\\Users\\kwokt\\OneDrive\\Documents\\Vitis_HLS\\riscvISA_comet_to_vitis_hls\\dct-test.c": "hls_component",
-    "C:\\Users\\kwokt\\Desktop\\Vitis_HLS\\riscvISA_comet_to_vitis_hls\\riscvISA.cpp": "hls_component",
-    "C:\\Users\\kwokt\\OneDrive\\Documents\\Vitis_HLS\\riscvISA_comet_to_vitis_hls\\core.cpp": "hls_component"
+    "design_files\\riscvISA.cpp": "hls_component",
+    "design_files\\core.cpp": "hls_component",
+    "design_files\\dct-test.c": "hls_component"
   }
 }

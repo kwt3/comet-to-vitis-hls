@@ -23,7 +23,7 @@ __USE_VCXX_CLANG__ = 1
 
 ObjDir = obj
 
-HLS_SOURCES = ../../../../../../riscvISA_comet_to_vitis_hls/dct-test.c ../../../../../../riscvISA_comet_to_vitis_hls/riscvISA.cpp ../../../../../../riscvISA_comet_to_vitis_hls/core.cpp
+HLS_SOURCES = ../../../../../design_files/dct-test.c ../../../../../design_files/core.cpp ../../../../../design_files/riscvISA.cpp
 
 override TARGET := csim.exe
 
@@ -84,20 +84,20 @@ all: $(TARGET)
 
 
 
-$(ObjDir)/dct-test.o: ../../../../../../riscvISA_comet_to_vitis_hls/dct-test.c $(ObjDir)/.dir
-	$(Echo) "   Compiling ../../../../../../riscvISA_comet_to_vitis_hls/dct-test.c in $(BuildMode) mode" $(AVE_DIR_DLOG)
+$(ObjDir)/dct-test.o: ../../../../../design_files/dct-test.c $(ObjDir)/.dir
+	$(Echo) "   Compiling ../../../../../design_files/dct-test.c in $(BuildMode) mode" $(AVE_DIR_DLOG)
 	$(Verb)  $(CC) -std=gnu99 ${CCFLAG} -c -MMD -Wno-unknown-pragmas -Wno-unknown-pragmas  $(IFLAG) $(DFLAG) $< -o $@ ; \
 
 -include $(ObjDir)/dct-test.d
 
-$(ObjDir)/riscvISA.o: ../../../../../../riscvISA_comet_to_vitis_hls/riscvISA.cpp $(ObjDir)/.dir
-	$(Echo) "   Compiling ../../../../../../riscvISA_comet_to_vitis_hls/riscvISA.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
-	$(Verb)  $(CXX) -std=gnu++14 ${CCFLAG} -c -MMD  $(IFLAG) $(DFLAG) $< -o $@ ; \
-
--include $(ObjDir)/riscvISA.d
-
-$(ObjDir)/core.o: ../../../../../../riscvISA_comet_to_vitis_hls/core.cpp $(ObjDir)/.dir
-	$(Echo) "   Compiling ../../../../../../riscvISA_comet_to_vitis_hls/core.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+$(ObjDir)/core.o: ../../../../../design_files/core.cpp $(ObjDir)/.dir
+	$(Echo) "   Compiling ../../../../../design_files/core.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
 	$(Verb)  $(CXX) -std=gnu++14 ${CCFLAG} -c -MMD  $(IFLAG) $(DFLAG) $< -o $@ ; \
 
 -include $(ObjDir)/core.d
+
+$(ObjDir)/riscvISA.o: ../../../../../design_files/riscvISA.cpp $(ObjDir)/.dir
+	$(Echo) "   Compiling ../../../../../design_files/riscvISA.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+	$(Verb)  $(CXX) -std=gnu++14 ${CCFLAG} -c -MMD  $(IFLAG) $(DFLAG) $< -o $@ ; \
+
+-include $(ObjDir)/riscvISA.d

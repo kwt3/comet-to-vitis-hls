@@ -1,4 +1,4 @@
-# 1 "../../riscvISA_comet_to_vitis_hls/core.cpp"
+# 1 "../design_files/core.cpp"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 396 "<built-in>" 3
@@ -152,10 +152,10 @@ extern "C" {
 
 }
 # 2 "<built-in>" 2
-# 1 "../../riscvISA_comet_to_vitis_hls/core.cpp" 2
-# 16 "../../riscvISA_comet_to_vitis_hls/core.cpp"
-# 1 "../../riscvISA_comet_to_vitis_hls/ac_int.h" 1
-# 111 "../../riscvISA_comet_to_vitis_hls/ac_int.h"
+# 1 "../design_files/core.cpp" 2
+# 16 "../design_files/core.cpp"
+# 1 "../design_files/ac_int.h" 1
+# 111 "../design_files/ac_int.h"
 # 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 1 3
 # 15 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 3
 # 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 1 3
@@ -1182,7 +1182,7 @@ _assert (const char *_Message, const char *_File, unsigned _Line);
 
 
 }
-# 112 "../../riscvISA_comet_to_vitis_hls/ac_int.h" 2
+# 112 "../design_files/ac_int.h" 2
 
 # 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\limits" 1 3
 # 41 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\limits" 3
@@ -2639,7 +2639,7 @@ namespace std
 
 
 }
-# 114 "../../riscvISA_comet_to_vitis_hls/ac_int.h" 2
+# 114 "../design_files/ac_int.h" 2
 
 # 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\iostream" 1 3
 # 37 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\iostream" 3
@@ -27216,7 +27216,7 @@ namespace std
 
 
 }
-# 116 "../../riscvISA_comet_to_vitis_hls/ac_int.h" 2
+# 116 "../design_files/ac_int.h" 2
 
 
 
@@ -29295,8 +29295,8 @@ using std::scalbln;
 using std::scalbn;
 using std::tgamma;
 using std::trunc;
-# 120 "../../riscvISA_comet_to_vitis_hls/ac_int.h" 2
-# 141 "../../riscvISA_comet_to_vitis_hls/ac_int.h"
+# 120 "../design_files/ac_int.h" 2
+# 141 "../design_files/ac_int.h"
 typedef unsigned long long Ulong;
 typedef signed long long Slong;
 
@@ -29313,7 +29313,7 @@ namespace ac_private {
 
 enum { long_w = std::numeric_limits<unsigned long>::digits };
 const unsigned int all_ones = (unsigned)~0;
-# 166 "../../riscvISA_comet_to_vitis_hls/ac_int.h"
+# 166 "../design_files/ac_int.h"
 inline double mgc_floor(double d)
 {
   return 0.0;
@@ -29323,7 +29323,7 @@ inline double mgc_floor(double d)
 
 inline void ac_assert(bool condition, const char* file = 0, int line = 0, const char* msg = 0)
 {
-# 190 "../../riscvISA_comet_to_vitis_hls/ac_int.h"
+# 190 "../design_files/ac_int.h"
 }
 
 
@@ -29998,7 +29998,7 @@ void iv_udiv(const sw2* n, const sw2* d, sw2* q, sw2* r)
       uw2 q1 = n1 / d1;
       if (q1 >> w1_length)
         q1--;
-      ac_private::ac_assert(!(q1 >> w1_length), "../../riscvISA_comet_to_vitis_hls/ac_int.h", 864, "Problem detected in long division algorithm, Please report");
+      ac_private::ac_assert(!(q1 >> w1_length), "../design_files/ac_int.h", 864, "Problem detected in long division algorithm, Please report");
       unsigned k2 = k - d_mss;
       unsigned k2_i = k2 >> 1;
       bool odd_2 = k2 & 1;
@@ -30241,7 +30241,7 @@ template <int N1, int N2, int Nr> inline void iv_bitwise_xor(const int* op1, con
 
 template <int N, int Nr> inline void iv_shift_l(const int* op1, unsigned op2, int* r)
 {
-  ac_private::ac_assert(Nr <= N, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 1107, "iv_shift_l, incorrect usage Nr > N");
+  ac_private::ac_assert(Nr <= N, "../design_files/ac_int.h", 1107, "iv_shift_l, incorrect usage Nr > N");
   unsigned s31 = op2 & 31;
   unsigned ishift = (op2 >> 5) > Nr ? Nr : (op2 >> 5);
   if (s31 && ishift != Nr) {
@@ -30654,7 +30654,7 @@ public:
   bool equal_zero() const { return iv_equal_zero<N>(v); }
   template <int N2> void set_slc(unsigned lsb, int WS, const iv<N2>& op2)
   {
-    ac_private::ac_assert((31 + WS) / 32 == N2, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 1520, "Bad usage: WS greater than length of slice");
+    ac_private::ac_assert((31 + WS) / 32 == N2, "../design_files/ac_int.h", 1520, "Bad usage: WS greater than length of slice");
     unsigned msb = lsb + WS - 1;
     unsigned lsb_v = lsb >> 5;
     unsigned lsb_b = lsb & 31;
@@ -30781,7 +30781,7 @@ template <typename T, typename T2> struct c_arith {
 template <typename T> struct c_arith<T, T> {
   typedef T arith_conv;
 };
-# 1656 "../../riscvISA_comet_to_vitis_hls/ac_int.h"
+# 1656 "../design_files/ac_int.h"
 template <> struct c_arith<double, float> { typedef double arith_conv; }; template <> struct c_arith<float, double> { typedef double arith_conv; };
 template <> struct c_arith<double, int> { typedef double arith_conv; }; template <> struct c_arith<int, double> { typedef double arith_conv; };
 template <> struct c_arith<double, unsigned> { typedef double arith_conv; }; template <> struct c_arith<unsigned, double> { typedef double arith_conv; };
@@ -30921,7 +30921,7 @@ template <typename T> struct rt_c_type_T<c_type<T> > {
     typedef typename c_arith<c_prom_T, c_prom_T2>::arith_conv div2;
   };
 };
-# 1816 "../../riscvISA_comet_to_vitis_hls/ac_int.h"
+# 1816 "../design_files/ac_int.h"
 template <> struct map<bool> { typedef c_type<bool> t; }; template <> struct c_type_params<bool> { enum { W = 1, I = 1, E = 0, S = false, floating_point = 0 }; };
 template <> struct map<char> { typedef c_type<char> t; }; template <> struct c_type_params<char> { enum { W = 8, I = 8, E = 0, S = true, floating_point = 0 }; };
 template <> struct map<signed char> { typedef c_type<signed char> t; }; template <> struct c_type_params<signed char> { enum { W = 8, I = 8, E = 0, S = true, floating_point = 0 }; };
@@ -30936,7 +30936,7 @@ template <> struct map<signed long long> { typedef c_type<signed long long> t; }
 template <> struct map<unsigned long long> { typedef c_type<unsigned long long> t; }; template <> struct c_type_params<unsigned long long> { enum { W = 64, I = 64, E = 0, S = false, floating_point = 0 }; };
 template <> struct map<float> { typedef c_type<float> t; }; template <> struct c_type_params<float> { enum { W = 25, I = 1, E = 8, S = true, floating_point = 1 }; };
 template <> struct map<double> { typedef c_type<double> t; }; template <> struct c_type_params<double> { enum { W = 54, I = 1, E = 11, S = true, floating_point = 2 }; };
-# 1838 "../../riscvISA_comet_to_vitis_hls/ac_int.h"
+# 1838 "../design_files/ac_int.h"
 template <typename T> struct rt_ac_int_T {
   template <int W, bool S> struct op1 {
     typedef typename T::template rt_T<ac_int<W, S> >::mult mult;
@@ -31135,7 +31135,7 @@ public:
   inline ac_int(Slong b) : ConvBase(b) { bit_adjust(); }
   inline ac_int(Ulong b) : ConvBase(b) { bit_adjust(); }
   inline ac_int(double d) : ConvBase(d) { bit_adjust(); }
-# 2046 "../../riscvISA_comet_to_vitis_hls/ac_int.h"
+# 2046 "../design_files/ac_int.h"
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wuninitialized"
 
@@ -31512,7 +31512,7 @@ public:
   template <int WS, int WX, bool SX> inline ac_int<WS, S> slc(const ac_int<WX, SX>& index) const
   {
     ac_int<WS, S> r;
-    ac_private::ac_assert(index.to_int() >= 0, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2422, "Attempting to read slc with negative indeces");
+    ac_private::ac_assert(index.to_int() >= 0, "../design_files/ac_int.h", 2422, "Attempting to read slc with negative indeces");
     unsigned uindex = ac_int<WX - SX, false>(index).to_uint();
     Base::shift_r(uindex, r);
     r.bit_adjust();
@@ -31522,7 +31522,7 @@ public:
   template <int WS> inline ac_int<WS, S> slc(signed index) const
   {
     ac_int<WS, S> r;
-    ac_private::ac_assert(index >= 0, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2432, "Attempting to read slc with negative indeces");
+    ac_private::ac_assert(index >= 0, "../design_files/ac_int.h", 2432, "Attempting to read slc with negative indeces");
     unsigned uindex = index & ((unsigned)~0 >> 1);
     Base::shift_r(uindex, r);
     r.bit_adjust();
@@ -31539,7 +31539,7 @@ public:
   template <int W2, bool S2, int WX, bool SX>
   inline ac_int& set_slc(const ac_int<WX, SX> lsb, const ac_int<W2, S2>& slc)
   {
-    ac_private::ac_assert(lsb.to_int() + W2 <= W && lsb.to_int() >= 0, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2449, "Out of bounds set_slc");
+    ac_private::ac_assert(lsb.to_int() + W2 <= W && lsb.to_int() >= 0, "../design_files/ac_int.h", 2449, "Out of bounds set_slc");
     unsigned ulsb = ac_int<WX - SX, false>(lsb).to_uint();
     Base::set_slc(ulsb, W2, (ac_int<W2, true>)slc);
     bit_adjust();
@@ -31547,7 +31547,7 @@ public:
   }
   template <int W2, bool S2> inline ac_int& set_slc(signed lsb, const ac_int<W2, S2>& slc)
   {
-    ac_private::ac_assert(lsb + W2 <= W && lsb >= 0, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2457, "Out of bounds set_slc");
+    ac_private::ac_assert(lsb + W2 <= W && lsb >= 0, "../design_files/ac_int.h", 2457, "Out of bounds set_slc");
     unsigned ulsb = lsb & ((unsigned)~0 >> 1);
     Base::set_slc(ulsb, W2, (ac_int<W2, true>)slc);
     bit_adjust();
@@ -31555,7 +31555,7 @@ public:
   }
   template <int W2, bool S2> inline ac_int& set_slc(unsigned ulsb, const ac_int<W2, S2>& slc)
   {
-    ac_private::ac_assert(ulsb + W2 <= W, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2465, "Out of bounds set_slc");
+    ac_private::ac_assert(ulsb + W2 <= W, "../design_files/ac_int.h", 2465, "Out of bounds set_slc");
     Base::set_slc(ulsb, W2, (ac_int<W2, true>)slc);
     bit_adjust();
     return *this;
@@ -31590,43 +31590,43 @@ public:
 
   ac_bitref operator[](unsigned int uindex)
   {
-    ac_private::ac_assert(uindex < W, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2500, "Attempting to read bit beyond MSB");
+    ac_private::ac_assert(uindex < W, "../design_files/ac_int.h", 2500, "Attempting to read bit beyond MSB");
     ac_bitref bvh(this, uindex);
     return bvh;
   }
   ac_bitref operator[](int index)
   {
-    ac_private::ac_assert(index >= 0, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2506, "Attempting to read bit with negative index");
+    ac_private::ac_assert(index >= 0, "../design_files/ac_int.h", 2506, "Attempting to read bit with negative index");
     unsigned uindex = index & ((unsigned)~0 >> 1);
-    ac_private::ac_assert(uindex < W, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2508, "Attempting to read bit beyond MSB");
+    ac_private::ac_assert(uindex < W, "../design_files/ac_int.h", 2508, "Attempting to read bit beyond MSB");
     ac_bitref bvh(this, uindex);
     return bvh;
   }
   template <int W2, bool S2> ac_bitref operator[](const ac_int<W2, S2>& index)
   {
-    ac_private::ac_assert(index.to_int() >= 0, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2514, "Attempting to read bit with negative index");
+    ac_private::ac_assert(index.to_int() >= 0, "../design_files/ac_int.h", 2514, "Attempting to read bit with negative index");
     unsigned uindex = ac_int<W2 - S2, false>(index).to_uint();
-    ac_private::ac_assert(uindex < W, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2516, "Attempting to read bit beyond MSB");
+    ac_private::ac_assert(uindex < W, "../design_files/ac_int.h", 2516, "Attempting to read bit beyond MSB");
     ac_bitref bvh(this, uindex);
     return bvh;
   }
   bool operator[](unsigned int uindex) const
   {
-    ac_private::ac_assert(uindex < W, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2522, "Attempting to read bit beyond MSB");
+    ac_private::ac_assert(uindex < W, "../design_files/ac_int.h", 2522, "Attempting to read bit beyond MSB");
     return (uindex < W) ? (Base::v[uindex >> 5] >> (uindex & 31) & 1) : 0;
   }
   bool operator[](int index) const
   {
-    ac_private::ac_assert(index >= 0, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2527, "Attempting to read bit with negative index");
+    ac_private::ac_assert(index >= 0, "../design_files/ac_int.h", 2527, "Attempting to read bit with negative index");
     unsigned uindex = index & ((unsigned)~0 >> 1);
-    ac_private::ac_assert(uindex < W, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2529, "Attempting to read bit beyond MSB");
+    ac_private::ac_assert(uindex < W, "../design_files/ac_int.h", 2529, "Attempting to read bit beyond MSB");
     return (uindex < W) ? (Base::v[uindex >> 5] >> (uindex & 31) & 1) : 0;
   }
   template <int W2, bool S2> bool operator[](const ac_int<W2, S2>& index) const
   {
-    ac_private::ac_assert(index.to_int() >= 0, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2534, "Attempting to read bit with negative index");
+    ac_private::ac_assert(index.to_int() >= 0, "../design_files/ac_int.h", 2534, "Attempting to read bit with negative index");
     unsigned uindex = ac_int<W2 - S2, false>(index).to_uint();
-    ac_private::ac_assert(uindex < W, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2536, "Attempting to read bit beyond MSB");
+    ac_private::ac_assert(uindex < W, "../design_files/ac_int.h", 2536, "Attempting to read bit beyond MSB");
     return (uindex < W) ? (Base::v[uindex >> 5] >> (uindex & 31) & 1) : 0;
   }
   typename rt_unary::leading_sign leading_sign() const
@@ -31688,7 +31688,7 @@ public:
       else if (c >= 'a' && c <= 'f')
         h = c - 'a' + 10;
       else {
-        ac_private::ac_assert(!c, "../../riscvISA_comet_to_vitis_hls/ac_int.h", 2598, "Invalid hex digit");
+        ac_private::ac_assert(!c, "../design_files/ac_int.h", 2598, "Invalid hex digit");
         break;
       }
       res <<= 4;
@@ -31960,10 +31960,10 @@ template <> inline ac_int<64, false>::ac_int(Ulong b)
 
 template <int W, bool S> inline std::ostream& operator<<(std::ostream& os, const ac_int<W, S>& x)
 {
-# 2879 "../../riscvISA_comet_to_vitis_hls/ac_int.h"
+# 2879 "../design_files/ac_int.h"
   return os;
 }
-# 2946 "../../riscvISA_comet_to_vitis_hls/ac_int.h"
+# 2946 "../design_files/ac_int.h"
 namespace ac {
 namespace ops_with_other_types {
 
@@ -32162,7 +32162,7 @@ typedef ac_int<63, false> uint63;
 
 
 using namespace ac_intN;
-# 3156 "../../riscvISA_comet_to_vitis_hls/ac_int.h"
+# 3156 "../design_files/ac_int.h"
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wuninitialized"
 
@@ -32176,7 +32176,7 @@ template <ac_special_val V, int W, bool S> inline ac_int<W, S> value(ac_int<W, S
 
 template <ac_special_val V, int W, int I, bool S, ac_q_mode Q, ac_o_mode O>
 inline ac_fixed<W, I, S, Q, O> value(ac_fixed<W, I, S, Q, O>);
-# 3190 "../../riscvISA_comet_to_vitis_hls/ac_int.h"
+# 3190 "../design_files/ac_int.h"
 template <ac_special_val val> inline bool value(bool); template <> inline bool value<AC_VAL_0>(bool) { return (bool)0; } template <> inline bool value<AC_VAL_DC>(bool) { bool x; return x; } template <> inline bool value<AC_VAL_QUANTUM>(bool) { return (bool)1; } template <> inline bool value<AC_VAL_MAX>(bool) { return (bool)(false ? ~(((bool)1) << (1 - 1)) : (bool)-1); } template <> inline bool value<AC_VAL_MIN>(bool) { return (bool)(false ? ((bool)1) << (1 - 1) : (bool)0); }
 template <ac_special_val val> inline char value(char); template <> inline char value<AC_VAL_0>(char) { return (char)0; } template <> inline char value<AC_VAL_DC>(char) { char x; return x; } template <> inline char value<AC_VAL_QUANTUM>(char) { return (char)1; } template <> inline char value<AC_VAL_MAX>(char) { return (char)(true ? ~(((char)1) << (8 - 1)) : (char)-1); } template <> inline char value<AC_VAL_MIN>(char) { return (char)(true ? ((char)1) << (8 - 1) : (char)0); }
 template <ac_special_val val> inline signed char value(signed char); template <> inline signed char value<AC_VAL_0>(signed char) { return (signed char)0; } template <> inline signed char value<AC_VAL_DC>(signed char) { signed char x; return x; } template <> inline signed char value<AC_VAL_QUANTUM>(signed char) { return (signed char)1; } template <> inline signed char value<AC_VAL_MAX>(signed char) { return (signed char)(true ? ~(((signed char)1) << (8 - 1)) : (signed char)-1); } template <> inline signed char value<AC_VAL_MIN>(signed char) { return (signed char)(true ? ((signed char)1) << (8 - 1) : (signed char)0); }
@@ -32189,7 +32189,7 @@ template <ac_special_val val> inline long value(long); template <> inline long v
 template <ac_special_val val> inline unsigned long value(unsigned long); template <> inline unsigned long value<AC_VAL_0>(unsigned long) { return (unsigned long)0; } template <> inline unsigned long value<AC_VAL_DC>(unsigned long) { unsigned long x; return x; } template <> inline unsigned long value<AC_VAL_QUANTUM>(unsigned long) { return (unsigned long)1; } template <> inline unsigned long value<AC_VAL_MAX>(unsigned long) { return (unsigned long)(false ? ~(((unsigned long)1) << (ac_private::long_w - 1)) : (unsigned long)-1); } template <> inline unsigned long value<AC_VAL_MIN>(unsigned long) { return (unsigned long)(false ? ((unsigned long)1) << (ac_private::long_w - 1) : (unsigned long)0); }
 template <ac_special_val val> inline Slong value(Slong); template <> inline Slong value<AC_VAL_0>(Slong) { return (Slong)0; } template <> inline Slong value<AC_VAL_DC>(Slong) { Slong x; return x; } template <> inline Slong value<AC_VAL_QUANTUM>(Slong) { return (Slong)1; } template <> inline Slong value<AC_VAL_MAX>(Slong) { return (Slong)(true ? ~(((Slong)1) << (64 - 1)) : (Slong)-1); } template <> inline Slong value<AC_VAL_MIN>(Slong) { return (Slong)(true ? ((Slong)1) << (64 - 1) : (Slong)0); }
 template <ac_special_val val> inline Ulong value(Ulong); template <> inline Ulong value<AC_VAL_0>(Ulong) { return (Ulong)0; } template <> inline Ulong value<AC_VAL_DC>(Ulong) { Ulong x; return x; } template <> inline Ulong value<AC_VAL_QUANTUM>(Ulong) { return (Ulong)1; } template <> inline Ulong value<AC_VAL_MAX>(Ulong) { return (Ulong)(false ? ~(((Ulong)1) << (64 - 1)) : (Ulong)-1); } template <> inline Ulong value<AC_VAL_MIN>(Ulong) { return (Ulong)(false ? ((Ulong)1) << (64 - 1) : (Ulong)0); }
-# 3212 "../../riscvISA_comet_to_vitis_hls/ac_int.h"
+# 3212 "../design_files/ac_int.h"
 namespace ac {
 
 
@@ -32223,11 +32223,11 @@ template <ac_special_val V> inline bool init_array(unsigned long long* a, int n)
 
 
 #pragma clang diagnostic pop
-# 17 "../../riscvISA_comet_to_vitis_hls/core.cpp" 2
-# 1 "../../riscvISA_comet_to_vitis_hls/cacheMemory.h" 1
-# 19 "../../riscvISA_comet_to_vitis_hls/cacheMemory.h"
-# 1 "../../riscvISA_comet_to_vitis_hls/logarithm.h" 1
-# 16 "../../riscvISA_comet_to_vitis_hls/logarithm.h"
+# 17 "../design_files/core.cpp" 2
+# 1 "../design_files/cacheMemory.h" 1
+# 19 "../design_files/cacheMemory.h"
+# 1 "../design_files/logarithm.h" 1
+# 16 "../design_files/logarithm.h"
 template <int x> struct log2const {
   enum { value = 1 + log2const<x / 2>::value };
 };
@@ -32235,9 +32235,9 @@ template <int x> struct log2const {
 template <> struct log2const<1> {
   enum { value = 0 };
 };
-# 20 "../../riscvISA_comet_to_vitis_hls/cacheMemory.h" 2
-# 1 "../../riscvISA_comet_to_vitis_hls/memoryInterface.h" 1
-# 21 "../../riscvISA_comet_to_vitis_hls/memoryInterface.h"
+# 20 "../design_files/cacheMemory.h" 2
+# 1 "../design_files/memoryInterface.h" 1
+# 21 "../design_files/memoryInterface.h"
 typedef enum { BYTE = 0, HALF, WORD, BYTE_U, HALF_U, LONG } memMask;
 
 typedef enum { NONE = 0, LOAD, STORE } memOpType;
@@ -32413,8 +32413,8 @@ public:
     waitOut = false;
   }
 };
-# 21 "../../riscvISA_comet_to_vitis_hls/cacheMemory.h" 2
-# 30 "../../riscvISA_comet_to_vitis_hls/cacheMemory.h"
+# 21 "../design_files/cacheMemory.h" 2
+# 30 "../design_files/cacheMemory.h"
 template <unsigned int INTERFACE_SIZE, int LINE_SIZE, int SET_SIZE>
 class CacheMemory : public MemoryInterface<INTERFACE_SIZE> {
 
@@ -32776,15 +32776,15 @@ public:
     waitOut = nextLevelWaitOut || cacheState || wasStore;
   }
 };
-# 18 "../../riscvISA_comet_to_vitis_hls/core.cpp" 2
-# 1 "../../riscvISA_comet_to_vitis_hls/core.h" 1
-# 20 "../../riscvISA_comet_to_vitis_hls/core.h"
-# 1 "../../riscvISA_comet_to_vitis_hls/riscvISA.h" 1
-# 23 "../../riscvISA_comet_to_vitis_hls/riscvISA.h"
+# 18 "../design_files/core.cpp" 2
+# 1 "../design_files/core.h" 1
+# 20 "../design_files/core.h"
+# 1 "../design_files/riscvISA.h" 1
+# 23 "../design_files/riscvISA.h"
 std::string printDecodedInstrRISCV(unsigned int oneInstruction);
 
 bool isRecognized(ac_int<32, false> instruction);
-# 215 "../../riscvISA_comet_to_vitis_hls/riscvISA.h"
+# 215 "../design_files/riscvISA.h"
 extern const char* riscvNamesOP[8];
 extern const char* riscvNamesOPI[8];
 extern const char* riscvNamesOPW[8];
@@ -32793,13 +32793,13 @@ extern const char* riscvNamesLD[8];
 extern const char* riscvNamesST[8];
 extern const char* riscvNamesBR[8];
 extern const char* riscvNames[8];
-# 21 "../../riscvISA_comet_to_vitis_hls/core.h" 2
+# 21 "../design_files/core.h" 2
 
 
 
 
-# 1 "../../riscvISA_comet_to_vitis_hls/pipelineRegisters.h" 1
-# 25 "../../riscvISA_comet_to_vitis_hls/pipelineRegisters.h"
+# 1 "../design_files/pipelineRegisters.h" 1
+# 25 "../design_files/pipelineRegisters.h"
 struct ForwardReg {
   bool forwardWBtoVal1;
   bool forwardWBtoVal2;
@@ -32896,8 +32896,8 @@ struct WBOut {
   bool useRd;
   bool we;
 };
-# 26 "../../riscvISA_comet_to_vitis_hls/core.h" 2
-# 35 "../../riscvISA_comet_to_vitis_hls/core.h"
+# 26 "../design_files/core.h" 2
+# 35 "../design_files/core.h"
 enum StallNames{ STALL_FETCH = 0, STALL_DECODE = 1, STALL_EXECUTE = 2, STALL_MEMORY = 3, STALL_WRITEBACK = 4 };
 
 
@@ -32919,11 +32919,11 @@ struct Core {
   bool stallSignals[5] = {0, 0, 0, 0, 0};
   bool stallIm, stallDm;
   unsigned long cycle;
-# 65 "../../riscvISA_comet_to_vitis_hls/core.h"
+# 65 "../design_files/core.h"
 };
 
 void doCycle(struct Core& core, bool globalStall);
-# 19 "../../riscvISA_comet_to_vitis_hls/core.cpp" 2
+# 19 "../design_files/core.cpp" 2
 
 
 void fetch(const ac_int<32, false> pc, struct FtoDC& ftoDC, const ac_int<32, false> instruction)
@@ -33573,7 +33573,7 @@ __attribute__((sdx_kernel("doCore", 0))) void doCore(bool globalStall, ac_int<32
 {
 #line 1 "directive"
 #pragma HLSDIRECTIVE TOP name=doCore
-# 665 "../../riscvISA_comet_to_vitis_hls/core.cpp"
+# 665 "../design_files/core.cpp"
 
   Core core;
 

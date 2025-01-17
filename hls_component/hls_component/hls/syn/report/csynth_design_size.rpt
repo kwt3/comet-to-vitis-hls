@@ -13,8 +13,8 @@
 | Unroll/Inline |                    |              | After user unroll and inline pragmas are applied                                 |
 |               | (1) unroll         |  7,449       | user unroll pragmas are applied                                                  |
 |               | (2) simplification |  5,935       | simplification of applied user unroll pragmas                                    |
-|               | (3) inline         |  4,586       | user inline pragmas are applied                                                  |
-|               | (4) simplification |  2,200       | simplification of applied user inline pragmas                                    |
+|               | (3) inline         |  4,596       | user inline pragmas are applied                                                  |
+|               | (4) simplification |  2,210       | simplification of applied user inline pragmas                                    |
 |               |                    |              |                                                                                  |
 | Array/Struct  |                    | pending      | After user array partition and struct aggregate/disaggregate pragmas are applied |
 | Performance   |                    |              | After transformations are applied to meet performance pragma targets             |
@@ -25,7 +25,7 @@
 +------------------------------------+-------------------------+------------------+----------------+
 | Function                           | Location                | Compile/Link     | Unroll/Inline  |
 +------------------------------------+-------------------------+------------------+----------------+
-| + doCore                           | core.cpp:663            | 11,993           | 2,200          |
+| + doCore                           | core.cpp:663            | 11,993           | 2,210          |
 |  + Core                            | core.h:40               |   329            |                |
 |   + FtoDC                          | pipelineRegisters.h:40  |    46            |                |
 |    + ac_int                        | ac_int.h:2813           |    30 (2 calls)  |                |

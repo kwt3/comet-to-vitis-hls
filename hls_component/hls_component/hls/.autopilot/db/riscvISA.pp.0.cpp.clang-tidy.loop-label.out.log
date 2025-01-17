@@ -1,400 +1,400 @@
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30202:5: warning: Added loop label VITIS_LOOP_214_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30202:5: warning: Added loop label VITIS_LOOP_214_1:   [xilinx-label-all-loops]
     for (int i = 0; i < -N; i++)
     ^~~
     VITIS_LOOP_214_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30202:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30205:5: warning: Added loop label VITIS_LOOP_217_2:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30202:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30205:5: warning: Added loop label VITIS_LOOP_217_2:   [xilinx-label-all-loops]
     for (int i = 0; i < N; i++)
     ^~~
     VITIS_LOOP_217_2: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30205:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30237:3: warning: Added loop label VITIS_LOOP_249_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30205:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30237:3: warning: Added loop label VITIS_LOOP_249_1:   [xilinx-label-all-loops]
   for (int i = 0; i < N; i++)
   ^~~
   VITIS_LOOP_249_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30237:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30252:3: warning: Added loop label VITIS_LOOP_264_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30237:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30252:3: warning: Added loop label VITIS_LOOP_264_1:   [xilinx-label-all-loops]
   for (int i = 0; i < N; i++)
   ^~~
   VITIS_LOOP_264_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30252:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30272:3: warning: Added loop label VITIS_LOOP_284_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30252:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30272:3: warning: Added loop label VITIS_LOOP_284_1:   [xilinx-label-all-loops]
   for (int i = 0; i < N; i++)
   ^~~
   VITIS_LOOP_284_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30272:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30296:3: warning: Added loop label VITIS_LOOP_308_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30272:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30296:3: warning: Added loop label VITIS_LOOP_308_1:   [xilinx-label-all-loops]
   for (int i = 0; i < M2; i++)
   ^~~
   VITIS_LOOP_308_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30296:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30300:3: warning: Added loop label VITIS_LOOP_312_2:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30296:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30300:3: warning: Added loop label VITIS_LOOP_312_2:   [xilinx-label-all-loops]
   for (int i = M2; i < M1; i++)
   ^~~
   VITIS_LOOP_312_2: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30300:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30381:3: warning: Added loop label VITIS_LOOP_393_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30300:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30381:3: warning: Added loop label VITIS_LOOP_393_1:   [xilinx-label-all-loops]
   for (int i = M1 - 2; i >= M2; i--) {
   ^~~
   VITIS_LOOP_393_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30381:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30385:3: warning: Added loop label VITIS_LOOP_397_2:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30381:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30385:3: warning: Added loop label VITIS_LOOP_397_2:   [xilinx-label-all-loops]
   for (int i = M2 - 1; i >= 0; i--) {
   ^~~
   VITIS_LOOP_397_2: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30385:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30402:3: warning: Added loop label VITIS_LOOP_414_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30385:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30402:3: warning: Added loop label VITIS_LOOP_414_1:   [xilinx-label-all-loops]
   for (int i = 0; i < N; i++)
   ^~~
   VITIS_LOOP_414_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30402:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30498:5: warning: Added loop label VITIS_LOOP_510_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30402:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30498:5: warning: Added loop label VITIS_LOOP_510_1:   [xilinx-label-all-loops]
     for (int k = 0; k < T1; k++) {
     ^~~
     VITIS_LOOP_510_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30498:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30499:7: warning: Added loop label VITIS_LOOP_511_2:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30498:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30499:7: warning: Added loop label VITIS_LOOP_511_2:   [xilinx-label-all-loops]
       for (int i = 0; i < k + 1; i++)
       ^~~
       VITIS_LOOP_511_2: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30499:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30506:5: warning: Added loop label VITIS_LOOP_518_3:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30499:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30506:5: warning: Added loop label VITIS_LOOP_518_3:   [xilinx-label-all-loops]
     for (int k = T1; k < T2; k++) {
     ^~~
     VITIS_LOOP_518_3: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30506:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30508:7: warning: Added loop label VITIS_LOOP_520_4:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30506:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30508:7: warning: Added loop label VITIS_LOOP_520_4:   [xilinx-label-all-loops]
       for (int i = 0; i < M2 - 1; i++)
       ^~~
       VITIS_LOOP_520_4: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30508:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30515:5: warning: Added loop label VITIS_LOOP_527_5:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30508:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30515:5: warning: Added loop label VITIS_LOOP_527_5:   [xilinx-label-all-loops]
     for (int k = T2; k < T3; k++) {
     ^~~
     VITIS_LOOP_527_5: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30515:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30517:7: warning: Added loop label VITIS_LOOP_529_6:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30515:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30517:7: warning: Added loop label VITIS_LOOP_529_6:   [xilinx-label-all-loops]
       for (int i = k - T2 + 1; i < M2 - 1; i++)
       ^~~
       VITIS_LOOP_529_6: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30517:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30548:3: warning: Added loop label VITIS_LOOP_560_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30517:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30548:3: warning: Added loop label VITIS_LOOP_560_1:   [xilinx-label-all-loops]
   for (int i = 0; i < N; i++) {
   ^~~
   VITIS_LOOP_560_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30548:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30578:3: warning: Added loop label VITIS_LOOP_590_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30548:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30578:3: warning: Added loop label VITIS_LOOP_590_1:   [xilinx-label-all-loops]
   for (int i = 1; i < N - 1; i++) {
   ^~~
   VITIS_LOOP_590_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30578:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30601:3: warning: Added loop label VITIS_LOOP_613_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30578:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30601:3: warning: Added loop label VITIS_LOOP_613_1:   [xilinx-label-all-loops]
   for (int i = 0; i < N; i++) {
   ^~~
   VITIS_LOOP_613_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30601:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30664:3: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30601:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30664:3: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
   for (int i = 1; i < N - 1; i++) {
   ^~~
   VITIS_LOOP_676_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30664:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30694:3: warning: Added loop label VITIS_LOOP_706_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30664:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30694:3: warning: Added loop label VITIS_LOOP_706_1:   [xilinx-label-all-loops]
   for (int i = 1; i < N - 1; i++) {
   ^~~
   VITIS_LOOP_706_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30694:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30717:3: warning: Added loop label VITIS_LOOP_729_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30694:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30717:3: warning: Added loop label VITIS_LOOP_729_1:   [xilinx-label-all-loops]
   for (int i = 0; i < N; i++) {
   ^~~
   VITIS_LOOP_729_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30717:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30769:3: warning: Added loop label VITIS_LOOP_781_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30717:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30769:3: warning: Added loop label VITIS_LOOP_781_1:   [xilinx-label-all-loops]
   for (int i = 0; i < N; i++)
   ^~~
   VITIS_LOOP_781_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30769:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30786:3: warning: Added loop label VITIS_LOOP_798_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30769:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30786:3: warning: Added loop label VITIS_LOOP_798_1:   [xilinx-label-all-loops]
   for (int k = 0; k < ((N) < (Nr) ? (N) : (Nr)); k++) {
   ^~~
   VITIS_LOOP_798_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30786:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30812:3: warning: Added loop label VITIS_LOOP_824_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30786:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30812:3: warning: Added loop label VITIS_LOOP_824_1:   [xilinx-label-all-loops]
   for (d_msi = D - 1; d_msi > 0 && !d[d_msi]; d_msi--) {
   ^~~
   VITIS_LOOP_824_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30812:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30820:3: warning: Added loop label VITIS_LOOP_832_2:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30812:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30820:3: warning: Added loop label VITIS_LOOP_832_2:   [xilinx-label-all-loops]
   for (n_msi = N - 1; n_msi > 0 && !n[n_msi]; n_msi--) {
   ^~~
   VITIS_LOOP_832_2: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30820:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30822:3: warning: Added loop label VITIS_LOOP_834_3:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30820:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30822:3: warning: Added loop label VITIS_LOOP_834_3:   [xilinx-label-all-loops]
   for (int i = 0; i < Q; i++)
   ^~~
   VITIS_LOOP_834_3: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30822:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30824:3: warning: Added loop label VITIS_LOOP_836_4:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30822:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30824:3: warning: Added loop label VITIS_LOOP_836_4:   [xilinx-label-all-loops]
   for (int i = 0; i < R; i++)
   ^~~
   VITIS_LOOP_836_4: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30824:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30840:5: warning: Added loop label VITIS_LOOP_852_5:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30824:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30840:5: warning: Added loop label VITIS_LOOP_852_5:   [xilinx-label-all-loops]
     for (int k = n_msi; k >= 0; k--)
     ^~~
     VITIS_LOOP_852_5: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30840:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30842:5: warning: Added loop label VITIS_LOOP_854_6:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30840:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30842:5: warning: Added loop label VITIS_LOOP_854_6:   [xilinx-label-all-loops]
     for (int k = n_mss; k >= d_mss; k--) {
     ^~~
     VITIS_LOOP_854_6: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30842:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30858:7: warning: Added loop label VITIS_LOOP_870_7:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30842:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30858:7: warning: Added loop label VITIS_LOOP_870_7:   [xilinx-label-all-loops]
       for (int j = 0; j <= d_msi; j++) {
       ^~~
       VITIS_LOOP_870_7: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30858:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30878:9: warning: Added loop label VITIS_LOOP_890_8:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30858:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30878:9: warning: Added loop label VITIS_LOOP_890_8:   [xilinx-label-all-loops]
         for (int j = 0; j <= d_msi; j++) {
         ^~~
         VITIS_LOOP_890_8: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30878:9: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30897:7: warning: Added loop label VITIS_LOOP_909_9:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30878:9: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30897:7: warning: Added loop label VITIS_LOOP_909_9:   [xilinx-label-all-loops]
       for (int j = 0; j <= r_msi; j++)
       ^~~
       VITIS_LOOP_909_9: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30897:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30899:7: warning: Added loop label VITIS_LOOP_911_10:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30897:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30899:7: warning: Added loop label VITIS_LOOP_911_10:   [xilinx-label-all-loops]
       for (int j = r_msi + 1; j < R; j++)
       ^~~
       VITIS_LOOP_911_10: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30899:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30983:3: warning: Added loop label VITIS_LOOP_995_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30899:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30983:3: warning: Added loop label VITIS_LOOP_995_1:   [xilinx-label-all-loops]
   for (int i = 0; i < N; i++)
   ^~~
   VITIS_LOOP_995_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30983:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31005:3: warning: Added loop label VITIS_LOOP_1017_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:30983:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31005:3: warning: Added loop label VITIS_LOOP_1017_1:   [xilinx-label-all-loops]
   for (int i = 0; i < N; i++)
   ^~~
   VITIS_LOOP_1017_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31005:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31035:3: warning: Added loop label VITIS_LOOP_1047_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31005:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31035:3: warning: Added loop label VITIS_LOOP_1047_1:   [xilinx-label-all-loops]
   for (int i = 0; i < N; i++)
   ^~~
   VITIS_LOOP_1047_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31035:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31065:3: warning: Added loop label VITIS_LOOP_1077_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31035:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31065:3: warning: Added loop label VITIS_LOOP_1077_1:   [xilinx-label-all-loops]
   for (int i = 0; i < N; i++)
   ^~~
   VITIS_LOOP_1077_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31065:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31100:5: warning: Added loop label VITIS_LOOP_1112_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31065:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31100:5: warning: Added loop label VITIS_LOOP_1112_1:   [xilinx-label-all-loops]
     for (unsigned i = 0; i < Nr; i++) {
     ^~~
     VITIS_LOOP_1112_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31100:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31106:5: warning: Added loop label VITIS_LOOP_1118_2:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31100:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31106:5: warning: Added loop label VITIS_LOOP_1118_2:   [xilinx-label-all-loops]
     for (unsigned i = 0; i < Nr; i++)
     ^~~
     VITIS_LOOP_1118_2: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31106:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31118:5: warning: Added loop label VITIS_LOOP_1130_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31106:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31118:5: warning: Added loop label VITIS_LOOP_1130_1:   [xilinx-label-all-loops]
     for (unsigned i = 0; i < Nr; i++) {
     ^~~
     VITIS_LOOP_1130_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31118:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31124:5: warning: Added loop label VITIS_LOOP_1136_2:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31118:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31124:5: warning: Added loop label VITIS_LOOP_1136_2:   [xilinx-label-all-loops]
     for (unsigned i = 0; i < Nr; i++)
     ^~~
     VITIS_LOOP_1136_2: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31124:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31177:7: warning: Added loop label VITIS_LOOP_1189_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31124:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31177:7: warning: Added loop label VITIS_LOOP_1189_1:   [xilinx-label-all-loops]
       for (int i = ishift; i < M1; i++) {
       ^~~
       VITIS_LOOP_1189_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31177:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31187:7: warning: Added loop label VITIS_LOOP_1199_2:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31177:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31187:7: warning: Added loop label VITIS_LOOP_1199_2:   [xilinx-label-all-loops]
       for (int i = ishift; i < M1; i++)
       ^~~
       VITIS_LOOP_1199_2: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31187:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31214:7: warning: Added loop label VITIS_LOOP_1226_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31187:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31214:7: warning: Added loop label VITIS_LOOP_1226_1:   [xilinx-label-all-loops]
       for (int i = 0; i < Nr; i++) {
       ^~~
       VITIS_LOOP_1226_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31214:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31220:7: warning: Added loop label VITIS_LOOP_1232_2:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31214:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31220:7: warning: Added loop label VITIS_LOOP_1232_2:   [xilinx-label-all-loops]
       for (int i = 0; i < Nr; i++)
       ^~~
       VITIS_LOOP_1232_2: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31220:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31241:3: warning: Added loop label VITIS_LOOP_1253_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31220:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31241:3: warning: Added loop label VITIS_LOOP_1253_1:   [xilinx-label-all-loops]
   for (int i = N - 1; i >= 0; i--) {
   ^~~
   VITIS_LOOP_1253_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31241:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31268:3: warning: Added loop label VITIS_LOOP_1280_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31241:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31268:3: warning: Added loop label VITIS_LOOP_1280_1:   [xilinx-label-all-loops]
   for (int i = 0; i < n; i++) {
   ^~~
   VITIS_LOOP_1280_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31268:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31272:5: warning: Added loop label VITIS_LOOP_1284_2:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31268:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31272:5: warning: Added loop label VITIS_LOOP_1284_2:   [xilinx-label-all-loops]
     for (bits += 32; bits > 0 && k; bits -= B) {
     ^~~
     VITIS_LOOP_1284_2: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31272:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31277:3: warning: Added loop label VITIS_LOOP_1289_3:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31272:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31277:3: warning: Added loop label VITIS_LOOP_1289_3:   [xilinx-label-all-loops]
   for (int i = 0; i < (w + B - 1) / B; i++)
   ^~~
   VITIS_LOOP_1289_3: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31277:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31289:7: warning: Added loop label VITIS_LOOP_1301_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31277:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31289:7: warning: Added loop label VITIS_LOOP_1301_1:   [xilinx-label-all-loops]
       for (int i = msw; i > 0; i--)
       ^~~
       VITIS_LOOP_1301_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31289:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31294:5: warning: Added loop label VITIS_LOOP_1306_2:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31289:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31294:5: warning: Added loop label VITIS_LOOP_1306_2:   [xilinx-label-all-loops]
     while (lsw < msw || v[msw]) {
     ^~~~~
     VITIS_LOOP_1306_2: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31294:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31296:7: warning: Added loop label VITIS_LOOP_1308_3:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31294:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31296:7: warning: Added loop label VITIS_LOOP_1308_3:   [xilinx-label-all-loops]
       for (int i = lsw; i <= msw; i++) {
       ^~~
       VITIS_LOOP_1308_3: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31296:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31307:5: warning: Added loop label VITIS_LOOP_1319_4:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31296:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31307:5: warning: Added loop label VITIS_LOOP_1319_4:   [xilinx-label-all-loops]
     for (; msw > 0 && !v[msw]; msw--) {
     ^~~
     VITIS_LOOP_1319_4: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31307:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31309:5: warning: Added loop label VITIS_LOOP_1321_5:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31307:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31309:5: warning: Added loop label VITIS_LOOP_1321_5:   [xilinx-label-all-loops]
     while (msw >= 0) {
     ^~~~~
     VITIS_LOOP_1321_5: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31309:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31311:7: warning: Added loop label VITIS_LOOP_1323_6:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31309:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31311:7: warning: Added loop label VITIS_LOOP_1323_6:   [xilinx-label-all-loops]
       for (int i = msw; i >= 0; i--) {
       ^~~
       VITIS_LOOP_1323_6: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31311:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31322:7: warning: Added loop label VITIS_LOOP_1334_7:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31311:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31322:7: warning: Added loop label VITIS_LOOP_1334_7:   [xilinx-label-all-loops]
       for (int i = 0; (i < 9 && !last) || rem; i++) {
       ^~~
       VITIS_LOOP_1334_7: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31322:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31327:5: warning: Added loop label VITIS_LOOP_1339_8:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31322:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31327:5: warning: Added loop label VITIS_LOOP_1339_8:   [xilinx-label-all-loops]
     for (int i = 0; i < k / 2; i++) {
     ^~~
     VITIS_LOOP_1339_8: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31327:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31342:5: warning: Added loop label VITIS_LOOP_1354_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31327:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31342:5: warning: Added loop label VITIS_LOOP_1354_1:   [xilinx-label-all-loops]
     while (n-- && v[n] == (neg ? ~0 : 0)) {
     ^~~~~
     VITIS_LOOP_1354_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31342:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31347:7: warning: Added loop label VITIS_LOOP_1359_2:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31342:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31347:7: warning: Added loop label VITIS_LOOP_1359_2:   [xilinx-label-all-loops]
       for (int i = 16; i > 0; i >>= 1) {
       ^~~
       VITIS_LOOP_1359_2: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31347:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31396:3: warning: Added loop label VITIS_LOOP_1408_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31347:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31396:3: warning: Added loop label VITIS_LOOP_1408_1:   [xilinx-label-all-loops]
   for (k = N - 1; k >= 0 && op[k] == ext_sign; k--) {
   ^~~
   VITIS_LOOP_1408_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31396:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31458:5: warning: Added loop label VITIS_LOOP_1470_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31396:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31458:5: warning: Added loop label VITIS_LOOP_1470_1:   [xilinx-label-all-loops]
     for (int i = N - 2; i >= 0; i--) {
     ^~~
     VITIS_LOOP_1470_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31458:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31524:7: warning: Added loop label VITIS_LOOP_1536_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31458:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31524:7: warning: Added loop label VITIS_LOOP_1536_1:   [xilinx-label-all-loops]
       for (int i = 1; i < N2 - 1; i++)
       ^~~
       VITIS_LOOP_1536_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31524:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:32511:7: warning: Added loop label VITIS_LOOP_2567_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:31524:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:32511:7: warning: Added loop label VITIS_LOOP_2567_1:   [xilinx-label-all-loops]
       for (int i = 0; i < N - 2; i++)
       ^~~
       VITIS_LOOP_2567_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:32511:7: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:32532:5: warning: Added loop label VITIS_LOOP_2588_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:32511:7: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:32532:5: warning: Added loop label VITIS_LOOP_2588_1:   [xilinx-label-all-loops]
     while (str) {
     ^~~~~
     VITIS_LOOP_2588_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:32532:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:32562:5: warning: Added loop label VITIS_LOOP_2618_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:32532:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:32562:5: warning: Added loop label VITIS_LOOP_2618_1:   [xilinx-label-all-loops]
     for (int i = 0; i < M; i++)
     ^~~
     VITIS_LOOP_2618_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:32562:5: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33050:3: warning: Added loop label VITIS_LOOP_3218_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:32562:5: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33050:3: warning: Added loop label VITIS_LOOP_3218_1:   [xilinx-label-all-loops]
   for (int i = 0; i < n; i++)
   ^~~
   VITIS_LOOP_3218_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33050:3: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33055:93: warning: Added loop label VITIS_LOOP_3223_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33050:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33055:93: warning: Added loop label VITIS_LOOP_3223_1:   [xilinx-label-all-loops]
 template <ac_special_val V> inline bool init_array(bool* a, int n) { bool t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
                                                                                             ^~~
                                                                                             VITIS_LOOP_3223_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33055:93: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33056:93: warning: Added loop label VITIS_LOOP_3224_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33055:93: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33056:93: warning: Added loop label VITIS_LOOP_3224_1:   [xilinx-label-all-loops]
 template <ac_special_val V> inline bool init_array(char* a, int n) { char t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
                                                                                             ^~~
                                                                                             VITIS_LOOP_3224_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33056:93: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33057:107: warning: Added loop label VITIS_LOOP_3225_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33056:93: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33057:107: warning: Added loop label VITIS_LOOP_3225_1:   [xilinx-label-all-loops]
 template <ac_special_val V> inline bool init_array(signed char* a, int n) { signed char t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
                                                                                                           ^~~
                                                                                                           VITIS_LOOP_3225_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33057:107: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33058:111: warning: Added loop label VITIS_LOOP_3226_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33057:107: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33058:111: warning: Added loop label VITIS_LOOP_3226_1:   [xilinx-label-all-loops]
 template <ac_special_val V> inline bool init_array(unsigned char* a, int n) { unsigned char t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
                                                                                                               ^~~
                                                                                                               VITIS_LOOP_3226_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33058:111: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33059:109: warning: Added loop label VITIS_LOOP_3227_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33058:111: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33059:109: warning: Added loop label VITIS_LOOP_3227_1:   [xilinx-label-all-loops]
 template <ac_special_val V> inline bool init_array(signed short* a, int n) { signed short t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
                                                                                                             ^~~
                                                                                                             VITIS_LOOP_3227_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33059:109: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33060:113: warning: Added loop label VITIS_LOOP_3228_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33059:109: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33060:113: warning: Added loop label VITIS_LOOP_3228_1:   [xilinx-label-all-loops]
 template <ac_special_val V> inline bool init_array(unsigned short* a, int n) { unsigned short t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
                                                                                                                 ^~~
                                                                                                                 VITIS_LOOP_3228_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33060:113: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33061:105: warning: Added loop label VITIS_LOOP_3229_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33060:113: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33061:105: warning: Added loop label VITIS_LOOP_3229_1:   [xilinx-label-all-loops]
 template <ac_special_val V> inline bool init_array(signed int* a, int n) { signed int t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
                                                                                                         ^~~
                                                                                                         VITIS_LOOP_3229_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33061:105: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33062:109: warning: Added loop label VITIS_LOOP_3230_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33061:105: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33062:109: warning: Added loop label VITIS_LOOP_3230_1:   [xilinx-label-all-loops]
 template <ac_special_val V> inline bool init_array(unsigned int* a, int n) { unsigned int t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
                                                                                                             ^~~
                                                                                                             VITIS_LOOP_3230_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33062:109: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33063:107: warning: Added loop label VITIS_LOOP_3231_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33062:109: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33063:107: warning: Added loop label VITIS_LOOP_3231_1:   [xilinx-label-all-loops]
 template <ac_special_val V> inline bool init_array(signed long* a, int n) { signed long t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
                                                                                                           ^~~
                                                                                                           VITIS_LOOP_3231_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33063:107: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33064:111: warning: Added loop label VITIS_LOOP_3232_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33063:107: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33064:111: warning: Added loop label VITIS_LOOP_3232_1:   [xilinx-label-all-loops]
 template <ac_special_val V> inline bool init_array(unsigned long* a, int n) { unsigned long t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
                                                                                                               ^~~
                                                                                                               VITIS_LOOP_3232_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33064:111: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33065:117: warning: Added loop label VITIS_LOOP_3233_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33064:111: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33065:117: warning: Added loop label VITIS_LOOP_3233_1:   [xilinx-label-all-loops]
 template <ac_special_val V> inline bool init_array(signed long long* a, int n) { signed long long t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
                                                                                                                     ^~~
                                                                                                                     VITIS_LOOP_3233_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33065:117: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33066:121: warning: Added loop label VITIS_LOOP_3234_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33065:117: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33066:121: warning: Added loop label VITIS_LOOP_3234_1:   [xilinx-label-all-loops]
 template <ac_special_val V> inline bool init_array(unsigned long long* a, int n) { unsigned long long t = value<V>(*a); for (int i = 0; i < n; i++) a[i] = t; return true; }
                                                                                                                         ^~~
                                                                                                                         VITIS_LOOP_3234_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33066:121: note: FIX-IT applied suggested code changes
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33253:3: warning: Added loop label VITIS_LOOP_180_1:   [xilinx-label-all-loops]
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33066:121: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33253:3: warning: Added loop label VITIS_LOOP_180_1:   [xilinx-label-all-loops]
   for (int addedSpace = result.size(); addedSpace < 20; addedSpace++)
   ^~~
   VITIS_LOOP_180_1: 
-C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33253:3: note: FIX-IT applied suggested code changes
+C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_component\hls\.autopilot\db\riscvISA.pp.0.cpp:33253:3: note: FIX-IT applied suggested code changes

@@ -12,8 +12,8 @@
             <column name="Unroll/Inline">, , After user unroll and inline pragmas are applied</column>
             <column name="">(1) unroll,  7449, user unroll pragmas are applied</column>
             <column name="">(2) simplification,  5935, simplification of applied user unroll pragmas</column>
-            <column name="">(3) inline,  4586, user inline pragmas are applied</column>
-            <column name="">(4) simplification,  2200, simplification of applied user inline pragmas</column>
+            <column name="">(3) inline,  4596, user inline pragmas are applied</column>
+            <column name="">(4) simplification,  2210, simplification of applied user inline pragmas</column>
             <column name="">, , </column>
             <column name="Array/Struct">, pending, After user array partition and struct aggregate/disaggregate pragmas are applied</column>
             <column name="Performance">, , After transformations are applied to meet performance pragma targets</column>
@@ -24,855 +24,855 @@
         <hiertable>
             <header size="4" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline"/>
             <rows>
-                <row id="0" col0="doCore" col1="core.cpp:663" col2="11993" col3="2200">
-                    <row id="41" col0="Core" col1="core.h:40" col2="329" col3="">
-                        <row id="106" col0="FtoDC" col1="pipelineRegisters.h:40" col2="46" col3="">
-                            <row id="142" col0="ac_int" col1="ac_int.h:2813" col2="30" col2_disp="   30 (2 calls)" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                <row id="0" col0="doCore" col1="core.cpp:663" col2="11993" col3="2210">
+                    <row id="72" col0="Core" col1="core.h:40" col2="329" col3="">
+                        <row id="2" col0="FtoDC" col1="pipelineRegisters.h:40" col2="46" col3="">
+                            <row id="122" col0="ac_int" col1="ac_int.h:2813" col2="30" col2_disp="   30 (2 calls)" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
                                 </row>
                             </row>
-                            <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                </row>
-                            </row>
-                        </row>
-                        <row id="154" col0="DCtoEx" col1="pipelineRegisters.h:49" col2="118" col3="">
-                            <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="91" col2_disp="   91 (13 calls)" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="40" col2_disp="   40 (10 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="10" col2_disp="   10 (10 calls)" col3=""/>
-                                </row>
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="12" col2_disp="   12 (3 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="3" col2_disp="    3 (3 calls)" col3=""/>
+                            <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                 </row>
                             </row>
                         </row>
-                        <row id="29" col0="ExtoMem" col1="pipelineRegisters.h:79" col2="73" col3="">
-                            <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="56" col2_disp="   56 (8 calls)" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="24" col2_disp="   24 (6 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="6" col2_disp="    6 (6 calls)" col3=""/>
+                        <row id="81" col0="DCtoEx" col1="pipelineRegisters.h:49" col2="118" col3="">
+                            <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="91" col2_disp="   91 (13 calls)" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="40" col2_disp="   40 (10 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="10" col2_disp="   10 (10 calls)" col3=""/>
                                 </row>
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                </row>
-                            </row>
-                        </row>
-                        <row id="57" col0="MemtoWB" col1="pipelineRegisters.h:100" col2="46" col3="">
-                            <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="35" col2_disp="   35 (5 calls)" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="16" col2_disp="   16 (4 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="4" col2_disp="    4 (4 calls)" col3=""/>
-                                </row>
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="12" col2_disp="   12 (3 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="3" col2_disp="    3 (3 calls)" col3=""/>
                                 </row>
                             </row>
                         </row>
-                        <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
-                            <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                            </row>
-                            <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                        <row id="127" col0="ExtoMem" col1="pipelineRegisters.h:79" col2="73" col3="">
+                            <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="56" col2_disp="   56 (8 calls)" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="24" col2_disp="   24 (6 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="6" col2_disp="    6 (6 calls)" col3=""/>
+                                </row>
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                </row>
                             </row>
                         </row>
-                    </row>
-                    <row id="84" col0="IncompleteMemory" col1="memoryInterface.h:41" col2="56" col2_disp="   56 (2 calls)" col3="">
-                        <row id="83" col0="MemoryInterface" col1="memoryInterface.h:25" col2="6" col2_disp="    6 (2 calls)" col3=""/>
-                        <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="28" col2_disp="   28 (4 calls)" col3="">
-                            <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="16" col2_disp="   16 (4 calls)" col3="">
-                                <row id="26" col0="iv" col1="ac_int.h:1422" col2="4" col2_disp="    4 (4 calls)" col3=""/>
+                        <row id="63" col0="MemtoWB" col1="pipelineRegisters.h:100" col2="46" col3="">
+                            <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="35" col2_disp="   35 (5 calls)" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="16" col2_disp="   16 (4 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="4" col2_disp="    4 (4 calls)" col3=""/>
+                                </row>
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                </row>
+                            </row>
+                        </row>
+                        <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
+                            <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            </row>
+                            <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                             </row>
                         </row>
                     </row>
-                    <row id="142" col0="ac_int" col1="ac_int.h:2813" col2="15" col3="">
-                        <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                            <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                    <row id="152" col0="IncompleteMemory" col1="memoryInterface.h:41" col2="56" col2_disp="   56 (2 calls)" col3="">
+                        <row id="161" col0="MemoryInterface" col1="memoryInterface.h:25" col2="6" col2_disp="    6 (2 calls)" col3=""/>
+                        <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="28" col2_disp="   28 (4 calls)" col3="">
+                            <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="16" col2_disp="   16 (4 calls)" col3="">
+                                <row id="91" col0="iv" col1="ac_int.h:1422" col2="4" col2_disp="    4 (4 calls)" col3=""/>
+                            </row>
                         </row>
                     </row>
-                    <row id="99" col0="doCycle" col1="core.cpp:506" col2="11560" col3="2162">
-                        <row id="106" col0="FtoDC" col1="pipelineRegisters.h:40" col2="46" col3="">
-                            <row id="142" col0="ac_int" col1="ac_int.h:2813" col2="30" col2_disp="   30 (2 calls)" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                    <row id="122" col0="ac_int" col1="ac_int.h:2813" col2="15" col3="">
+                        <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                            <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                        </row>
+                    </row>
+                    <row id="55" col0="doCycle" col1="core.cpp:506" col2="11560" col3="2162">
+                        <row id="2" col0="FtoDC" col1="pipelineRegisters.h:40" col2="46" col3="">
+                            <row id="122" col0="ac_int" col1="ac_int.h:2813" col2="30" col2_disp="   30 (2 calls)" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
                                 </row>
                             </row>
-                            <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                 </row>
                             </row>
                         </row>
-                        <row id="142" col0="ac_int" col1="ac_int.h:2813" col2="90" col2_disp="   90 (6 calls)" col3="">
-                            <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="24" col2_disp="   24 (6 calls)" col3="">
-                                <row id="26" col0="iv" col1="ac_int.h:1422" col2="6" col2_disp="    6 (6 calls)" col3=""/>
+                        <row id="122" col0="ac_int" col1="ac_int.h:2813" col2="90" col2_disp="   90 (6 calls)" col3="">
+                            <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="24" col2_disp="   24 (6 calls)" col3="">
+                                <row id="91" col0="iv" col1="ac_int.h:1422" col2="6" col2_disp="    6 (6 calls)" col3=""/>
                             </row>
                         </row>
-                        <row id="154" col0="DCtoEx" col1="pipelineRegisters.h:49" col2="118" col3="">
-                            <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="91" col2_disp="   91 (13 calls)" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="40" col2_disp="   40 (10 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="10" col2_disp="   10 (10 calls)" col3=""/>
+                        <row id="81" col0="DCtoEx" col1="pipelineRegisters.h:49" col2="118" col3="">
+                            <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="91" col2_disp="   91 (13 calls)" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="40" col2_disp="   40 (10 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="10" col2_disp="   10 (10 calls)" col3=""/>
                                 </row>
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="12" col2_disp="   12 (3 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="3" col2_disp="    3 (3 calls)" col3=""/>
-                                </row>
-                            </row>
-                        </row>
-                        <row id="29" col0="ExtoMem" col1="pipelineRegisters.h:79" col2="73" col3="">
-                            <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="56" col2_disp="   56 (8 calls)" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="24" col2_disp="   24 (6 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="6" col2_disp="    6 (6 calls)" col3=""/>
-                                </row>
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="12" col2_disp="   12 (3 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="3" col2_disp="    3 (3 calls)" col3=""/>
                                 </row>
                             </row>
                         </row>
-                        <row id="57" col0="MemtoWB" col1="pipelineRegisters.h:100" col2="46" col3="">
-                            <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="35" col2_disp="   35 (5 calls)" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="16" col2_disp="   16 (4 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="4" col2_disp="    4 (4 calls)" col3=""/>
+                        <row id="127" col0="ExtoMem" col1="pipelineRegisters.h:79" col2="73" col3="">
+                            <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="56" col2_disp="   56 (8 calls)" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="24" col2_disp="   24 (6 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="6" col2_disp="    6 (6 calls)" col3=""/>
                                 </row>
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                </row>
-                            </row>
-                        </row>
-                        <row id="151" col0="WBOut" col1="pipelineRegisters.h:115" col2="19" col3="">
-                            <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
                                 </row>
                             </row>
                         </row>
-                        <row id="43" col0="ac_int" col1="ac_int.h:2029" col2="33" col3="">
-                            <row id="136" col0="iv_conv&lt;int&gt;" col1="ac_int.h:1601" col2="16" col3="">
-                                <row id="148" col0="iv" col1="ac_int.h:1431" col2="12" col3="">
-                                    <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
+                        <row id="63" col0="MemtoWB" col1="pipelineRegisters.h:100" col2="46" col3="">
+                            <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="35" col2_disp="   35 (5 calls)" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="16" col2_disp="   16 (4 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="4" col2_disp="    4 (4 calls)" col3=""/>
+                                </row>
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                 </row>
                             </row>
-                            <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                         </row>
-                        <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                            <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                        <row id="149" col0="WBOut" col1="pipelineRegisters.h:115" col2="19" col3="">
+                            <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                </row>
                             </row>
                         </row>
-                        <row id="11" col0="fetch" col1="core.cpp:21" col2="136" col3="">
-                            <row id="97" col0="operator+&lt;32, false&gt;" col1="ac_int.h:2956" col2="95" col3="">
-                                <row id="115" col0="ac_int" col1="ac_int.h:2805" col2="11" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                        <row id="19" col0="ac_int" col1="ac_int.h:2029" col2="33" col3="">
+                            <row id="137" col0="iv_conv&lt;int&gt;" col1="ac_int.h:1601" col2="16" col3="">
+                                <row id="154" col0="iv" col1="ac_int.h:1431" col2="12" col3="">
+                                    <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
+                                </row>
+                            </row>
+                            <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                        </row>
+                        <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                            <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            </row>
+                        </row>
+                        <row id="131" col0="fetch" col1="core.cpp:21" col2="136" col3="">
+                            <row id="20" col0="operator+&lt;32, false&gt;" col1="ac_int.h:2956" col2="95" col3="">
+                                <row id="4" col0="ac_int" col1="ac_int.h:2805" col2="11" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                     </row>
                                 </row>
-                                <row id="4" col0="operator+&lt;32, true&gt;" col1="ac_int.h:2138" col2="76" col3="">
-                                    <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                                        <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                            <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                <row id="118" col0="operator+&lt;32, true&gt;" col1="ac_int.h:2138" col2="76" col3="">
+                                    <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                                        <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                            <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                         </row>
                                     </row>
-                                    <row id="53" col0="add&lt;1, 2&gt;" col1="ac_int.h:1482" col2="63" col3="">
-                                        <row id="152" col0="iv_add&lt;2, 1, 2&gt;" col1="ac_int.h:640" col2="55" col3="">
-                                            <row id="33" col0="iv_uadd_n&lt;0&gt;" col1="ac_int.h:620" col2="1" col3=""/>
-                                            <row id="1" col0="iv_add_int_carry&lt;2&gt;" col1="ac_int.h:578" col2="42" col3=""/>
-                                            <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
+                                    <row id="47" col0="add&lt;1, 2&gt;" col1="ac_int.h:1482" col2="63" col3="">
+                                        <row id="21" col0="iv_add&lt;2, 1, 2&gt;" col1="ac_int.h:640" col2="55" col3="">
+                                            <row id="148" col0="iv_uadd_n&lt;0&gt;" col1="ac_int.h:620" col2="1" col3=""/>
+                                            <row id="128" col0="iv_add_int_carry&lt;2&gt;" col1="ac_int.h:578" col2="42" col3=""/>
+                                            <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
                                         </row>
                                     </row>
                                 </row>
                             </row>
-                            <row id="160" col0="ac_int&lt;34, true&gt;" col1="ac_int.h:2017" col2="17" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            <row id="26" col0="ac_int&lt;34, true&gt;" col1="ac_int.h:2017" col2="17" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                 </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="5" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="5" col3=""/>
                             </row>
                         </row>
-                        <row id="128" col0="decode" col1="core.cpp:29" col2="4640" col3="589">
-                            <row id="102" col0="slc&lt;7&gt;" col1="ac_int.h:2429" col2="339" col2_disp="  339 (3 calls)" col3="132" col3_disp=" 132 (3 calls)">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="21" col2_disp="   21 (3 calls)" col3="">
-                                    <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="12" col2_disp="   12 (3 calls)" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="3" col2_disp="    3 (3 calls)" col3=""/>
+                        <row id="98" col0="decode" col1="core.cpp:29" col2="4640" col3="589">
+                            <row id="93" col0="slc&lt;7&gt;" col1="ac_int.h:2429" col2="339" col2_disp="  339 (3 calls)" col3="132" col3_disp=" 132 (3 calls)">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="21" col2_disp="   21 (3 calls)" col3="">
+                                    <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="12" col2_disp="   12 (3 calls)" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="3" col2_disp="    3 (3 calls)" col3=""/>
                                     </row>
                                 </row>
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="3" col2_disp="    3 (3 calls)" col3=""/>
-                                <row id="31" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="255" col2_disp="  255 (3 calls)" col3="">
-                                    <row id="124" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="237" col2_disp="  237 (3 calls)" col3=""/>
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="3" col2_disp="    3 (3 calls)" col3=""/>
+                                <row id="104" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="255" col2_disp="  255 (3 calls)" col3="">
+                                    <row id="121" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="237" col2_disp="  237 (3 calls)" col3=""/>
                                 </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="33" col2_disp="   33 (3 calls)" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="33" col2_disp="   33 (3 calls)" col3=""/>
                             </row>
-                            <row id="61" col0="slc&lt;5&gt;" col1="ac_int.h:2429" col2="452" col2_disp="  452 (4 calls)" col3="176" col3_disp=" 176 (4 calls)">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="28" col2_disp="   28 (4 calls)" col3="">
-                                    <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="16" col2_disp="   16 (4 calls)" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="4" col2_disp="    4 (4 calls)" col3=""/>
+                            <row id="46" col0="slc&lt;5&gt;" col1="ac_int.h:2429" col2="452" col2_disp="  452 (4 calls)" col3="176" col3_disp=" 176 (4 calls)">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="28" col2_disp="   28 (4 calls)" col3="">
+                                    <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="16" col2_disp="   16 (4 calls)" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="4" col2_disp="    4 (4 calls)" col3=""/>
                                     </row>
                                 </row>
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="4" col2_disp="    4 (4 calls)" col3=""/>
-                                <row id="31" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="340" col2_disp="  340 (4 calls)" col3="">
-                                    <row id="124" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="316" col2_disp="  316 (4 calls)" col3=""/>
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="4" col2_disp="    4 (4 calls)" col3=""/>
+                                <row id="104" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="340" col2_disp="  340 (4 calls)" col3="">
+                                    <row id="121" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="316" col2_disp="  316 (4 calls)" col3=""/>
                                 </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="44" col2_disp="   44 (4 calls)" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="44" col2_disp="   44 (4 calls)" col3=""/>
                             </row>
-                            <row id="38" col0="slc&lt;3&gt;" col1="ac_int.h:2429" col2="113" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                                    <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            <row id="136" col0="slc&lt;3&gt;" col1="ac_int.h:2429" col2="113" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                                    <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                     </row>
                                 </row>
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="31" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="85" col3="">
-                                    <row id="124" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="104" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="85" col3="">
+                                    <row id="121" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
                                 </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                             </row>
-                            <row id="43" col0="ac_int" col1="ac_int.h:2029" col2="231" col2_disp="  231 (7 calls)" col3="">
-                                <row id="136" col0="iv_conv&lt;int&gt;" col1="ac_int.h:1601" col2="64" col2_disp="   64 (4 calls)" col3="">
-                                    <row id="148" col0="iv" col1="ac_int.h:1431" col2="48" col2_disp="   48 (4 calls)" col3="">
-                                        <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="4" col2_disp="    4 (4 calls)" col3=""/>
+                            <row id="19" col0="ac_int" col1="ac_int.h:2029" col2="231" col2_disp="  231 (7 calls)" col3="">
+                                <row id="137" col0="iv_conv&lt;int&gt;" col1="ac_int.h:1601" col2="64" col2_disp="   64 (4 calls)" col3="">
+                                    <row id="154" col0="iv" col1="ac_int.h:1431" col2="48" col2_disp="   48 (4 calls)" col3="">
+                                        <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="4" col2_disp="    4 (4 calls)" col3=""/>
                                     </row>
                                 </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="77" col2_disp="   77 (7 calls)" col3=""/>
-                                <row id="47" col0="iv_conv&lt;int&gt;" col1="ac_int.h:1610" col2="48" col2_disp="   48 (3 calls)" col3="">
-                                    <row id="148" col0="iv" col1="ac_int.h:1431" col2="36" col2_disp="   36 (3 calls)" col3="">
-                                        <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="3" col2_disp="    3 (3 calls)" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="77" col2_disp="   77 (7 calls)" col3=""/>
+                                <row id="143" col0="iv_conv&lt;int&gt;" col1="ac_int.h:1610" col2="48" col2_disp="   48 (3 calls)" col3="">
+                                    <row id="154" col0="iv" col1="ac_int.h:1431" col2="36" col2_disp="   36 (3 calls)" col3="">
+                                        <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="3" col2_disp="    3 (3 calls)" col3=""/>
                                     </row>
                                 </row>
                             </row>
-                            <row id="82" col0="set_slc&lt;7, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="139" col0="ac_int&lt;7, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            <row id="59" col0="set_slc&lt;7, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="114" col0="ac_int&lt;7, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                     </row>
-                                    <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                    <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                                 </row>
-                                <row id="3" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                <row id="62" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                             </row>
-                            <row id="56" col0="set_slc&lt;5, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="77" col0="ac_int&lt;5, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            <row id="17" col0="set_slc&lt;5, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="159" col0="ac_int&lt;5, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                     </row>
-                                    <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                    <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                                 </row>
-                                <row id="3" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                <row id="62" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                             </row>
-                            <row id="76" col0="slc&lt;12&gt;" col1="ac_int.h:2429" col2="226" col2_disp="  226 (2 calls)" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
-                                    <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                    </row>
-                                </row>
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                <row id="31" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="170" col2_disp="  170 (2 calls)" col3="">
-                                    <row id="124" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
-                                    <row id="131" col0="iv_shift_r&lt;1, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="22" col2_disp="   22 (2 calls)" col3=""/>
-                            </row>
-                            <row id="103" col0="ac_int&lt;12, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
-                            </row>
-                            <row id="117" col0="set_slc&lt;12, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="103" col0="ac_int&lt;12, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                    </row>
-                                    <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
-                                </row>
-                                <row id="3" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
-                            </row>
-                            <row id="88" col0="operator[]" col1="ac_int.h:2525" col2="92" col2_disp="   92 (4 calls)" col3="">
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="8" col2_disp="    8 (8 calls)" col3=""/>
-                            </row>
-                            <row id="2" col0="operator[]" col1="ac_int.h:2504" col2="56" col2_disp="   56 (4 calls)" col3="">
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="8" col2_disp="    8 (8 calls)" col3=""/>
-                                <row id="45" col0="ac_bitref" col1="ac_int.h:2479" col2="20" col2_disp="   20 (4 calls)" col3=""/>
-                            </row>
-                            <row id="66" col0="operator=" col1="ac_int.h:2484" col2="180" col2_disp="  180 (4 calls)" col3="">
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="44" col2_disp="   44 (4 calls)" col3=""/>
-                            </row>
-                            <row id="73" col0="slc&lt;6&gt;" col1="ac_int.h:2429" col2="113" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                                    <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            <row id="6" col0="slc&lt;12&gt;" col1="ac_int.h:2429" col2="226" col2_disp="  226 (2 calls)" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
+                                    <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
                                     </row>
                                 </row>
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="31" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="85" col3="">
-                                    <row id="124" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                <row id="104" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="170" col2_disp="  170 (2 calls)" col3="">
+                                    <row id="121" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
+                                    <row id="162" col0="iv_shift_r&lt;1, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
                                 </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="22" col2_disp="   22 (2 calls)" col3=""/>
                             </row>
-                            <row id="79" col0="set_slc&lt;6, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="8" col0="ac_int&lt;6, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            <row id="78" col0="ac_int&lt;12, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                            </row>
+                            <row id="141" col0="set_slc&lt;12, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="78" col0="ac_int&lt;12, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                     </row>
-                                    <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                    <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                                 </row>
-                                <row id="3" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                <row id="62" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                             </row>
-                            <row id="141" col0="slc&lt;4&gt;" col1="ac_int.h:2429" col2="113" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                                    <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                    </row>
-                                </row>
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="31" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="85" col3="">
-                                    <row id="124" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                            <row id="57" col0="operator[]" col1="ac_int.h:2525" col2="92" col2_disp="   92 (4 calls)" col3="">
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="8" col2_disp="    8 (8 calls)" col3=""/>
                             </row>
-                            <row id="52" col0="set_slc&lt;4, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="69" col0="ac_int&lt;4, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                    </row>
-                                    <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
-                                </row>
-                                <row id="3" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                            <row id="45" col0="operator[]" col1="ac_int.h:2504" col2="56" col2_disp="   56 (4 calls)" col3="">
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="8" col2_disp="    8 (8 calls)" col3=""/>
+                                <row id="79" col0="ac_bitref" col1="ac_int.h:2479" col2="20" col2_disp="   20 (4 calls)" col3=""/>
                             </row>
-                            <row id="130" col0="set_slc&lt;13, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="74" col0="ac_int&lt;13, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                    </row>
-                                    <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
-                                </row>
-                                <row id="3" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                            <row id="5" col0="operator=" col1="ac_int.h:2484" col2="180" col2_disp="  180 (4 calls)" col3="">
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="44" col2_disp="   44 (4 calls)" col3=""/>
                             </row>
-                            <row id="115" col0="ac_int" col1="ac_int.h:2805" col2="22" col2_disp="   22 (2 calls)" col3="">
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                </row>
-                            </row>
-                            <row id="113" col0="slc&lt;20&gt;" col1="ac_int.h:2429" col2="113" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                                    <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            <row id="67" col0="slc&lt;6&gt;" col1="ac_int.h:2429" col2="113" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                                    <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                     </row>
                                 </row>
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="31" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="85" col3="">
-                                    <row id="124" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="104" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="85" col3="">
+                                    <row id="121" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
                                 </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                             </row>
-                            <row id="94" col0="set_slc&lt;20, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="98" col0="ac_int&lt;20, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            <row id="43" col0="set_slc&lt;6, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="125" col0="ac_int&lt;6, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                     </row>
-                                    <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                    <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                                 </row>
-                                <row id="3" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                <row id="62" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                             </row>
-                            <row id="92" col0="slc&lt;8&gt;" col1="ac_int.h:2429" col2="113" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                                    <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                    </row>
-                                </row>
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="31" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="85" col3="">
-                                    <row id="124" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
-                            </row>
-                            <row id="18" col0="set_slc&lt;8, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="129" col0="ac_int&lt;8, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                    </row>
-                                    <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
-                                </row>
-                                <row id="3" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
-                            </row>
-                            <row id="27" col0="slc&lt;10&gt;" col1="ac_int.h:2429" col2="113" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                                    <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            <row id="158" col0="slc&lt;4&gt;" col1="ac_int.h:2429" col2="113" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                                    <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                     </row>
                                 </row>
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="31" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="85" col3="">
-                                    <row id="124" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="104" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="85" col3="">
+                                    <row id="121" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
                                 </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                             </row>
-                            <row id="80" col0="set_slc&lt;10, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="59" col0="ac_int&lt;10, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            <row id="138" col0="set_slc&lt;4, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="58" col0="ac_int&lt;4, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                     </row>
-                                    <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                    <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                                 </row>
-                                <row id="3" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                <row id="62" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                            </row>
+                            <row id="48" col0="set_slc&lt;13, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="88" col0="ac_int&lt;13, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                    </row>
+                                    <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                </row>
+                                <row id="62" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                            </row>
+                            <row id="4" col0="ac_int" col1="ac_int.h:2805" col2="22" col2_disp="   22 (2 calls)" col3="">
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                </row>
+                            </row>
+                            <row id="139" col0="slc&lt;20&gt;" col1="ac_int.h:2429" col2="113" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                                    <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="104" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="85" col3="">
+                                    <row id="121" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                            </row>
+                            <row id="1" col0="set_slc&lt;20, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="70" col0="ac_int&lt;20, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                    </row>
+                                    <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                </row>
+                                <row id="62" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                            </row>
+                            <row id="13" col0="slc&lt;8&gt;" col1="ac_int.h:2429" col2="113" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                                    <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="104" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="85" col3="">
+                                    <row id="121" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                            </row>
+                            <row id="11" col0="set_slc&lt;8, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="112" col0="ac_int&lt;8, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                    </row>
+                                    <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                </row>
+                                <row id="62" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                            </row>
+                            <row id="90" col0="slc&lt;10&gt;" col1="ac_int.h:2429" col2="113" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                                    <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="104" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="85" col3="">
+                                    <row id="121" col0="iv_shift_r&lt;2, 1&gt;" col1="ac_int.h:1123" col2="79" col3=""/>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                            </row>
+                            <row id="110" col0="set_slc&lt;10, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="68" col0="ac_int&lt;10, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                    </row>
+                                    <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                </row>
+                                <row id="62" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                             </row>
                             <row id="35" col0="set_slc&lt;21, false&gt;" col1="ac_int.h:2455" col2="77" col3="">
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
-                                <row id="158" col0="ac_int&lt;21, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="1" col3=""/>
+                                <row id="129" col0="ac_int&lt;21, false&gt;" col1="ac_int.h:2017" col2="23" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                     </row>
-                                    <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                    <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                                 </row>
-                                <row id="3" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                                <row id="62" col0="set_slc&lt;1&gt;" col1="ac_int.h:1569" col2="23" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                             </row>
-                            <row id="121" col0="operator unsigned long long" col1="ac_int.h:1597" col2="24" col2_disp="   24 (3 calls)" col3="">
-                                <row id="91" col0="to_uint64" col1="ac_int.h:1555" col2="15" col2_disp="   15 (3 calls)" col3=""/>
+                            <row id="42" col0="operator unsigned long long" col1="ac_int.h:1597" col2="24" col2_disp="   24 (3 calls)" col3="">
+                                <row id="82" col0="to_uint64" col1="ac_int.h:1555" col2="15" col2_disp="   15 (3 calls)" col3=""/>
                             </row>
-                            <row id="15" col0="ac_int&lt;32, true&gt;" col1="ac_int.h:2017" col2="94" col2_disp="   94 (2 calls)" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                            <row id="24" col0="ac_int&lt;32, true&gt;" col1="ac_int.h:2017" col2="94" col2_disp="   94 (2 calls)" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
                                 </row>
-                                <row id="155" col0="iv&lt;1&gt;" col1="ac_int.h:1423" col2="48" col2_disp="   48 (2 calls)" col3="">
-                                    <row id="65" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="10" col2_disp="   10 (2 calls)" col3=""/>
-                                    <row id="111" col0="iv_extend&lt;1&gt;" col1="ac_int.h:420" col2="6" col2_disp="    6 (2 calls)" col3=""/>
+                                <row id="150" col0="iv&lt;1&gt;" col1="ac_int.h:1423" col2="48" col2_disp="   48 (2 calls)" col3="">
+                                    <row id="75" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="10" col2_disp="   10 (2 calls)" col3=""/>
+                                    <row id="102" col0="iv_extend&lt;1&gt;" col1="ac_int.h:420" col2="6" col2_disp="    6 (2 calls)" col3=""/>
                                 </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="10" col2_disp="   10 (2 calls)" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="10" col2_disp="   10 (2 calls)" col3=""/>
                             </row>
-                            <row id="5" col0="ac_int&lt;32, false&gt;" col1="ac_int.h:2017" col2="510" col2_disp="  510 (10 calls)" col3="">
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="40" col2_disp="   40 (10 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="10" col2_disp="   10 (10 calls)" col3=""/>
+                            <row id="33" col0="ac_int&lt;32, false&gt;" col1="ac_int.h:2017" col2="510" col2_disp="  510 (10 calls)" col3="">
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="40" col2_disp="   40 (10 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="10" col2_disp="   10 (10 calls)" col3=""/>
                                 </row>
-                                <row id="153" col0="iv&lt;2&gt;" col1="ac_int.h:1423" col2="220" col2_disp="  220 (10 calls)" col3="">
-                                    <row id="65" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="50" col2_disp="   50 (10 calls)" col3=""/>
-                                    <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="10" col2_disp="   10 (10 calls)" col3=""/>
+                                <row id="27" col0="iv&lt;2&gt;" col1="ac_int.h:1423" col2="220" col2_disp="  220 (10 calls)" col3="">
+                                    <row id="75" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="50" col2_disp="   50 (10 calls)" col3=""/>
+                                    <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="10" col2_disp="   10 (10 calls)" col3=""/>
                                 </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="110" col2_disp="  110 (10 calls)" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="110" col2_disp="  110 (10 calls)" col3=""/>
                             </row>
-                            <row id="97" col0="operator+&lt;32, false&gt;" col1="ac_int.h:2956" col2="95" col3="">
-                                <row id="115" col0="ac_int" col1="ac_int.h:2805" col2="11" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            <row id="20" col0="operator+&lt;32, false&gt;" col1="ac_int.h:2956" col2="95" col3="">
+                                <row id="4" col0="ac_int" col1="ac_int.h:2805" col2="11" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                     </row>
                                 </row>
-                                <row id="4" col0="operator+&lt;32, true&gt;" col1="ac_int.h:2138" col2="76" col3="">
-                                    <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                                        <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                            <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                <row id="118" col0="operator+&lt;32, true&gt;" col1="ac_int.h:2138" col2="76" col3="">
+                                    <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                                        <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                            <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                         </row>
                                     </row>
-                                    <row id="53" col0="add&lt;1, 2&gt;" col1="ac_int.h:1482" col2="63" col3="">
-                                        <row id="152" col0="iv_add&lt;2, 1, 2&gt;" col1="ac_int.h:640" col2="55" col3="">
-                                            <row id="33" col0="iv_uadd_n&lt;0&gt;" col1="ac_int.h:620" col2="1" col3=""/>
-                                            <row id="1" col0="iv_add_int_carry&lt;2&gt;" col1="ac_int.h:578" col2="42" col3=""/>
-                                            <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
-                                        </row>
-                                    </row>
-                                </row>
-                            </row>
-                            <row id="160" col0="ac_int&lt;34, true&gt;" col1="ac_int.h:2017" col2="68" col2_disp="   68 (2 calls)" col3="">
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                </row>
-                                <row id="153" col0="iv&lt;2&gt;" col1="ac_int.h:1423" col2="22" col3="">
-                                    <row id="65" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="5" col3=""/>
-                                    <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="16" col2_disp="   16 (2 calls)" col3=""/>
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                </row>
-                            </row>
-                            <row id="156" col0="operator+&lt;21, true&gt;" col1="ac_int.h:2138" col2="76" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                    </row>
-                                </row>
-                                <row id="53" col0="add&lt;1, 2&gt;" col1="ac_int.h:1482" col2="63" col3="">
-                                    <row id="152" col0="iv_add&lt;2, 1, 2&gt;" col1="ac_int.h:640" col2="55" col3="">
-                                        <row id="33" col0="iv_uadd_n&lt;0&gt;" col1="ac_int.h:620" col2="1" col3=""/>
-                                        <row id="1" col0="iv_add_int_carry&lt;2&gt;" col1="ac_int.h:578" col2="42" col3=""/>
-                                        <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
-                                    </row>
-                                </row>
-                            </row>
-                            <row id="138" col0="ac_int&lt;12, true&gt;" col1="ac_int.h:2017" col2="92" col2_disp="   92 (4 calls)" col3="">
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="16" col2_disp="   16 (4 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="4" col2_disp="    4 (4 calls)" col3=""/>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="44" col2_disp="   44 (4 calls)" col3=""/>
-                            </row>
-                            <row id="101" col0="ac_int&lt;13, true&gt;" col1="ac_int.h:2017" col2="23" col3="">
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
-                            </row>
-                            <row id="150" col0="operator==&lt;5, false&gt;" col1="ac_int.h:2956" col2="35" col3="">
-                                <row id="115" col0="ac_int" col1="ac_int.h:2805" col2="11" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                    </row>
-                                </row>
-                                <row id="32" col0="operator==&lt;32, true&gt;" col1="ac_int.h:2411" col2="16" col3="">
-                                    <row id="120" col0="equal&lt;1&gt;" col1="ac_int.h:1514" col2="12" col3="">
-                                        <row id="21" col0="iv_equal&lt;1, 1&gt;" col1="ac_int.h:317" col2="6" col3=""/>
-                                    </row>
-                                </row>
-                            </row>
-                        </row>
-                        <row id="51" col0="execute" col1="core.cpp:206" col2="4784" col3="737">
-                            <row id="121" col0="operator unsigned long long" col1="ac_int.h:1597" col2="40" col2_disp="   40 (5 calls)" col3="">
-                                <row id="91" col0="to_uint64" col1="ac_int.h:1555" col2="25" col2_disp="   25 (5 calls)" col3=""/>
-                            </row>
-                            <row id="4" col0="operator+&lt;32, true&gt;" col1="ac_int.h:2138" col2="304" col2_disp="  304 (7 calls)" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="49" col2_disp="   49 (7 calls)" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="28" col2_disp="   28 (7 calls)" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="7" col2_disp="    7 (7 calls)" col3=""/>
-                                    </row>
-                                </row>
-                                <row id="53" col0="add&lt;1, 2&gt;" col1="ac_int.h:1482" col2="213" col2_disp="  213 (7 calls)" col3="">
-                                    <row id="95" col0="iv_add&lt;1, 1, 2&gt;" col1="ac_int.h:661" col2="102" col2_disp="  102 (6 calls)" col3="">
-                                        <row id="81" col0="iv_assign_int64&lt;2&gt;" col1="ac_int.h:442" col2="48" col2_disp="   48 (6 calls)" col3=""/>
-                                    </row>
-                                    <row id="152" col0="iv_add&lt;2, 1, 2&gt;" col1="ac_int.h:640" col2="55" col3="">
-                                        <row id="33" col0="iv_uadd_n&lt;0&gt;" col1="ac_int.h:620" col2="1" col3=""/>
-                                        <row id="1" col0="iv_add_int_carry&lt;2&gt;" col1="ac_int.h:578" col2="42" col3=""/>
-                                        <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
-                                    </row>
-                                </row>
-                            </row>
-                            <row id="7" col0="ac_int&lt;33, true&gt;" col1="ac_int.h:2017" col2="425" col2_disp="  425 (9 calls)" col3="">
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="32" col2_disp="   32 (8 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="8" col2_disp="    8 (8 calls)" col3=""/>
-                                </row>
-                                <row id="153" col0="iv&lt;2&gt;" col1="ac_int.h:1423" col2="176" col2_disp="  176 (8 calls)" col3="">
-                                    <row id="65" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="40" col2_disp="   40 (8 calls)" col3=""/>
-                                    <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="8" col2_disp="    8 (8 calls)" col3=""/>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="93" col2_disp="   93 (9 calls)" col3=""/>
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                </row>
-                            </row>
-                            <row id="97" col0="operator+&lt;32, false&gt;" col1="ac_int.h:2956" col2="95" col3="">
-                                <row id="115" col0="ac_int" col1="ac_int.h:2805" col2="11" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                    </row>
-                                </row>
-                                <row id="4" col0="operator+&lt;32, true&gt;" col1="ac_int.h:2138" col2="76" col3="">
-                                    <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                                        <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                            <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                        </row>
-                                    </row>
-                                    <row id="53" col0="add&lt;1, 2&gt;" col1="ac_int.h:1482" col2="63" col3="">
-                                        <row id="152" col0="iv_add&lt;2, 1, 2&gt;" col1="ac_int.h:640" col2="55" col3="">
-                                            <row id="33" col0="iv_uadd_n&lt;0&gt;" col1="ac_int.h:620" col2="1" col3=""/>
-                                            <row id="1" col0="iv_add_int_carry&lt;2&gt;" col1="ac_int.h:578" col2="42" col3=""/>
-                                            <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
+                                    <row id="47" col0="add&lt;1, 2&gt;" col1="ac_int.h:1482" col2="63" col3="">
+                                        <row id="21" col0="iv_add&lt;2, 1, 2&gt;" col1="ac_int.h:640" col2="55" col3="">
+                                            <row id="148" col0="iv_uadd_n&lt;0&gt;" col1="ac_int.h:620" col2="1" col3=""/>
+                                            <row id="128" col0="iv_add_int_carry&lt;2&gt;" col1="ac_int.h:578" col2="42" col3=""/>
+                                            <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
                                         </row>
                                     </row>
                                 </row>
                             </row>
-                            <row id="160" col0="ac_int&lt;34, true&gt;" col1="ac_int.h:2017" col2="68" col2_disp="   68 (2 calls)" col3="">
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            <row id="26" col0="ac_int&lt;34, true&gt;" col1="ac_int.h:2017" col2="68" col2_disp="   68 (2 calls)" col3="">
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                 </row>
-                                <row id="153" col0="iv&lt;2&gt;" col1="ac_int.h:1423" col2="22" col3="">
-                                    <row id="65" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="5" col3=""/>
-                                    <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
+                                <row id="27" col0="iv&lt;2&gt;" col1="ac_int.h:1423" col2="22" col3="">
+                                    <row id="75" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="5" col3=""/>
+                                    <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
                                 </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="16" col2_disp="   16 (2 calls)" col3=""/>
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                </row>
-                            </row>
-                            <row id="32" col0="operator==&lt;32, true&gt;" col1="ac_int.h:2411" col2="16" col3="">
-                                <row id="120" col0="equal&lt;1&gt;" col1="ac_int.h:1514" col2="12" col3="">
-                                    <row id="21" col0="iv_equal&lt;1, 1&gt;" col1="ac_int.h:317" col2="6" col3=""/>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="16" col2_disp="   16 (2 calls)" col3=""/>
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                 </row>
                             </row>
-                            <row id="62" col0="operator!=&lt;32, true&gt;" col1="ac_int.h:2412" col2="17" col3="">
-                                <row id="120" col0="equal&lt;1&gt;" col1="ac_int.h:1514" col2="12" col3="">
-                                    <row id="21" col0="iv_equal&lt;1, 1&gt;" col1="ac_int.h:317" col2="6" col3=""/>
-                                </row>
-                            </row>
-                            <row id="100" col0="operator&lt;&lt;32, true&gt;" col1="ac_int.h:2413" col2="48" col2_disp="   48 (3 calls)" col3="">
-                                <row id="110" col0="less_than&lt;1&gt;" col1="ac_int.h:1516" col2="36" col2_disp="   36 (3 calls)" col3="">
-                                    <row id="133" col0="iv_compare&lt;1, 1, false&gt;" col1="ac_int.h:407" col2="18" col2_disp="   18 (3 calls)" col3=""/>
-                                </row>
-                            </row>
-                            <row id="22" col0="operator&gt;=&lt;32, true&gt;" col1="ac_int.h:2414" col2="17" col3="">
-                                <row id="110" col0="less_than&lt;1&gt;" col1="ac_int.h:1516" col2="12" col3="">
-                                    <row id="133" col0="iv_compare&lt;1, 1, false&gt;" col1="ac_int.h:407" col2="6" col3=""/>
-                                </row>
-                            </row>
-                            <row id="15" col0="ac_int&lt;32, true&gt;" col1="ac_int.h:2017" col2="656" col2_disp="  656 (16 calls)" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="64" col2_disp="   64 (16 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="16" col2_disp="   16 (16 calls)" col3=""/>
-                                </row>
-                                <row id="155" col0="iv&lt;1&gt;" col1="ac_int.h:1423" col2="288" col2_disp="  288 (12 calls)" col3="">
-                                    <row id="65" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="60" col2_disp="   60 (12 calls)" col3=""/>
-                                    <row id="111" col0="iv_extend&lt;1&gt;" col1="ac_int.h:420" col2="36" col2_disp="   36 (12 calls)" col3=""/>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="104" col2_disp="  104 (16 calls)" col3=""/>
-                            </row>
-                            <row id="127" col0="operator&lt;&lt;32, false&gt;" col1="ac_int.h:2413" col2="261" col2_disp="  261 (3 calls)" col3="">
-                                <row id="105" col0="less_than&lt;2&gt;" col1="ac_int.h:1516" col2="249" col2_disp="  249 (3 calls)" col3="">
-                                    <row id="48" col0="iv_compare&lt;2, 2, false&gt;" col1="ac_int.h:382" col2="231" col2_disp="  231 (3 calls)" col3=""/>
-                                </row>
-                            </row>
-                            <row id="39" col0="operator&gt;=&lt;32, false&gt;" col1="ac_int.h:2414" col2="88" col3="">
-                                <row id="105" col0="less_than&lt;2&gt;" col1="ac_int.h:1516" col2="83" col3="">
-                                    <row id="48" col0="iv_compare&lt;2, 2, false&gt;" col1="ac_int.h:382" col2="77" col3=""/>
-                                </row>
-                            </row>
-                            <row id="123" col0="ac_int" col1="ac_int.h:2023" col2="136" col2_disp="  136 (4 calls)" col3="">
-                                <row id="132" col0="iv_conv&lt;bool&gt;" col1="ac_int.h:1610" col2="68" col2_disp="   68 (4 calls)" col3="">
-                                    <row id="148" col0="iv" col1="ac_int.h:1431" col2="48" col2_disp="   48 (4 calls)" col3="">
-                                        <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="4" col2_disp="    4 (4 calls)" col3=""/>
+                            <row id="106" col0="operator+&lt;21, true&gt;" col1="ac_int.h:2138" col2="76" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                     </row>
                                 </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="44" col2_disp="   44 (4 calls)" col3=""/>
-                            </row>
-                            <row id="19" col0="operator^&lt;32, true&gt;" col1="ac_int.h:2317" col2="168" col2_disp="  168 (2 calls)" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                    </row>
-                                </row>
-                                <row id="20" col0="bitwise_xor&lt;1, 1&gt;" col1="ac_int.h:1510" col2="142" col2_disp="  142 (2 calls)" col3="">
-                                    <row id="145" col0="iv_bitwise_xor&lt;1, 1, 1&gt;" col1="ac_int.h:1090" col2="126" col2_disp="  126 (2 calls)" col3="">
-                                        <row id="137" col0="iv_bitwise_xor_n&lt;1&gt;" col1="ac_int.h:1080" col2="16" col2_disp="   16 (2 calls)" col3=""/>
-                                        <row id="9" col0="iv_bitwise_complement_n&lt;0&gt;" col1="ac_int.h:993" col2="34" col2_disp="   34 (2 calls)" col3=""/>
-                                        <row id="36" col0="iv_copy&lt;0&gt;" col1="ac_int.h:247" col2="32" col2_disp="   32 (2 calls)" col3=""/>
-                                        <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                <row id="47" col0="add&lt;1, 2&gt;" col1="ac_int.h:1482" col2="63" col3="">
+                                    <row id="21" col0="iv_add&lt;2, 1, 2&gt;" col1="ac_int.h:640" col2="55" col3="">
+                                        <row id="148" col0="iv_uadd_n&lt;0&gt;" col1="ac_int.h:620" col2="1" col3=""/>
+                                        <row id="128" col0="iv_add_int_carry&lt;2&gt;" col1="ac_int.h:578" col2="42" col3=""/>
+                                        <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
                                     </row>
                                 </row>
                             </row>
-                            <row id="116" col0="operator|&lt;32, true&gt;" col1="ac_int.h:2311" col2="268" col2_disp="  268 (4 calls)" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="28" col2_disp="   28 (4 calls)" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="16" col2_disp="   16 (4 calls)" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="4" col2_disp="    4 (4 calls)" col3=""/>
-                                    </row>
+                            <row id="105" col0="ac_int&lt;12, true&gt;" col1="ac_int.h:2017" col2="92" col2_disp="   92 (4 calls)" col3="">
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="16" col2_disp="   16 (4 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="4" col2_disp="    4 (4 calls)" col3=""/>
                                 </row>
-                                <row id="126" col0="bitwise_or&lt;1, 1&gt;" col1="ac_int.h:1506" col2="216" col2_disp="  216 (4 calls)" col3="">
-                                    <row id="118" col0="iv_bitwise_or&lt;1, 1, 1&gt;" col1="ac_int.h:1060" col2="184" col2_disp="  184 (4 calls)" col3="">
-                                        <row id="46" col0="iv_bitwise_or_n&lt;1&gt;" col1="ac_int.h:1050" col2="32" col2_disp="   32 (4 calls)" col3=""/>
-                                        <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="8" col2_disp="    8 (8 calls)" col3=""/>
-                                        <row id="36" col0="iv_copy&lt;0&gt;" col1="ac_int.h:247" col2="64" col2_disp="   64 (4 calls)" col3=""/>
-                                    </row>
-                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="44" col2_disp="   44 (4 calls)" col3=""/>
                             </row>
-                            <row id="60" col0="operator&amp;&lt;32, true&gt;" col1="ac_int.h:2305" col2="134" col2_disp="  134 (2 calls)" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                    </row>
+                            <row id="111" col0="ac_int&lt;13, true&gt;" col1="ac_int.h:2017" col2="23" col3="">
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                 </row>
-                                <row id="147" col0="bitwise_and&lt;1, 1&gt;" col1="ac_int.h:1502" col2="108" col2_disp="  108 (2 calls)" col3="">
-                                    <row id="112" col0="iv_bitwise_and&lt;1, 1, 1&gt;" col1="ac_int.h:1030" col2="92" col2_disp="   92 (2 calls)" col3="">
-                                        <row id="114" col0="iv_bitwise_and_n&lt;1&gt;" col1="ac_int.h:1020" col2="16" col2_disp="   16 (2 calls)" col3=""/>
-                                        <row id="36" col0="iv_copy&lt;0&gt;" col1="ac_int.h:247" col2="32" col2_disp="   32 (2 calls)" col3=""/>
-                                        <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="4" col2_disp="    4 (4 calls)" col3=""/>
-                                    </row>
-                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
                             </row>
-                            <row id="107" col0="operator&lt;&lt;&lt;5&gt;" col1="ac_int.h:2356" col2="200" col2_disp="  200 (2 calls)" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                            <row id="107" col0="operator==&lt;5, false&gt;" col1="ac_int.h:2956" col2="35" col3="">
+                                <row id="4" col0="ac_int" col1="ac_int.h:2805" col2="11" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
                                     </row>
                                 </row>
-                                <row id="85" col0="to_uint" col1="ac_int.h:2082" col2="10" col2_disp="   10 (2 calls)" col3=""/>
-                                <row id="143" col0="shift_l&lt;1&gt;" col1="ac_int.h:1495" col2="140" col2_disp="  140 (2 calls)" col3="">
-                                    <row id="89" col0="iv_shift_l&lt;1, 1&gt;" col1="ac_int.h:1105" col2="128" col2_disp="  128 (2 calls)" col3="">
-                                        <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                    </row>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="22" col2_disp="   22 (2 calls)" col3=""/>
-                            </row>
-                            <row id="88" col0="operator[]" col1="ac_int.h:2525" col2="92" col2_disp="   92 (4 calls)" col3="">
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="8" col2_disp="    8 (8 calls)" col3=""/>
-                            </row>
-                            <row id="61" col0="slc&lt;5&gt;" col1="ac_int.h:2429" col2="226" col2_disp="  226 (2 calls)" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                    </row>
-                                </row>
-                                <row id="134" col0="ac_assert" col1="ac_int.h:173" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                <row id="31" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="170" col2_disp="  170 (2 calls)" col3="">
-                                    <row id="131" col0="iv_shift_r&lt;1, 1&gt;" col1="ac_int.h:1123" col2="158" col2_disp="  158 (2 calls)" col3=""/>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="22" col2_disp="   22 (2 calls)" col3=""/>
-                            </row>
-                            <row id="28" col0="ac_int&lt;5, true&gt;" col1="ac_int.h:2017" col2="46" col2_disp="   46 (2 calls)" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="22" col2_disp="   22 (2 calls)" col3=""/>
-                            </row>
-                            <row id="71" col0="operator&gt;&gt;&lt;5&gt;" col1="ac_int.h:2370" col2="448" col2_disp="  448 (4 calls)" col3="116" col3_disp=" 116 (2 calls)">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="28" col2_disp="   28 (4 calls)" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                    </row>
-                                    <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                    </row>
-                                </row>
-                                <row id="85" col0="to_uint" col1="ac_int.h:2082" col2="20" col2_disp="   20 (4 calls)" col3=""/>
-                                <row id="31" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="170" col2_disp="  170 (2 calls)" col3="">
-                                    <row id="131" col0="iv_shift_r&lt;1, 1&gt;" col1="ac_int.h:1123" col2="158" col2_disp="  158 (2 calls)" col3=""/>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="32" col2_disp="   32 (4 calls)" col3=""/>
-                                <row id="161" col0="shift_r&lt;2&gt;" col1="ac_int.h:1497" col2="170" col2_disp="  170 (2 calls)" col3="">
-                                    <row id="149" col0="iv_shift_r&lt;2, 2&gt;" col1="ac_int.h:1123" col2="158" col2_disp="  158 (2 calls)" col3=""/>
-                                </row>
-                            </row>
-                            <row id="5" col0="ac_int&lt;32, false&gt;" col1="ac_int.h:2017" col2="102" col2_disp="  102 (2 calls)" col3="">
-                                <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                </row>
-                                <row id="153" col0="iv&lt;2&gt;" col1="ac_int.h:1423" col2="44" col2_disp="   44 (2 calls)" col3="">
-                                    <row id="65" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="10" col2_disp="   10 (2 calls)" col3=""/>
-                                    <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="22" col2_disp="   22 (2 calls)" col3=""/>
-                            </row>
-                            <row id="64" col0="operator-&lt;32, true&gt;" col1="ac_int.h:2144" col2="38" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                    </row>
-                                </row>
-                                <row id="40" col0="sub&lt;1, 2&gt;" col1="ac_int.h:1483" col2="25" col3="">
-                                    <row id="140" col0="iv_sub&lt;1, 1, 2&gt;" col1="ac_int.h:773" col2="17" col3="">
-                                        <row id="81" col0="iv_assign_int64&lt;2&gt;" col1="ac_int.h:442" col2="8" col3=""/>
-                                    </row>
-                                </row>
-                            </row>
-                            <row id="72" col0="operator~" col1="ac_int.h:2290" col2="68" col2_disp="   68 (2 calls)" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                    </row>
-                                </row>
-                                <row id="119" col0="bitwise_complement&lt;1&gt;" col1="ac_int.h:1501" col2="44" col2_disp="   44 (2 calls)" col3="">
-                                    <row id="157" col0="iv_bitwise_complement&lt;1, 1&gt;" col1="ac_int.h:1008" col2="32" col2_disp="   32 (2 calls)" col3="">
-                                        <row id="104" col0="iv_bitwise_complement_n&lt;1&gt;" col1="ac_int.h:998" col2="12" col2_disp="   12 (2 calls)" col3=""/>
-                                        <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                    </row>
-                                </row>
-                            </row>
-                            <row id="55" col0="operator&amp;&lt;32, false&gt;" col1="ac_int.h:2305" col2="116" col2_disp="  116 (2 calls)" col3="">
-                                <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                    </row>
-                                </row>
-                                <row id="68" col0="bitwise_and&lt;2, 2&gt;" col1="ac_int.h:1502" col2="90" col2_disp="   90 (2 calls)" col3="">
-                                    <row id="146" col0="iv_bitwise_and&lt;1, 2, 2&gt;" col1="ac_int.h:1030" col2="74" col2_disp="   74 (2 calls)" col3="">
-                                        <row id="114" col0="iv_bitwise_and_n&lt;1&gt;" col1="ac_int.h:1020" col2="16" col2_disp="   16 (2 calls)" col3=""/>
-                                        <row id="65" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="10" col2_disp="   10 (2 calls)" col3=""/>
-                                        <row id="111" col0="iv_extend&lt;1&gt;" col1="ac_int.h:420" col2="6" col2_disp="    6 (2 calls)" col3=""/>
-                                        <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                <row id="18" col0="operator==&lt;32, true&gt;" col1="ac_int.h:2411" col2="16" col3="">
+                                    <row id="94" col0="equal&lt;1&gt;" col1="ac_int.h:1514" col2="12" col3="">
+                                        <row id="25" col0="iv_equal&lt;1, 1&gt;" col1="ac_int.h:317" col2="6" col3=""/>
                                     </row>
                                 </row>
                             </row>
                         </row>
-                        <row id="125" col0="memory" col1="core.cpp:393" col2="212" col3="">
-                            <row id="15" col0="ac_int&lt;32, true&gt;" col1="ac_int.h:2017" col2="94" col2_disp="   94 (2 calls)" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
-                                </row>
-                                <row id="155" col0="iv&lt;1&gt;" col1="ac_int.h:1423" col2="48" col2_disp="   48 (2 calls)" col3="">
-                                    <row id="65" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="10" col2_disp="   10 (2 calls)" col3=""/>
-                                    <row id="111" col0="iv_extend&lt;1&gt;" col1="ac_int.h:420" col2="6" col2_disp="    6 (2 calls)" col3=""/>
-                                </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="10" col2_disp="   10 (2 calls)" col3=""/>
+                        <row id="52" col0="execute" col1="core.cpp:206" col2="4784" col3="737">
+                            <row id="42" col0="operator unsigned long long" col1="ac_int.h:1597" col2="40" col2_disp="   40 (5 calls)" col3="">
+                                <row id="82" col0="to_uint64" col1="ac_int.h:1555" col2="25" col2_disp="   25 (5 calls)" col3=""/>
                             </row>
-                            <row id="14" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
-                                <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                    <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
-                                </row>
-                            </row>
-                            <row id="121" col0="operator unsigned long long" col1="ac_int.h:1597" col2="8" col3="">
-                                <row id="91" col0="to_uint64" col1="ac_int.h:1555" col2="5" col3=""/>
-                            </row>
-                            <row id="43" col0="ac_int" col1="ac_int.h:2029" col2="33" col3="">
-                                <row id="136" col0="iv_conv&lt;int&gt;" col1="ac_int.h:1601" col2="16" col3="">
-                                    <row id="148" col0="iv" col1="ac_int.h:1431" col2="12" col3="">
-                                        <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
+                            <row id="118" col0="operator+&lt;32, true&gt;" col1="ac_int.h:2138" col2="304" col2_disp="  304 (7 calls)" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="49" col2_disp="   49 (7 calls)" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="28" col2_disp="   28 (7 calls)" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="7" col2_disp="    7 (7 calls)" col3=""/>
                                     </row>
                                 </row>
-                                <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
-                            </row>
-                        </row>
-                        <row id="135" col0="writeback" col1="core.cpp:423" col2="61" col3="">
-                            <row id="122" col0="operator!=&lt;5, false&gt;" col1="ac_int.h:2956" col2="36" col3="">
-                                <row id="115" col0="ac_int" col1="ac_int.h:2805" col2="11" col3="">
-                                    <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
-                                        <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                <row id="47" col0="add&lt;1, 2&gt;" col1="ac_int.h:1482" col2="213" col2_disp="  213 (7 calls)" col3="">
+                                    <row id="119" col0="iv_add&lt;1, 1, 2&gt;" col1="ac_int.h:661" col2="102" col2_disp="  102 (6 calls)" col3="">
+                                        <row id="153" col0="iv_assign_int64&lt;2&gt;" col1="ac_int.h:442" col2="48" col2_disp="   48 (6 calls)" col3=""/>
                                     </row>
-                                </row>
-                                <row id="62" col0="operator!=&lt;32, true&gt;" col1="ac_int.h:2412" col2="17" col3="">
-                                    <row id="120" col0="equal&lt;1&gt;" col1="ac_int.h:1514" col2="12" col3="">
-                                        <row id="21" col0="iv_equal&lt;1, 1&gt;" col1="ac_int.h:317" col2="6" col3=""/>
+                                    <row id="21" col0="iv_add&lt;2, 1, 2&gt;" col1="ac_int.h:640" col2="55" col3="">
+                                        <row id="148" col0="iv_uadd_n&lt;0&gt;" col1="ac_int.h:620" col2="1" col3=""/>
+                                        <row id="128" col0="iv_add_int_carry&lt;2&gt;" col1="ac_int.h:578" col2="42" col3=""/>
+                                        <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
                                     </row>
                                 </row>
                             </row>
-                        </row>
-                        <row id="49" col0="forwardUnit" col1="core.cpp:452" col2="232" col3="112">
-                            <row id="93" col0="operator==&lt;5, false&gt;" col1="ac_int.h:2411" col2="144" col2_disp="  144 (9 calls)" col3="">
-                                <row id="120" col0="equal&lt;1&gt;" col1="ac_int.h:1514" col2="108" col2_disp="  108 (9 calls)" col3="">
-                                    <row id="21" col0="iv_equal&lt;1, 1&gt;" col1="ac_int.h:317" col2="54" col2_disp="   54 (9 calls)" col3=""/>
+                            <row id="61" col0="ac_int&lt;33, true&gt;" col1="ac_int.h:2017" col2="425" col2_disp="  425 (9 calls)" col3="">
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="32" col2_disp="   32 (8 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="8" col2_disp="    8 (8 calls)" col3=""/>
+                                </row>
+                                <row id="27" col0="iv&lt;2&gt;" col1="ac_int.h:1423" col2="176" col2_disp="  176 (8 calls)" col3="">
+                                    <row id="75" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="40" col2_disp="   40 (8 calls)" col3=""/>
+                                    <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="8" col2_disp="    8 (8 calls)" col3=""/>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="93" col2_disp="   93 (9 calls)" col3=""/>
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                </row>
+                            </row>
+                            <row id="20" col0="operator+&lt;32, false&gt;" col1="ac_int.h:2956" col2="95" col3="">
+                                <row id="4" col0="ac_int" col1="ac_int.h:2805" col2="11" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="118" col0="operator+&lt;32, true&gt;" col1="ac_int.h:2138" col2="76" col3="">
+                                    <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                                        <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                            <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                        </row>
+                                    </row>
+                                    <row id="47" col0="add&lt;1, 2&gt;" col1="ac_int.h:1482" col2="63" col3="">
+                                        <row id="21" col0="iv_add&lt;2, 1, 2&gt;" col1="ac_int.h:640" col2="55" col3="">
+                                            <row id="148" col0="iv_uadd_n&lt;0&gt;" col1="ac_int.h:620" col2="1" col3=""/>
+                                            <row id="128" col0="iv_add_int_carry&lt;2&gt;" col1="ac_int.h:578" col2="42" col3=""/>
+                                            <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
+                                        </row>
+                                    </row>
+                                </row>
+                            </row>
+                            <row id="26" col0="ac_int&lt;34, true&gt;" col1="ac_int.h:2017" col2="68" col2_disp="   68 (2 calls)" col3="">
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                </row>
+                                <row id="27" col0="iv&lt;2&gt;" col1="ac_int.h:1423" col2="22" col3="">
+                                    <row id="75" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="5" col3=""/>
+                                    <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="16" col2_disp="   16 (2 calls)" col3=""/>
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                </row>
+                            </row>
+                            <row id="18" col0="operator==&lt;32, true&gt;" col1="ac_int.h:2411" col2="16" col3="">
+                                <row id="94" col0="equal&lt;1&gt;" col1="ac_int.h:1514" col2="12" col3="">
+                                    <row id="25" col0="iv_equal&lt;1, 1&gt;" col1="ac_int.h:317" col2="6" col3=""/>
+                                </row>
+                            </row>
+                            <row id="135" col0="operator!=&lt;32, true&gt;" col1="ac_int.h:2412" col2="17" col3="">
+                                <row id="94" col0="equal&lt;1&gt;" col1="ac_int.h:1514" col2="12" col3="">
+                                    <row id="25" col0="iv_equal&lt;1, 1&gt;" col1="ac_int.h:317" col2="6" col3=""/>
+                                </row>
+                            </row>
+                            <row id="144" col0="operator&lt;&lt;32, true&gt;" col1="ac_int.h:2413" col2="48" col2_disp="   48 (3 calls)" col3="">
+                                <row id="120" col0="less_than&lt;1&gt;" col1="ac_int.h:1516" col2="36" col2_disp="   36 (3 calls)" col3="">
+                                    <row id="37" col0="iv_compare&lt;1, 1, false&gt;" col1="ac_int.h:407" col2="18" col2_disp="   18 (3 calls)" col3=""/>
+                                </row>
+                            </row>
+                            <row id="38" col0="operator&gt;=&lt;32, true&gt;" col1="ac_int.h:2414" col2="17" col3="">
+                                <row id="120" col0="less_than&lt;1&gt;" col1="ac_int.h:1516" col2="12" col3="">
+                                    <row id="37" col0="iv_compare&lt;1, 1, false&gt;" col1="ac_int.h:407" col2="6" col3=""/>
+                                </row>
+                            </row>
+                            <row id="24" col0="ac_int&lt;32, true&gt;" col1="ac_int.h:2017" col2="656" col2_disp="  656 (16 calls)" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="64" col2_disp="   64 (16 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="16" col2_disp="   16 (16 calls)" col3=""/>
+                                </row>
+                                <row id="150" col0="iv&lt;1&gt;" col1="ac_int.h:1423" col2="288" col2_disp="  288 (12 calls)" col3="">
+                                    <row id="75" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="60" col2_disp="   60 (12 calls)" col3=""/>
+                                    <row id="102" col0="iv_extend&lt;1&gt;" col1="ac_int.h:420" col2="36" col2_disp="   36 (12 calls)" col3=""/>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="104" col2_disp="  104 (16 calls)" col3=""/>
+                            </row>
+                            <row id="66" col0="operator&lt;&lt;32, false&gt;" col1="ac_int.h:2413" col2="261" col2_disp="  261 (3 calls)" col3="">
+                                <row id="31" col0="less_than&lt;2&gt;" col1="ac_int.h:1516" col2="249" col2_disp="  249 (3 calls)" col3="">
+                                    <row id="108" col0="iv_compare&lt;2, 2, false&gt;" col1="ac_int.h:382" col2="231" col2_disp="  231 (3 calls)" col3=""/>
+                                </row>
+                            </row>
+                            <row id="73" col0="operator&gt;=&lt;32, false&gt;" col1="ac_int.h:2414" col2="88" col3="">
+                                <row id="31" col0="less_than&lt;2&gt;" col1="ac_int.h:1516" col2="83" col3="">
+                                    <row id="108" col0="iv_compare&lt;2, 2, false&gt;" col1="ac_int.h:382" col2="77" col3=""/>
+                                </row>
+                            </row>
+                            <row id="28" col0="ac_int" col1="ac_int.h:2023" col2="136" col2_disp="  136 (4 calls)" col3="">
+                                <row id="60" col0="iv_conv&lt;bool&gt;" col1="ac_int.h:1610" col2="68" col2_disp="   68 (4 calls)" col3="">
+                                    <row id="154" col0="iv" col1="ac_int.h:1431" col2="48" col2_disp="   48 (4 calls)" col3="">
+                                        <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="4" col2_disp="    4 (4 calls)" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="44" col2_disp="   44 (4 calls)" col3=""/>
+                            </row>
+                            <row id="140" col0="operator^&lt;32, true&gt;" col1="ac_int.h:2317" col2="168" col2_disp="  168 (2 calls)" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="65" col0="bitwise_xor&lt;1, 1&gt;" col1="ac_int.h:1510" col2="142" col2_disp="  142 (2 calls)" col3="">
+                                    <row id="41" col0="iv_bitwise_xor&lt;1, 1, 1&gt;" col1="ac_int.h:1090" col2="126" col2_disp="  126 (2 calls)" col3="">
+                                        <row id="157" col0="iv_bitwise_xor_n&lt;1&gt;" col1="ac_int.h:1080" col2="16" col2_disp="   16 (2 calls)" col3=""/>
+                                        <row id="50" col0="iv_bitwise_complement_n&lt;0&gt;" col1="ac_int.h:993" col2="34" col2_disp="   34 (2 calls)" col3=""/>
+                                        <row id="97" col0="iv_copy&lt;0&gt;" col1="ac_int.h:247" col2="32" col2_disp="   32 (2 calls)" col3=""/>
+                                        <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                    </row>
+                                </row>
+                            </row>
+                            <row id="85" col0="operator|&lt;32, true&gt;" col1="ac_int.h:2311" col2="268" col2_disp="  268 (4 calls)" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="28" col2_disp="   28 (4 calls)" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="16" col2_disp="   16 (4 calls)" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="4" col2_disp="    4 (4 calls)" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="39" col0="bitwise_or&lt;1, 1&gt;" col1="ac_int.h:1506" col2="216" col2_disp="  216 (4 calls)" col3="">
+                                    <row id="101" col0="iv_bitwise_or&lt;1, 1, 1&gt;" col1="ac_int.h:1060" col2="184" col2_disp="  184 (4 calls)" col3="">
+                                        <row id="113" col0="iv_bitwise_or_n&lt;1&gt;" col1="ac_int.h:1050" col2="32" col2_disp="   32 (4 calls)" col3=""/>
+                                        <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="8" col2_disp="    8 (8 calls)" col3=""/>
+                                        <row id="97" col0="iv_copy&lt;0&gt;" col1="ac_int.h:247" col2="64" col2_disp="   64 (4 calls)" col3=""/>
+                                    </row>
+                                </row>
+                            </row>
+                            <row id="133" col0="operator&amp;&lt;32, true&gt;" col1="ac_int.h:2305" col2="134" col2_disp="  134 (2 calls)" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="10" col0="bitwise_and&lt;1, 1&gt;" col1="ac_int.h:1502" col2="108" col2_disp="  108 (2 calls)" col3="">
+                                    <row id="100" col0="iv_bitwise_and&lt;1, 1, 1&gt;" col1="ac_int.h:1030" col2="92" col2_disp="   92 (2 calls)" col3="">
+                                        <row id="34" col0="iv_bitwise_and_n&lt;1&gt;" col1="ac_int.h:1020" col2="16" col2_disp="   16 (2 calls)" col3=""/>
+                                        <row id="97" col0="iv_copy&lt;0&gt;" col1="ac_int.h:247" col2="32" col2_disp="   32 (2 calls)" col3=""/>
+                                        <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="4" col2_disp="    4 (4 calls)" col3=""/>
+                                    </row>
+                                </row>
+                            </row>
+                            <row id="22" col0="operator&lt;&lt;&lt;5&gt;" col1="ac_int.h:2356" col2="200" col2_disp="  200 (2 calls)" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="71" col0="to_uint" col1="ac_int.h:2082" col2="10" col2_disp="   10 (2 calls)" col3=""/>
+                                <row id="126" col0="shift_l&lt;1&gt;" col1="ac_int.h:1495" col2="140" col2_disp="  140 (2 calls)" col3="">
+                                    <row id="146" col0="iv_shift_l&lt;1, 1&gt;" col1="ac_int.h:1105" col2="128" col2_disp="  128 (2 calls)" col3="">
+                                        <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="22" col2_disp="   22 (2 calls)" col3=""/>
+                            </row>
+                            <row id="57" col0="operator[]" col1="ac_int.h:2525" col2="92" col2_disp="   92 (4 calls)" col3="">
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="8" col2_disp="    8 (8 calls)" col3=""/>
+                            </row>
+                            <row id="46" col0="slc&lt;5&gt;" col1="ac_int.h:2429" col2="226" col2_disp="  226 (2 calls)" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="147" col0="ac_assert" col1="ac_int.h:173" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                <row id="104" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="170" col2_disp="  170 (2 calls)" col3="">
+                                    <row id="162" col0="iv_shift_r&lt;1, 1&gt;" col1="ac_int.h:1123" col2="158" col2_disp="  158 (2 calls)" col3=""/>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="22" col2_disp="   22 (2 calls)" col3=""/>
+                            </row>
+                            <row id="51" col0="ac_int&lt;5, true&gt;" col1="ac_int.h:2017" col2="46" col2_disp="   46 (2 calls)" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="22" col2_disp="   22 (2 calls)" col3=""/>
+                            </row>
+                            <row id="9" col0="operator&gt;&gt;&lt;5&gt;" col1="ac_int.h:2370" col2="448" col2_disp="  448 (4 calls)" col3="116" col3_disp=" 116 (2 calls)">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="28" col2_disp="   28 (4 calls)" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                    </row>
+                                    <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="71" col0="to_uint" col1="ac_int.h:2082" col2="20" col2_disp="   20 (4 calls)" col3=""/>
+                                <row id="104" col0="shift_r&lt;1&gt;" col1="ac_int.h:1497" col2="170" col2_disp="  170 (2 calls)" col3="">
+                                    <row id="162" col0="iv_shift_r&lt;1, 1&gt;" col1="ac_int.h:1123" col2="158" col2_disp="  158 (2 calls)" col3=""/>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="32" col2_disp="   32 (4 calls)" col3=""/>
+                                <row id="130" col0="shift_r&lt;2&gt;" col1="ac_int.h:1497" col2="170" col2_disp="  170 (2 calls)" col3="">
+                                    <row id="8" col0="iv_shift_r&lt;2, 2&gt;" col1="ac_int.h:1123" col2="158" col2_disp="  158 (2 calls)" col3=""/>
+                                </row>
+                            </row>
+                            <row id="33" col0="ac_int&lt;32, false&gt;" col1="ac_int.h:2017" col2="102" col2_disp="  102 (2 calls)" col3="">
+                                <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                </row>
+                                <row id="27" col0="iv&lt;2&gt;" col1="ac_int.h:1423" col2="44" col2_disp="   44 (2 calls)" col3="">
+                                    <row id="75" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="10" col2_disp="   10 (2 calls)" col3=""/>
+                                    <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="22" col2_disp="   22 (2 calls)" col3=""/>
+                            </row>
+                            <row id="23" col0="operator-&lt;32, true&gt;" col1="ac_int.h:2144" col2="38" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="95" col0="sub&lt;1, 2&gt;" col1="ac_int.h:1483" col2="25" col3="">
+                                    <row id="160" col0="iv_sub&lt;1, 1, 2&gt;" col1="ac_int.h:773" col2="17" col3="">
+                                        <row id="153" col0="iv_assign_int64&lt;2&gt;" col1="ac_int.h:442" col2="8" col3=""/>
+                                    </row>
+                                </row>
+                            </row>
+                            <row id="92" col0="operator~" col1="ac_int.h:2290" col2="68" col2_disp="   68 (2 calls)" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="132" col0="bitwise_complement&lt;1&gt;" col1="ac_int.h:1501" col2="44" col2_disp="   44 (2 calls)" col3="">
+                                    <row id="15" col0="iv_bitwise_complement&lt;1, 1&gt;" col1="ac_int.h:1008" col2="32" col2_disp="   32 (2 calls)" col3="">
+                                        <row id="103" col0="iv_bitwise_complement_n&lt;1&gt;" col1="ac_int.h:998" col2="12" col2_disp="   12 (2 calls)" col3=""/>
+                                        <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                    </row>
+                                </row>
+                            </row>
+                            <row id="109" col0="operator&amp;&lt;32, false&gt;" col1="ac_int.h:2305" col2="116" col2_disp="  116 (2 calls)" col3="">
+                                <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="14" col2_disp="   14 (2 calls)" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="80" col0="bitwise_and&lt;2, 2&gt;" col1="ac_int.h:1502" col2="90" col2_disp="   90 (2 calls)" col3="">
+                                    <row id="44" col0="iv_bitwise_and&lt;1, 2, 2&gt;" col1="ac_int.h:1030" col2="74" col2_disp="   74 (2 calls)" col3="">
+                                        <row id="34" col0="iv_bitwise_and_n&lt;1&gt;" col1="ac_int.h:1020" col2="16" col2_disp="   16 (2 calls)" col3=""/>
+                                        <row id="75" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="10" col2_disp="   10 (2 calls)" col3=""/>
+                                        <row id="102" col0="iv_extend&lt;1&gt;" col1="ac_int.h:420" col2="6" col2_disp="    6 (2 calls)" col3=""/>
+                                        <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                    </row>
                                 </row>
                             </row>
                         </row>
-                        <row id="121" col0="operator unsigned long long" col1="ac_int.h:1597" col2="16" col2_disp="   16 (2 calls)" col3="">
-                            <row id="91" col0="to_uint64" col1="ac_int.h:1555" col2="10" col2_disp="   10 (2 calls)" col3=""/>
+                        <row id="14" col0="memory" col1="core.cpp:393" col2="212" col3="">
+                            <row id="24" col0="ac_int&lt;32, true&gt;" col1="ac_int.h:2017" col2="94" col2_disp="   94 (2 calls)" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="8" col2_disp="    8 (2 calls)" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="2" col2_disp="    2 (2 calls)" col3=""/>
+                                </row>
+                                <row id="150" col0="iv&lt;1&gt;" col1="ac_int.h:1423" col2="48" col2_disp="   48 (2 calls)" col3="">
+                                    <row id="75" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="10" col2_disp="   10 (2 calls)" col3=""/>
+                                    <row id="102" col0="iv_extend&lt;1&gt;" col1="ac_int.h:420" col2="6" col2_disp="    6 (2 calls)" col3=""/>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="10" col2_disp="   10 (2 calls)" col3=""/>
+                            </row>
+                            <row id="7" col0="ac_int" col1="ac_int.h:2011" col2="7" col3="">
+                                <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                    <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                </row>
+                            </row>
+                            <row id="42" col0="operator unsigned long long" col1="ac_int.h:1597" col2="8" col3="">
+                                <row id="82" col0="to_uint64" col1="ac_int.h:1555" col2="5" col3=""/>
+                            </row>
+                            <row id="19" col0="ac_int" col1="ac_int.h:2029" col2="33" col3="">
+                                <row id="137" col0="iv_conv&lt;int&gt;" col1="ac_int.h:1601" col2="16" col3="">
+                                    <row id="154" col0="iv" col1="ac_int.h:1431" col2="12" col3="">
+                                        <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="1" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="11" col3=""/>
+                            </row>
                         </row>
-                        <row id="15" col0="ac_int&lt;32, true&gt;" col1="ac_int.h:2017" col2="47" col3="">
-                            <row id="6" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
-                                <row id="26" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                        <row id="54" col0="writeback" col1="core.cpp:423" col2="61" col3="">
+                            <row id="29" col0="operator!=&lt;5, false&gt;" col1="ac_int.h:2956" col2="36" col3="">
+                                <row id="4" col0="ac_int" col1="ac_int.h:2805" col2="11" col3="">
+                                    <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="4" col3="">
+                                        <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                                    </row>
+                                </row>
+                                <row id="135" col0="operator!=&lt;32, true&gt;" col1="ac_int.h:2412" col2="17" col3="">
+                                    <row id="94" col0="equal&lt;1&gt;" col1="ac_int.h:1514" col2="12" col3="">
+                                        <row id="25" col0="iv_equal&lt;1, 1&gt;" col1="ac_int.h:317" col2="6" col3=""/>
+                                    </row>
+                                </row>
                             </row>
-                            <row id="155" col0="iv&lt;1&gt;" col1="ac_int.h:1423" col2="24" col3="">
-                                <row id="65" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="5" col3=""/>
-                                <row id="111" col0="iv_extend&lt;1&gt;" col1="ac_int.h:420" col2="3" col3=""/>
-                            </row>
-                            <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="5" col3=""/>
                         </row>
-                        <row id="5" col0="ac_int&lt;32, false&gt;" col1="ac_int.h:2017" col2="357" col2_disp="  357 (7 calls)" col3="">
-                            <row id="58" col0="iv_conv" col1="ac_int.h:1609" col2="28" col2_disp="   28 (7 calls)" col3="">
-                                <row id="26" col0="iv" col1="ac_int.h:1422" col2="7" col2_disp="    7 (7 calls)" col3=""/>
+                        <row id="53" col0="forwardUnit" col1="core.cpp:452" col2="232" col3="112">
+                            <row id="156" col0="operator==&lt;5, false&gt;" col1="ac_int.h:2411" col2="144" col2_disp="  144 (9 calls)" col3="">
+                                <row id="94" col0="equal&lt;1&gt;" col1="ac_int.h:1514" col2="108" col2_disp="  108 (9 calls)" col3="">
+                                    <row id="25" col0="iv_equal&lt;1, 1&gt;" col1="ac_int.h:317" col2="54" col2_disp="   54 (9 calls)" col3=""/>
+                                </row>
                             </row>
-                            <row id="153" col0="iv&lt;2&gt;" col1="ac_int.h:1423" col2="154" col2_disp="  154 (7 calls)" col3="">
-                                <row id="65" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="35" col2_disp="   35 (7 calls)" col3=""/>
-                                <row id="12" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="7" col2_disp="    7 (7 calls)" col3=""/>
-                            </row>
-                            <row id="24" col0="bit_adjust" col1="ac_int.h:1908" col2="77" col2_disp="   77 (7 calls)" col3=""/>
                         </row>
-                        <row id="23" col0="branchUnit" col1="core.cpp:433" col2="18" col3=""/>
+                        <row id="42" col0="operator unsigned long long" col1="ac_int.h:1597" col2="16" col2_disp="   16 (2 calls)" col3="">
+                            <row id="82" col0="to_uint64" col1="ac_int.h:1555" col2="10" col2_disp="   10 (2 calls)" col3=""/>
+                        </row>
+                        <row id="24" col0="ac_int&lt;32, true&gt;" col1="ac_int.h:2017" col2="47" col3="">
+                            <row id="134" col0="iv_conv" col1="ac_int.h:1600" col2="4" col3="">
+                                <row id="91" col0="iv" col1="ac_int.h:1422" col2="1" col3=""/>
+                            </row>
+                            <row id="150" col0="iv&lt;1&gt;" col1="ac_int.h:1423" col2="24" col3="">
+                                <row id="75" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="5" col3=""/>
+                                <row id="102" col0="iv_extend&lt;1&gt;" col1="ac_int.h:420" col2="3" col3=""/>
+                            </row>
+                            <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="5" col3=""/>
+                        </row>
+                        <row id="33" col0="ac_int&lt;32, false&gt;" col1="ac_int.h:2017" col2="357" col2_disp="  357 (7 calls)" col3="">
+                            <row id="16" col0="iv_conv" col1="ac_int.h:1609" col2="28" col2_disp="   28 (7 calls)" col3="">
+                                <row id="91" col0="iv" col1="ac_int.h:1422" col2="7" col2_disp="    7 (7 calls)" col3=""/>
+                            </row>
+                            <row id="27" col0="iv&lt;2&gt;" col1="ac_int.h:1423" col2="154" col2_disp="  154 (7 calls)" col3="">
+                                <row id="75" col0="iv_copy&lt;1&gt;" col1="ac_int.h:252" col2="35" col2_disp="   35 (7 calls)" col3=""/>
+                                <row id="87" col0="iv_extend&lt;0&gt;" col1="ac_int.h:419" col2="7" col2_disp="    7 (7 calls)" col3=""/>
+                            </row>
+                            <row id="12" col0="bit_adjust" col1="ac_int.h:1908" col2="77" col2_disp="   77 (7 calls)" col3=""/>
+                        </row>
+                        <row id="123" col0="branchUnit" col1="core.cpp:433" col2="18" col3=""/>
                     </row>
                 </row>
             </rows>

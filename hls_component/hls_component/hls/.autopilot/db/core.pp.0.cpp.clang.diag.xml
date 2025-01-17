@@ -1,13 +1,13 @@
 <dict>
   <key>main-file</key>
-  <string>C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/comet_to_vitis_hls/hls_component/hls_component/hls/.autopilot/db/core.pp.0.cpp</string>
+  <string>C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_component/hls/.autopilot/db/core.pp.0.cpp</string>
   <key>diagnostics</key>
   <array>
     <dict>
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>../../riscvISA_comet_to_vitis_hls/ac_int.h</string>
+      <string>../design_files/ac_int.h</string>
       <key>line</key>
       <integer>152</integer>
       <key>column</key>
@@ -23,7 +23,7 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>../../riscvISA_comet_to_vitis_hls/ac_int.h</string>
+      <string>../design_files/ac_int.h</string>
       <key>line</key>
       <integer>166</integer>
       <key>column</key>
@@ -39,7 +39,7 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>../../riscvISA_comet_to_vitis_hls/ac_int.h</string>
+      <string>../design_files/ac_int.h</string>
       <key>line</key>
       <integer>173</integer>
       <key>column</key>
@@ -55,7 +55,7 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>../../riscvISA_comet_to_vitis_hls/ac_int.h</string>
+      <string>../design_files/ac_int.h</string>
       <key>line</key>
       <integer>173</integer>
       <key>column</key>
@@ -71,7 +71,7 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>../../riscvISA_comet_to_vitis_hls/ac_int.h</string>
+      <string>../design_files/ac_int.h</string>
       <key>line</key>
       <integer>173</integer>
       <key>column</key>
@@ -87,7 +87,7 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>../../riscvISA_comet_to_vitis_hls/ac_int.h</string>
+      <string>../design_files/ac_int.h</string>
       <key>line</key>
       <integer>173</integer>
       <key>column</key>
@@ -103,7 +103,7 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>../../riscvISA_comet_to_vitis_hls/ac_int.h</string>
+      <string>../design_files/ac_int.h</string>
       <key>line</key>
       <integer>1901</integer>
       <key>column</key>
@@ -119,7 +119,7 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>../../riscvISA_comet_to_vitis_hls/ac_int.h</string>
+      <string>../design_files/ac_int.h</string>
       <key>line</key>
       <integer>2473</integer>
       <key>column</key>
@@ -135,7 +135,7 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>../../riscvISA_comet_to_vitis_hls/ac_int.h</string>
+      <string>../design_files/ac_int.h</string>
       <key>line</key>
       <integer>2868</integer>
       <key>column</key>

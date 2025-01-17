@@ -1,49 +1,19 @@
 {
   "0": {
     "basicblocks": 2,
-    "calls": "4",
+    "calls": "3",
     "file": "core.cpp",
     "fileloc": 663,
-    "instructions": 45,
+    "instructions": 55,
     "name": "doCore",
     "stores": {
       "L": 18
     },
-    "total_instructions": 4586
+    "total_instructions": 4596
   },
   "1": {
-    "basicblocks": 115,
-    "calls": "9 9",
-    "file": "core.cpp",
-    "fileloc": 206,
-    "instructions": 1604,
-    "loads": {
-      "L": 241
-    },
-    "name": "execute",
-    "stores": {
-      "L": 217
-    },
-    "total_instructions": 1726
-  },
-  "2": {
-    "basicblocks": 8,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 46,
-    "loads": {
-      "L": 5
-    },
-    "name": "slc<7>",
-    "stores": {
-      "L": 3
-    },
-    "total_instructions": 46
-  },
-  "3": {
     "basicblocks": 39,
-    "calls": "5 5",
+    "calls": "9 9",
     "file": "memoryInterface.h",
     "fileloc": 42,
     "instructions": 896,
@@ -56,67 +26,7 @@
     },
     "total_instructions": 1114
   },
-  "4": {
-    "basicblocks": 89,
-    "calls": "7 1 8",
-    "file": "core.cpp",
-    "fileloc": 506,
-    "instructions": 1283,
-    "loads": {
-      "L": 275
-    },
-    "name": "doCycle",
-    "stores": {
-      "L": 265
-    },
-    "total_instructions": 4541
-  },
-  "5": {
-    "basicblocks": 26,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1158,
-    "instructions": 109,
-    "loads": {
-      "L": 6
-    },
-    "name": "iv_shift_r2<2, 2, true>",
-    "stores": {
-      "L": 4
-    },
-    "total_instructions": 109
-  },
-  "6": {
-    "basicblocks": 8,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 46,
-    "loads": {
-      "L": 5
-    },
-    "name": "slc<5>",
-    "stores": {
-      "L": 3
-    },
-    "total_instructions": 46
-  },
-  "7": {
-    "basicblocks": 15,
-    "calls": "2 6 6 6 2 2 6",
-    "file": "core.cpp",
-    "fileloc": 29,
-    "instructions": 1098,
-    "loads": {
-      "L": 175
-    },
-    "name": "decode",
-    "stores": {
-      "L": 205
-    },
-    "total_instructions": 1420
-  },
-  "8": {
+  "2": {
     "basicblocks": 49,
     "calls": "",
     "file": "core.cpp",
@@ -131,7 +41,67 @@
     },
     "total_instructions": 112
   },
-  "9": {
+  "3": {
+    "basicblocks": 89,
+    "calls": "8 4 2",
+    "file": "core.cpp",
+    "fileloc": 506,
+    "instructions": 1283,
+    "loads": {
+      "L": 275
+    },
+    "name": "doCycle",
+    "stores": {
+      "L": 265
+    },
+    "total_instructions": 4541
+  },
+  "4": {
+    "basicblocks": 115,
+    "calls": "7 7",
+    "file": "core.cpp",
+    "fileloc": 206,
+    "instructions": 1604,
+    "loads": {
+      "L": 241
+    },
+    "name": "execute",
+    "stores": {
+      "L": 217
+    },
+    "total_instructions": 1726
+  },
+  "5": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 46,
+    "loads": {
+      "L": 5
+    },
+    "name": "slc<5>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 46
+  },
+  "6": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 46,
+    "loads": {
+      "L": 5
+    },
+    "name": "slc<7>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 46
+  },
+  "7": {
     "basicblocks": 12,
     "calls": "",
     "file": "ac_int.h",
@@ -145,5 +115,35 @@
       "L": 3
     },
     "total_instructions": 61
+  },
+  "8": {
+    "basicblocks": 15,
+    "calls": "6 5 5 5 6 6 5",
+    "file": "core.cpp",
+    "fileloc": 29,
+    "instructions": 1098,
+    "loads": {
+      "L": 175
+    },
+    "name": "decode",
+    "stores": {
+      "L": 205
+    },
+    "total_instructions": 1420
+  },
+  "9": {
+    "basicblocks": 26,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1158,
+    "instructions": 109,
+    "loads": {
+      "L": 6
+    },
+    "name": "iv_shift_r2<2, 2, true>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 109
   }
 }

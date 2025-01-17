@@ -25,6 +25,8 @@ COMPUTERNAME=BILLY
 ComSpec=C:\WINDOWS\system32\cmd.exe
 DriverData=C:\Windows\System32\Drivers\DriverData
 EFC_4172=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
 HDI_APPROOT=C:/Xilinx/Vitis/2024.1
 HDI_PROCESSOR=i686
 HOMEDRIVE=C:
@@ -62,7 +64,7 @@ PUBLIC=C:\Users\Public
 PYTHONPATH=;C:/Xilinx/Vitis/2024.1\cli;C:/Xilinx/Vitis/2024.1\cli\python-packages\win64;C:/Xilinx/Vitis/2024.1\cli\python-packages\site-packages;C:/Xilinx/Vitis/2024.1\cli\proto;C:/Xilinx/Vitis/2024.1\scripts\python_pkg;
 python_path=;C:/Xilinx/Vitis/2024.1\cli;C:/Xilinx/Vitis/2024.1\cli\python-packages\win64;C:/Xilinx/Vitis/2024.1\cli\python-packages\site-packages;C:/Xilinx/Vitis/2024.1\cli\proto;C:/Xilinx/Vitis/2024.1\scripts\python_pkg;
 RDI_APPROOT=C:/Xilinx/Vitis/2024.1
-RDI_ARGS= --mode hls --csim --config C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_config.cfg --work_dir hls_component
+RDI_ARGS= --mode hls --csim --config C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_config.cfg --work_dir hls_component
 RDI_ARGS_FUNCTION=RDI_EXEC_DEFAULT
 RDI_BASEROOT=C:/Xilinx/Vitis
 RDI_BINDIR=C:/Xilinx/Vitis/2024.1/bin
@@ -85,7 +87,7 @@ RDI_PLATFORM=win64
 RDI_PREPEND_PATH=C:/Xilinx/Vitis/2024.1/bin
 RDI_PROG=C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe
 RDI_PROGNAME=vitis-run.exe
-RDI_SESSION_INFO=C:\Xilinx\Vitis\2024.1\bin:BILLY-Thu01-16-2025_22-20-42.04
+RDI_SESSION_INFO=C:\Xilinx\Vitis\2024.1\bin:BILLY-Fri01-17-2025_0-41-33.03
 RDI_SHARED_DATA=C:/Xilinx/SharedData/2024.1/data
 RDI_TPS_ROOT=C:/Xilinx/Vivado/2024.1/tps/win64
 RDI_USE_JDK11=1
@@ -95,7 +97,7 @@ RT_LIBPATH=C:/Xilinx/Vitis/2024.1/scripts/rt/data
 RT_TCL_PATH=C:/Xilinx/Vitis/2024.1/scripts/rt/base_tcl/tcl
 SDKROOT=C:\Xilinx\Vitis\2024.1\tps\win64\LOPPER~1.0-P\min_sdk\
 SESSIONNAME=Console
-session_string=C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component:BILLY-Thu01-16-2025_22-31-20.93
+session_string=C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component:BILLY-Fri01-17-2025_0-43-30.17
 SHARED_DATA_HOME="C:/Xilinx/SharedData/2024.1"
 SWIG_LIB=C:\Xilinx\Vitis\2024.1\tps\win64\LOPPER~1.0-P\min_sdk\\usr\lib\swig\4.0.2
 SYNTH_COMMON=C:/Xilinx/Vitis/2024.1/scripts/rt/data
@@ -106,7 +108,7 @@ TCMALLOC_LARGE_ALLOC_REPORT_THRESHOLD=4294967296
 TEMP=C:\Users\kwokt\AppData\Local\Temp
 THEIA_APP_PROJECT_PATH=C:\Xilinx\Vitis\2024.1\ide\electron-app\win64\resources\app
 THEIA_DEFAULT_PLUGINS=local-dir:C:\Xilinx\Vitis\2024.1\ide\electron-app\win64\resources\app\plugins
-THEIA_ELECTRON_TOKEN={"value":"8413609e-0869-489c-a49e-ce9b998bedc3"}
+THEIA_ELECTRON_TOKEN={"value":"1cf64c51-768c-4cfe-a949-1ea274123e09"}
 THEIA_ELECTRON_VERSION=15.5.7
 THEIA_PLUGINS=local-dir:C:\Users\kwokt\.theia\plugins
 TMP=C:\Users\kwokt\AppData\Local\Temp
@@ -132,29 +134,29 @@ XIL_NO_OVERRIDE=0
 XIL_SUPPRESS_OVERRIDE_WARNINGS=1
 XVREDIST=C:/Xilinx/Vitis/2024.1\tps\win64\xvcredist.exe
 _RDI_BINROOT=C:\Xilinx\Vitis\2024.1\bin
-_RDI_CWD=C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component
+_RDI_CWD=C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component
 _RDI_DONT_SET_XILINX_AS_PATH=True
 _RDI_VERSION_PROG=vitis-run
 _valid=False
 __PSLockDownPolicy=0
-XILINX_CD_CONNECT_ID=60606
-XILINX_CD_SESSION=8dce2d53-2b82-4627-991a-5133b122ddf1
+XILINX_CD_CONNECT_ID=58928
+XILINX_CD_SESSION=56ee36b0-a572-4fba-b320-16323081a5b8
 
 
 VITIS-RUN command line:
 ------------------------------------------
-C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe --mode hls --csim --config C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_config.cfg --work_dir hls_component 
+C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe --mode hls --csim --config C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_config.cfg --work_dir hls_component 
 
 FINAL PROGRAM OPTIONS
---config C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_config.cfg
+--config C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_config.cfg
 --csim
---hls.flow_target vivado
+--hls.flow_target vitis
 --hls.package.output.format ip_catalog
 --hls.package.output.syn false
---hls.syn.file C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/riscvISA_comet_to_vitis_hls/core.cpp
---hls.syn.file C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/riscvISA_comet_to_vitis_hls/riscvISA.cpp
+--hls.syn.file C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/riscvISA.cpp
+--hls.syn.file C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/core.cpp
 --hls.syn.top doCore
---hls.tb.file C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/riscvISA_comet_to_vitis_hls/dct-test.c
+--hls.tb.file C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/dct-test.c
 --mode hls
 --part xcvu9p-flga2104-2-i
 --work_dir hls_component
@@ -162,75 +164,53 @@ FINAL PROGRAM OPTIONS
 PARSED COMMAND LINE OPTIONS
 --mode hls 
 --csim 
---config C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_config.cfg 
+--config C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_config.cfg 
 --work_dir hls_component 
 
 PARSED CONFIG FILE (1) OPTIONS
-file: C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_config.cfg
+file: C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_config.cfg
 part xcvu9p-flga2104-2-i 
-hls.flow_target vivado 
+hls.flow_target vitis 
 hls.package.output.format ip_catalog 
 hls.package.output.syn false 
-hls.syn.file C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/riscvISA_comet_to_vitis_hls/core.cpp 
-hls.syn.file C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/riscvISA_comet_to_vitis_hls/riscvISA.cpp 
+hls.syn.file C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/riscvISA.cpp 
+hls.syn.file C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/core.cpp 
 hls.syn.top doCore 
-hls.tb.file C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/riscvISA_comet_to_vitis_hls/dct-test.c 
+hls.tb.file C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/dct-test.c 
 
 
 ==========================================
 new:  steps log generated by v++ for new launch 
-timestamp: 16 Jan 2025 22:31:26
+timestamp: 17 Jan 2025 00:43:34
 ------------------------------------------
-VITIS-RUN internal step: writing a config file for vitis_hls: C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/comet_to_vitis_hls/hls_component/hls_component/hls/config.cmdline
-timestamp: 16 Jan 2025 22:31:26
+VITIS-RUN internal step: writing a config file for vitis_hls: C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline
+timestamp: 17 Jan 2025 00:43:34
 VITIS-RUN internal step status: success
 ------------------------------------------
 VITIS-RUN internal step: running vitis_hls
-timestamp: 16 Jan 2025 22:31:26
-working dir: C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/comet_to_vitis_hls/hls_component
-cmd: vitis_hls -nolog -run csim -work_dir C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/comet_to_vitis_hls/hls_component/hls_component -config C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/comet_to_vitis_hls/hls_component/hls_config.cfg -cmdlineconfig C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/comet_to_vitis_hls/hls_component/hls_component/hls/config.cmdline
+timestamp: 17 Jan 2025 00:43:34
+working dir: C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component
+cmd: vitis_hls -nolog -run csim -work_dir C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_component -config C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_config.cfg -cmdlineconfig C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline
 VITIS-RUN internal step status: success
 
 ------------------------------------------
 V++ command line :
 ------------------------------------------
-C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/v++.exe -c --mode hls --config C:\Users\kwokt\OneDrive\Documents\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_config.cfg --work_dir hls_component 
+C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/v++.exe -c --mode hls --config C:\Users\kwokt\Desktop\Vitis_HLS2\comet-to-vitis-hls\hls_component\hls_config.cfg --work_dir hls_component 
   Options from -O    : 
   Options from *.ini : 
   Options from Hw Platform : 
 
 ==========================================
 new:  steps log generated by v++ for new launch 
-timestamp: 16 Jan 2025 22:31:51
+timestamp: 17 Jan 2025 00:44:58
 ------------------------------------------
-V++ internal step: writing a config file for vitis_hls: C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/comet_to_vitis_hls/hls_component/hls_component/hls/config.cmdline
-timestamp: 16 Jan 2025 22:31:51
+V++ internal step: writing a config file for vitis_hls: C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline
+timestamp: 17 Jan 2025 00:44:58
 V++ internal step status: success
 ------------------------------------------
 V++ internal step: running vitis_hls
-timestamp: 16 Jan 2025 22:31:51
-working dir: C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/comet_to_vitis_hls/hls_component
-cmd: vitis_hls -nolog -run csynth -work_dir C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/comet_to_vitis_hls/hls_component/hls_component -config C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/comet_to_vitis_hls/hls_component/hls_config.cfg -cmdlineconfig C:/Users/kwokt/OneDrive/Documents/Vitis_HLS/comet_to_vitis_hls/hls_component/hls_component/hls/config.cmdline
+timestamp: 17 Jan 2025 00:44:58
+working dir: C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component
+cmd: vitis_hls -nolog -run csynth -work_dir C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_component -config C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_config.cfg -cmdlineconfig C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline
 V++ internal step status: fail
-
-------------------------------------------
-VITIS-RUN command line :
-------------------------------------------
-C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe --mode hls --csim --config C:\Users\kwokt\Desktop\Vitis_HLS\comet_to_vitis_hls\hls_component\hls_config.cfg --work_dir hls_component 
-  Options from -O    : 
-  Options from *.ini : 
-  Options from Hw Platform : 
-
-==========================================
-new:  steps log generated by v++ for new launch 
-timestamp: 16 Jan 2025 22:46:28
-------------------------------------------
-VITIS-RUN internal step: writing a config file for vitis_hls: C:/Users/kwokt/Desktop/Vitis_HLS/comet_to_vitis_hls/hls_component/hls_component/hls/config.cmdline
-timestamp: 16 Jan 2025 22:46:28
-VITIS-RUN internal step status: success
-------------------------------------------
-VITIS-RUN internal step: running vitis_hls
-timestamp: 16 Jan 2025 22:46:28
-working dir: C:/Users/kwokt/Desktop/Vitis_HLS/comet_to_vitis_hls/hls_component
-cmd: vitis_hls -nolog -run csim -work_dir C:/Users/kwokt/Desktop/Vitis_HLS/comet_to_vitis_hls/hls_component/hls_component -config C:/Users/kwokt/Desktop/Vitis_HLS/comet_to_vitis_hls/hls_component/hls_config.cfg -cmdlineconfig C:/Users/kwokt/Desktop/Vitis_HLS/comet_to_vitis_hls/hls_component/hls_component/hls/config.cmdline
-VITIS-RUN internal step status: success

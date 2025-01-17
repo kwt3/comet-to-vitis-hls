@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 2,
-    "calls": "135 173 173 194",
+    "calls": "158 64 64 140",
     "file": "core.cpp",
     "fileloc": 663,
     "instructions": 21,
@@ -13,203 +13,185 @@
   },
   "1": {
     "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 578,
-    "instructions": 18,
-    "loads": {
-      "L": 2
-    },
-    "name": "iv_add_int_carry<2>",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 18
-  },
-  "10": {
-    "basicblocks": 1,
-    "calls": "210 137 61",
-    "file": "ac_int.h",
-    "fileloc": 2455,
-    "instructions": 9,
-    "name": "set_slc<16, false>",
-    "total_instructions": 69
-  },
-  "100": {
-    "basicblocks": 1,
-    "calls": "141",
-    "file": "ac_int.h",
-    "fileloc": 2305,
-    "instructions": 2,
-    "name": "operator&<32, true>",
-    "total_instructions": 14
-  },
-  "101": {
-    "basicblocks": 1,
-    "calls": "37",
-    "file": "ac_int.h",
-    "fileloc": 1497,
-    "instructions": 4,
-    "name": "shift_r<1>",
-    "total_instructions": 43
-  },
-  "102": {
-    "basicblocks": 1,
-    "calls": "84 214 21",
+    "calls": "133 145 207",
     "file": "ac_int.h",
     "fileloc": 2455,
     "instructions": 8,
-    "name": "set_slc<6, false>",
+    "name": "set_slc<4, false>",
     "total_instructions": 38
   },
-  "103": {
-    "basicblocks": 15,
-    "calls": "86 149 149 146 149 86 201 86 113 149 12 65 98 190 124 142 197 183 21 172 102 167 41 183 21 94 209 64 104 128 157 177 43 183 80 53 120 80 152 39 52 158 52 158 52 125 28 192 151 211 125 54 125 125 74 125 54 125 54 125 125 54 125 125 121",
-    "file": "core.cpp",
-    "fileloc": 29,
-    "instructions": 417,
-    "loads": {
-      "L": 34
-    },
-    "name": "decode",
-    "stores": {
-      "L": 87
-    },
-    "total_instructions": 2104
-  },
-  "104": {
+  "10": {
     "basicblocks": 1,
-    "calls": "123 8",
+    "calls": "30 179",
     "file": "ac_int.h",
     "fileloc": 2429,
-    "instructions": 3,
-    "name": "slc<20>",
-    "total_instructions": 51
+    "instructions": 4,
+    "name": "slc<7>",
+    "total_instructions": 52
   },
-  "105": {
+  "100": {
     "basicblocks": 1,
-    "calls": "",
+    "calls": "118",
     "file": "ac_int.h",
-    "fileloc": 460,
-    "instructions": 7,
-    "name": "iv_assign_uint64<2>",
+    "fileloc": 2017,
+    "instructions": 10,
+    "loads": {
+      "L": 2
+    },
+    "name": "ac_int<33, true>",
     "stores": {
       "L": 2
     },
-    "total_instructions": 7
+    "total_instructions": 13
   },
-  "106": {
+  "101": {
     "basicblocks": 1,
-    "calls": "",
+    "calls": "82",
     "file": "ac_int.h",
-    "fileloc": 993,
-    "instructions": 1,
-    "name": "iv_bitwise_complement_n<0>",
-    "total_instructions": 1
-  },
-  "107": {
-    "basicblocks": 1,
-    "calls": "141",
-    "file": "ac_int.h",
-    "fileloc": 2305,
+    "fileloc": 2411,
     "instructions": 2,
-    "name": "operator&<32, true>",
-    "total_instructions": 14
+    "name": "operator==<32, true>",
+    "total_instructions": 10
   },
-  "108": {
+  "102": {
     "basicblocks": 1,
-    "calls": "14 212",
+    "calls": "194 149",
     "file": "ac_int.h",
-    "fileloc": 1423,
-    "instructions": 9,
-    "loads": {
-      "L": 1
-    },
-    "name": "iv<1>",
-    "total_instructions": 14
-  },
-  "109": {
-    "basicblocks": 1,
-    "calls": "136",
-    "file": "ac_int.h",
-    "fileloc": 1517,
+    "fileloc": 2429,
     "instructions": 3,
-    "name": "equal_zero",
-    "total_instructions": 7
+    "name": "slc<5>",
+    "total_instructions": 51
   },
-  "11": {
+  "103": {
     "basicblocks": 1,
-    "calls": "28 211",
-    "file": "core.cpp",
-    "fileloc": 21,
-    "instructions": 30,
-    "loads": {
-      "L": 6
-    },
-    "name": "fetch",
-    "stores": {
-      "L": 7
-    },
-    "total_instructions": 73
-  },
-  "110": {
-    "basicblocks": 1,
-    "calls": "144",
+    "calls": "85",
     "file": "ac_int.h",
-    "fileloc": 2413,
-    "instructions": 2,
-    "name": "operator<<32, false>",
-    "total_instructions": 34
+    "fileloc": 2414,
+    "instructions": 3,
+    "name": "operator>=<32, false>",
+    "total_instructions": 35
   },
-  "111": {
+  "104": {
     "basicblocks": 1,
-    "calls": "34 169 35",
-    "file": "ac_int.h",
-    "fileloc": 2356,
-    "instructions": 4,
-    "name": "operator<<<5>",
-    "total_instructions": 38
-  },
-  "112": {
-    "basicblocks": 1,
-    "calls": "30",
+    "calls": "149",
     "file": "ac_int.h",
     "fileloc": 2017,
     "instructions": 6,
     "loads": {
       "L": 1
     },
-    "name": "ac_int<1, false>",
+    "name": "ac_int<5, false>",
     "stores": {
       "L": 1
     },
     "total_instructions": 12
   },
-  "113": {
+  "105": {
     "basicblocks": 1,
-    "calls": "148 214 96",
-    "file": "ac_int.h",
-    "fileloc": 2455,
-    "instructions": 8,
-    "name": "set_slc<7, false>",
-    "total_instructions": 38
-  },
-  "114": {
-    "basicblocks": 1,
-    "calls": "108 171",
+    "calls": "195",
     "file": "ac_int.h",
     "fileloc": 2017,
-    "instructions": 13,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<20, false>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 12
+  },
+  "106": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1020,
+    "instructions": 5,
     "loads": {
       "L": 2
     },
-    "name": "ac_int<32, true>",
+    "name": "iv_bitwise_and_n<1>",
     "stores": {
+      "L": 1
+    },
+    "total_instructions": 5
+  },
+  "107": {
+    "basicblocks": 1,
+    "calls": "123",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<21, false>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 12
+  },
+  "108": {
+    "basicblocks": 1,
+    "calls": "18",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<1, true>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 12
+  },
+  "109": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 407,
+    "instructions": 4,
+    "loads": {
       "L": 2
     },
-    "total_instructions": 30
+    "name": "iv_compare<1, 1, false>",
+    "total_instructions": 4
   },
-  "115": {
+  "11": {
+    "basicblocks": 1,
+    "calls": "75",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<5, true>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 11
+  },
+  "110": {
+    "basicblocks": 1,
+    "calls": "82",
+    "file": "ac_int.h",
+    "fileloc": 2411,
+    "instructions": 2,
+    "name": "operator==<5, false>",
+    "total_instructions": 10
+  },
+  "111": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1908,
+    "instructions": 1,
+    "name": "bit_adjust",
+    "total_instructions": 1
+  },
+  "112": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
@@ -224,163 +206,127 @@
     },
     "total_instructions": 5
   },
+  "113": {
+    "basicblocks": 1,
+    "calls": "75",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<32, true>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 11
+  },
+  "114": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1908,
+    "instructions": 5,
+    "loads": {
+      "L": 1
+    },
+    "name": "bit_adjust",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 5
+  },
+  "115": {
+    "basicblocks": 1,
+    "calls": "56",
+    "file": "ac_int.h",
+    "fileloc": 1090,
+    "instructions": 2,
+    "name": "iv_bitwise_xor<1, 1, 1>",
+    "total_instructions": 7
+  },
   "116": {
     "basicblocks": 1,
-    "calls": "68",
+    "calls": "30 40",
     "file": "ac_int.h",
-    "fileloc": 2411,
-    "instructions": 2,
-    "name": "operator==<5, false>",
-    "total_instructions": 10
+    "fileloc": 2429,
+    "instructions": 3,
+    "name": "slc<6>",
+    "total_instructions": 51
   },
   "117": {
     "basicblocks": 1,
-    "calls": "",
+    "calls": "172",
     "file": "ac_int.h",
-    "fileloc": 317,
-    "instructions": 4,
-    "loads": {
-      "L": 2
-    },
-    "name": "iv_equal<1, 1>",
-    "total_instructions": 4
+    "fileloc": 1597,
+    "instructions": 3,
+    "name": "operator unsigned long long",
+    "total_instructions": 7
   },
   "118": {
-    "basicblocks": 9,
-    "calls": "",
-    "file": "core.cpp",
-    "fileloc": 433,
-    "instructions": 36,
-    "loads": {
-      "L": 6
-    },
-    "name": "branchUnit",
-    "stores": {
-      "L": 9
-    },
-    "total_instructions": 36
-  },
-  "119": {
-    "basicblocks": 1,
-    "calls": "179 137 61",
-    "file": "ac_int.h",
-    "fileloc": 2455,
-    "instructions": 9,
-    "name": "set_slc<8, false>",
-    "total_instructions": 69
-  },
-  "12": {
-    "basicblocks": 1,
-    "calls": "89 214 96",
-    "file": "ac_int.h",
-    "fileloc": 2455,
-    "instructions": 8,
-    "name": "set_slc<5, false>",
-    "total_instructions": 38
-  },
-  "120": {
-    "basicblocks": 1,
-    "calls": "3 214 80",
-    "file": "ac_int.h",
-    "fileloc": 2455,
-    "instructions": 8,
-    "name": "set_slc<10, false>",
-    "total_instructions": 38
-  },
-  "121": {
-    "basicblocks": 1,
-    "calls": "22",
-    "file": "ac_int.h",
-    "fileloc": 2956,
-    "instructions": 2,
-    "name": "operator==<5, false>",
-    "total_instructions": 12
-  },
-  "122": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
-    "fileloc": 1431,
+    "fileloc": 1908,
     "instructions": 3,
-    "name": "iv",
+    "name": "bit_adjust",
     "stores": {
       "L": 1
     },
     "total_instructions": 3
   },
-  "123": {
+  "119": {
     "basicblocks": 1,
-    "calls": "37",
+    "calls": "186",
     "file": "ac_int.h",
-    "fileloc": 1497,
-    "instructions": 4,
-    "name": "shift_r<1>",
-    "total_instructions": 43
-  },
-  "124": {
-    "basicblocks": 1,
-    "calls": "83 96",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 3,
-    "name": "slc<12>",
-    "total_instructions": 50
-  },
-  "125": {
-    "basicblocks": 1,
-    "calls": "156 35",
-    "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 8,
-    "loads": {
-      "L": 1
-    },
-    "name": "ac_int<32, false>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 16
-  },
-  "126": {
-    "basicblocks": 1,
-    "calls": "107",
-    "file": "ac_int.h",
-    "fileloc": 2956,
+    "fileloc": 1597,
     "instructions": 2,
-    "name": "operator&<16, false>",
-    "total_instructions": 16
+    "name": "operator unsigned long long",
+    "total_instructions": 6
   },
-  "127": {
+  "12": {
     "basicblocks": 1,
-    "calls": "32 154 61",
+    "calls": "54",
     "file": "ac_int.h",
-    "fileloc": 2363,
-    "instructions": 5,
-    "name": "operator>><32>",
-    "total_instructions": 123
-  },
-  "128": {
-    "basicblocks": 1,
-    "calls": "206 214 35",
-    "file": "ac_int.h",
-    "fileloc": 2455,
-    "instructions": 8,
-    "name": "set_slc<20, false>",
-    "total_instructions": 34
-  },
-  "129": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1564,
-    "instructions": 9,
+    "fileloc": 661,
+    "instructions": 7,
     "loads": {
       "L": 2
     },
-    "name": "to_uint64",
-    "total_instructions": 9
+    "name": "iv_add<1, 1, 2>",
+    "total_instructions": 14
   },
-  "13": {
+  "120": {
+    "basicblocks": 1,
+    "calls": "37",
+    "file": "ac_int.h",
+    "fileloc": 2305,
+    "instructions": 2,
+    "name": "operator&<32, true>",
+    "total_instructions": 14
+  },
+  "121": {
+    "basicblocks": 4,
+    "calls": "106 7 196",
+    "file": "ac_int.h",
+    "fileloc": 1030,
+    "instructions": 12,
+    "loads": {
+      "L": 1
+    },
+    "name": "iv_bitwise_and<1, 2, 2>",
+    "total_instructions": 22
+  },
+  "122": {
+    "basicblocks": 1,
+    "calls": "32 170",
+    "file": "ac_int.h",
+    "fileloc": 2029,
+    "instructions": 3,
+    "name": "ac_int",
+    "total_instructions": 14
+  },
+  "123": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
@@ -395,33 +341,9 @@
     },
     "total_instructions": 6
   },
-  "130": {
-    "basicblocks": 4,
-    "calls": "188 52 188",
-    "file": "core.cpp",
-    "fileloc": 393,
-    "instructions": 54,
-    "loads": {
-      "L": 7
-    },
-    "name": "memory",
-    "stores": {
-      "L": 13
-    },
-    "total_instructions": 118
-  },
-  "131": {
+  "124": {
     "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 247,
-    "instructions": 1,
-    "name": "iv_copy<0>",
-    "total_instructions": 1
-  },
-  "132": {
-    "basicblocks": 1,
-    "calls": "122",
+    "calls": "62",
     "file": "ac_int.h",
     "fileloc": 1610,
     "instructions": 3,
@@ -431,148 +353,7 @@
     "name": "iv_conv<int>",
     "total_instructions": 6
   },
-  "133": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 5,
-    "loads": {
-      "L": 1
-    },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 5
-  },
-  "134": {
-    "basicblocks": 1,
-    "calls": "14 212",
-    "file": "ac_int.h",
-    "fileloc": 1423,
-    "instructions": 9,
-    "loads": {
-      "L": 1
-    },
-    "name": "iv<1>",
-    "total_instructions": 14
-  },
-  "135": {
-    "basicblocks": 1,
-    "calls": "17",
-    "file": "core.h",
-    "fileloc": 40,
-    "instructions": 13,
-    "name": "Core",
-    "stores": {
-      "L": 5
-    },
-    "total_instructions": 30
-  },
-  "136": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 273,
-    "instructions": 4,
-    "loads": {
-      "L": 1
-    },
-    "name": "iv_equal_zero<1>",
-    "total_instructions": 4
-  },
-  "137": {
-    "basicblocks": 1,
-    "calls": "150 70 162",
-    "file": "ac_int.h",
-    "fileloc": 1573,
-    "instructions": 22,
-    "loads": {
-      "L": 2
-    },
-    "name": "set_slc<1>",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 45
-  },
-  "138": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1050,
-    "instructions": 5,
-    "loads": {
-      "L": 2
-    },
-    "name": "iv_bitwise_or_n<1>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 5
-  },
-  "139": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 5,
-    "loads": {
-      "L": 1
-    },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 5
-  },
-  "14": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 252,
-    "instructions": 3,
-    "loads": {
-      "L": 1
-    },
-    "name": "iv_copy<1>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 3
-  },
-  "140": {
-    "basicblocks": 8,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 382,
-    "instructions": 28,
-    "loads": {
-      "L": 4
-    },
-    "name": "iv_compare<2, 2, false>",
-    "total_instructions": 28
-  },
-  "141": {
-    "basicblocks": 1,
-    "calls": "213",
-    "file": "ac_int.h",
-    "fileloc": 1502,
-    "instructions": 5,
-    "name": "bitwise_and<1, 1>",
-    "total_instructions": 12
-  },
-  "142": {
-    "basicblocks": 1,
-    "calls": "98 214 147",
-    "file": "ac_int.h",
-    "fileloc": 2455,
-    "instructions": 8,
-    "name": "set_slc<12, false>",
-    "total_instructions": 39
-  },
-  "143": {
+  "125": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
@@ -587,307 +368,22 @@
     },
     "total_instructions": 6
   },
-  "144": {
+  "126": {
     "basicblocks": 1,
-    "calls": "140",
-    "file": "ac_int.h",
-    "fileloc": 1516,
-    "instructions": 4,
-    "name": "less_than<2>",
-    "total_instructions": 32
-  },
-  "145": {
-    "basicblocks": 4,
-    "calls": "176 82",
-    "file": "ac_int.h",
-    "fileloc": 1158,
-    "instructions": 8,
-    "name": "iv_shift_r2<2, 2, true>",
-    "total_instructions": 108
-  },
-  "146": {
-    "basicblocks": 1,
-    "calls": "123 139",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 3,
-    "name": "slc<3>",
-    "total_instructions": 51
-  },
-  "147": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 6
-  },
-  "148": {
-    "basicblocks": 1,
-    "calls": "15",
+    "calls": "181",
     "file": "ac_int.h",
     "fileloc": 2017,
     "instructions": 6,
     "loads": {
       "L": 1
     },
-    "name": "ac_int<7, false>",
+    "name": "ac_int<8, false>",
     "stores": {
       "L": 1
     },
     "total_instructions": 12
   },
-  "149": {
-    "basicblocks": 1,
-    "calls": "123 48",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 4,
-    "name": "slc<5>",
-    "total_instructions": 52
-  },
-  "15": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 6
-  },
-  "150": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1564,
-    "instructions": 9,
-    "loads": {
-      "L": 2
-    },
-    "name": "to_uint64",
-    "total_instructions": 9
-  },
-  "151": {
-    "basicblocks": 1,
-    "calls": "46",
-    "file": "ac_int.h",
-    "fileloc": 2138,
-    "instructions": 2,
-    "name": "operator+<21, true>",
-    "total_instructions": 28
-  },
-  "152": {
-    "basicblocks": 1,
-    "calls": "132 44",
-    "file": "ac_int.h",
-    "fileloc": 2029,
-    "instructions": 3,
-    "name": "ac_int",
-    "total_instructions": 15
-  },
-  "153": {
-    "basicblocks": 1,
-    "calls": "122",
-    "file": "ac_int.h",
-    "fileloc": 1610,
-    "instructions": 4,
-    "loads": {
-      "L": 1
-    },
-    "name": "iv_conv<bool>",
-    "total_instructions": 7
-  },
-  "154": {
-    "basicblocks": 1,
-    "calls": "145",
-    "file": "ac_int.h",
-    "fileloc": 1498,
-    "instructions": 4,
-    "name": "shift_r2<2>",
-    "total_instructions": 112
-  },
-  "155": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 5,
-    "loads": {
-      "L": 1
-    },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 5
-  },
-  "156": {
-    "basicblocks": 1,
-    "calls": "14",
-    "file": "ac_int.h",
-    "fileloc": 1423,
-    "instructions": 4,
-    "name": "iv<2>",
-    "total_instructions": 7
-  },
-  "157": {
-    "basicblocks": 1,
-    "calls": "196 80",
-    "file": "ac_int.h",
-    "fileloc": 2029,
-    "instructions": 3,
-    "name": "ac_int",
-    "total_instructions": 14
-  },
-  "158": {
-    "basicblocks": 1,
-    "calls": "108 61",
-    "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 13,
-    "loads": {
-      "L": 2
-    },
-    "name": "ac_int<32, true>",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 30
-  },
-  "159": {
-    "basicblocks": 1,
-    "calls": "83 207",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 3,
-    "name": "slc<5>",
-    "total_instructions": 51
-  },
-  "16": {
-    "basicblocks": 1,
-    "calls": "161",
-    "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "ac_int<13, false>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 12
-  },
-  "160": {
-    "basicblocks": 1,
-    "calls": "19 171",
-    "file": "ac_int.h",
-    "fileloc": 2455,
-    "instructions": 12,
-    "loads": {
-      "L": 1
-    },
-    "name": "set_slc<16, true>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 60
-  },
-  "161": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 6
-  },
-  "162": {
-    "basicblocks": 1,
-    "calls": "105",
-    "file": "ac_int.h",
-    "fileloc": 1430,
-    "instructions": 3,
-    "name": "iv",
-    "total_instructions": 10
-  },
-  "163": {
-    "basicblocks": 1,
-    "calls": "91",
-    "file": "ac_int.h",
-    "fileloc": 1501,
-    "instructions": 4,
-    "name": "bitwise_complement<1>",
-    "total_instructions": 10
-  },
-  "164": {
-    "basicblocks": 19,
-    "calls": "95 99 47 95 38 52 177 23 112 200 205 27 178 97 87 112 166 5 160 38 52 177 77 188 178 97 126 188 168 38 52 215 119 178 29 10 99 47",
-    "file": "memoryInterface.h",
-    "fileloc": 42,
-    "instructions": 248,
-    "loads": {
-      "L": 20
-    },
-    "name": "process",
-    "stores": {
-      "L": 28
-    },
-    "total_instructions": 1711
-  },
-  "165": {
-    "basicblocks": 1,
-    "calls": "156 35",
-    "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 8,
-    "loads": {
-      "L": 1
-    },
-    "name": "ac_int<33, true>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 16
-  },
-  "166": {
-    "basicblocks": 1,
-    "calls": "210 19 171",
-    "file": "ac_int.h",
-    "fileloc": 2455,
-    "instructions": 10,
-    "name": "set_slc<16, false>",
-    "total_instructions": 70
-  },
-  "167": {
-    "basicblocks": 1,
-    "calls": "123 182",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 3,
-    "name": "slc<4>",
-    "total_instructions": 51
-  },
-  "168": {
+  "127": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
@@ -899,91 +395,196 @@
     },
     "total_instructions": 5
   },
-  "169": {
+  "128": {
     "basicblocks": 1,
-    "calls": "180",
+    "calls": "174",
     "file": "ac_int.h",
-    "fileloc": 1495,
-    "instructions": 4,
-    "name": "shift_l<1>",
-    "total_instructions": 30
+    "fileloc": 2414,
+    "instructions": 3,
+    "name": "operator>=<32, true>",
+    "total_instructions": 11
   },
-  "17": {
+  "129": {
     "basicblocks": 1,
-    "calls": "6 6",
-    "file": "pipelineRegisters.h",
-    "fileloc": 40,
-    "instructions": 7,
-    "name": "FtoDC",
-    "stores": {
+    "calls": "30 114",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 4,
+    "name": "slc<8>",
+    "total_instructions": 52
+  },
+  "13": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 2525,
+    "instructions": 14,
+    "loads": {
       "L": 1
     },
-    "total_instructions": 17
+    "name": "operator[]",
+    "total_instructions": 14
   },
-  "170": {
-    "basicblocks": 1,
-    "calls": "198",
-    "file": "ac_int.h",
-    "fileloc": 2144,
-    "instructions": 2,
-    "name": "operator-<32, true>",
-    "total_instructions": 21
-  },
-  "171": {
+  "130": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 3,
-    "name": "bit_adjust",
+    "fileloc": 273,
+    "instructions": 4,
+    "loads": {
+      "L": 1
+    },
+    "name": "iv_equal_zero<1>",
+    "total_instructions": 4
+  },
+  "131": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 993,
+    "instructions": 1,
+    "name": "iv_bitwise_complement_n<0>",
+    "total_instructions": 1
+  },
+  "132": {
+    "basicblocks": 1,
+    "calls": "22",
+    "file": "ac_int.h",
+    "fileloc": 2956,
+    "instructions": 2,
+    "name": "operator>><32, false>",
+    "total_instructions": 125
+  },
+  "133": {
+    "basicblocks": 1,
+    "calls": "59",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<4, false>",
     "stores": {
       "L": 1
     },
-    "total_instructions": 3
+    "total_instructions": 12
   },
-  "172": {
+  "134": {
+    "basicblocks": 3,
+    "calls": "187",
+    "file": "core.cpp",
+    "fileloc": 423,
+    "instructions": 23,
+    "loads": {
+      "L": 3
+    },
+    "name": "writeback",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 36
+  },
+  "135": {
     "basicblocks": 1,
-    "calls": "123 202",
+    "calls": "126 145 112",
+    "file": "ac_int.h",
+    "fileloc": 2455,
+    "instructions": 8,
+    "name": "set_slc<8, false>",
+    "total_instructions": 38
+  },
+  "136": {
+    "basicblocks": 1,
+    "calls": "94",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<1, true>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 12
+  },
+  "137": {
+    "basicblocks": 1,
+    "calls": "203 152",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 4,
+    "name": "slc<2>",
+    "total_instructions": 52
+  },
+  "138": {
+    "basicblocks": 1,
+    "calls": "115",
+    "file": "ac_int.h",
+    "fileloc": 1510,
+    "instructions": 5,
+    "name": "bitwise_xor<1, 1>",
+    "total_instructions": 12
+  },
+  "139": {
+    "basicblocks": 49,
+    "calls": "110 110 110 110 110 110 110 110 110",
+    "file": "core.cpp",
+    "fileloc": 452,
+    "instructions": 76,
+    "name": "forwardUnit",
+    "stores": {
+      "L": 15
+    },
+    "total_instructions": 166
+  },
+  "14": {
+    "basicblocks": 1,
+    "calls": "194 95",
     "file": "ac_int.h",
     "fileloc": 2429,
     "instructions": 3,
-    "name": "slc<6>",
-    "total_instructions": 51
-  },
-  "173": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "memoryInterface.h",
-    "fileloc": 25,
-    "instructions": 3,
-    "name": "MemoryInterface",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 3
-  },
-  "174": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 442,
-    "instructions": 7,
-    "name": "iv_assign_int64<2>",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 7
-  },
-  "175": {
-    "basicblocks": 1,
-    "calls": "34 83 35",
-    "file": "ac_int.h",
-    "fileloc": 2370,
-    "instructions": 4,
-    "name": "operator>><5>",
+    "name": "slc<1>",
     "total_instructions": 50
   },
-  "176": {
+  "140": {
+    "basicblocks": 77,
+    "calls": "175 17 188 209 165 202 134 139 117 96 31 39 31 39 31 39 39 119 92",
+    "file": "core.cpp",
+    "fileloc": 506,
+    "instructions": 814,
+    "loads": {
+      "L": 202
+    },
+    "name": "doCycle",
+    "stores": {
+      "L": 172
+    },
+    "total_instructions": 5878
+  },
+  "141": {
+    "basicblocks": 1,
+    "calls": "7 196",
+    "file": "ac_int.h",
+    "fileloc": 1423,
+    "instructions": 9,
+    "loads": {
+      "L": 1
+    },
+    "name": "iv<1>",
+    "total_instructions": 14
+  },
+  "142": {
+    "basicblocks": 1,
+    "calls": "7",
+    "file": "ac_int.h",
+    "fileloc": 1423,
+    "instructions": 4,
+    "name": "iv<2>",
+    "total_instructions": 7
+  },
+  "143": {
     "basicblocks": 10,
     "calls": "",
     "file": "ac_int.h",
@@ -998,79 +599,109 @@
     },
     "total_instructions": 46
   },
-  "177": {
+  "144": {
     "basicblocks": 1,
-    "calls": "123 115",
+    "calls": "87",
     "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 4,
-    "name": "slc<8>",
-    "total_instructions": 52
+    "fileloc": 2144,
+    "instructions": 2,
+    "name": "operator-<32, true>",
+    "total_instructions": 21
   },
-  "178": {
-    "basicblocks": 3,
+  "145": {
+    "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
-    "fileloc": 2525,
-    "instructions": 14,
+    "fileloc": 1569,
+    "instructions": 13,
     "loads": {
-      "L": 1
+      "L": 2
     },
-    "name": "operator[]",
-    "total_instructions": 14
-  },
-  "179": {
-    "basicblocks": 1,
-    "calls": "195",
-    "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "ac_int<8, false>",
+    "name": "set_slc<1>",
     "stores": {
       "L": 1
     },
-    "total_instructions": 12
+    "total_instructions": 13
   },
-  "18": {
+  "146": {
     "basicblocks": 1,
-    "calls": "34 9 61",
+    "calls": "88",
+    "file": "ac_int.h",
+    "fileloc": 1482,
+    "instructions": 5,
+    "name": "add<1, 2>",
+    "total_instructions": 26
+  },
+  "147": {
+    "basicblocks": 1,
+    "calls": "164 33",
+    "file": "ac_int.h",
+    "fileloc": 2455,
+    "instructions": 12,
+    "loads": {
+      "L": 1
+    },
+    "name": "set_slc<16, true>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 60
+  },
+  "148": {
+    "basicblocks": 1,
+    "calls": "201 214 118",
     "file": "ac_int.h",
     "fileloc": 2370,
     "instructions": 4,
     "name": "operator>><5>",
     "total_instructions": 68
   },
-  "180": {
-    "basicblocks": 6,
+  "149": {
+    "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
-    "fileloc": 1105,
-    "instructions": 26,
+    "fileloc": 1908,
+    "instructions": 6,
     "loads": {
-      "L": 2
+      "L": 1
     },
-    "name": "iv_shift_l<1, 1>",
+    "name": "bit_adjust",
     "stores": {
-      "L": 2
+      "L": 1
     },
-    "total_instructions": 26
+    "total_instructions": 6
   },
-  "181": {
-    "basicblocks": 49,
-    "calls": "116 116 116 116 116 116 116 116 116",
-    "file": "core.cpp",
-    "fileloc": 452,
-    "instructions": 76,
-    "name": "forwardUnit",
+  "15": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 2805,
+    "instructions": 3,
+    "name": "ac_int",
     "stores": {
-      "L": 15
+      "L": 1
     },
-    "total_instructions": 166
+    "total_instructions": 3
   },
-  "182": {
+  "150": {
+    "basicblocks": 1,
+    "calls": "105 145 111",
+    "file": "ac_int.h",
+    "fileloc": 2455,
+    "instructions": 8,
+    "name": "set_slc<20, false>",
+    "total_instructions": 34
+  },
+  "151": {
+    "basicblocks": 1,
+    "calls": "124 78",
+    "file": "ac_int.h",
+    "fileloc": 2029,
+    "instructions": 3,
+    "name": "ac_int",
+    "total_instructions": 15
+  },
+  "152": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
@@ -1085,138 +716,27 @@
     },
     "total_instructions": 5
   },
-  "183": {
-    "basicblocks": 3,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 2525,
-    "instructions": 14,
-    "loads": {
-      "L": 1
-    },
-    "name": "operator[]",
-    "total_instructions": 14
-  },
-  "184": {
+  "153": {
     "basicblocks": 1,
-    "calls": "",
+    "calls": "107 145 123",
     "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 6
+    "fileloc": 2455,
+    "instructions": 8,
+    "name": "set_slc<21, false>",
+    "total_instructions": 39
   },
-  "185": {
+  "154": {
     "basicblocks": 1,
-    "calls": "",
+    "calls": "130",
     "file": "ac_int.h",
-    "fileloc": 1555,
-    "instructions": 4,
-    "loads": {
-      "L": 1
-    },
-    "name": "to_uint64",
-    "total_instructions": 4
-  },
-  "186": {
-    "basicblocks": 1,
-    "calls": "73",
-    "file": "ac_int.h",
-    "fileloc": 2413,
-    "instructions": 2,
-    "name": "operator<<32, true>",
-    "total_instructions": 10
-  },
-  "187": {
-    "basicblocks": 57,
-    "calls": "52 90 165 90 203 28 192 81 211 52 24 75 186 63 188 188 110 188 188 26 90 165 90 165 52 90 165 186 62 188 188 110 62 199 25 88 2 111 49 159 40 175 188 159 40 18 125 49 52 49 170 165 90 165 2 111 186 62 188 188 110 62 199 49 2 175 188 2 18 125 25 88 52 25 71 188 72 165 25 71 188 72 165",
-    "file": "core.cpp",
-    "fileloc": 206,
-    "instructions": 588,
-    "loads": {
-      "L": 49
-    },
-    "name": "execute",
-    "stores": {
-      "L": 63
-    },
-    "total_instructions": 2354
-  },
-  "188": {
-    "basicblocks": 1,
-    "calls": "134 61",
-    "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 12,
-    "loads": {
-      "L": 2
-    },
-    "name": "ac_int<32, true>",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 29
-  },
-  "189": {
-    "basicblocks": 1,
-    "calls": "174",
-    "file": "ac_int.h",
-    "fileloc": 661,
-    "instructions": 7,
-    "loads": {
-      "L": 2
-    },
-    "name": "iv_add<1, 1, 2>",
-    "total_instructions": 14
-  },
-  "19": {
-    "basicblocks": 1,
-    "calls": "129 70 162",
-    "file": "ac_int.h",
-    "fileloc": 1573,
-    "instructions": 22,
-    "loads": {
-      "L": 2
-    },
-    "name": "set_slc<1>",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 45
-  },
-  "190": {
-    "basicblocks": 1,
-    "calls": "132 147",
-    "file": "ac_int.h",
-    "fileloc": 2029,
+    "fileloc": 1517,
     "instructions": 3,
-    "name": "ac_int",
-    "total_instructions": 15
+    "name": "equal_zero",
+    "total_instructions": 7
   },
-  "191": {
+  "155": {
     "basicblocks": 1,
-    "calls": "44",
-    "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "ac_int<21, false>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 12
-  },
-  "192": {
-    "basicblocks": 1,
-    "calls": "156 35",
+    "calls": "210 111",
     "file": "ac_int.h",
     "fileloc": 2017,
     "instructions": 8,
@@ -1229,7 +749,91 @@
     },
     "total_instructions": 16
   },
-  "193": {
+  "156": {
+    "basicblocks": 1,
+    "calls": "210 111",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 8,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<33, true>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 16
+  },
+  "157": {
+    "basicblocks": 1,
+    "calls": "32 207",
+    "file": "ac_int.h",
+    "fileloc": 2029,
+    "instructions": 3,
+    "name": "ac_int",
+    "total_instructions": 14
+  },
+  "158": {
+    "basicblocks": 1,
+    "calls": "2",
+    "file": "core.h",
+    "fileloc": 40,
+    "instructions": 13,
+    "name": "Core",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 30
+  },
+  "159": {
+    "basicblocks": 1,
+    "calls": "118",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 10,
+    "loads": {
+      "L": 2
+    },
+    "name": "ac_int<34, true>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 13
+  },
+  "16": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1123,
+    "instructions": 39,
+    "loads": {
+      "L": 4
+    },
+    "name": "iv_shift_r<2, 1>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 39
+  },
+  "160": {
+    "basicblocks": 1,
+    "calls": "124 123",
+    "file": "ac_int.h",
+    "fileloc": 2029,
+    "instructions": 3,
+    "name": "ac_int",
+    "total_instructions": 15
+  },
+  "161": {
+    "basicblocks": 1,
+    "calls": "138",
+    "file": "ac_int.h",
+    "fileloc": 2317,
+    "instructions": 2,
+    "name": "operator^<32, true>",
+    "total_instructions": 14
+  },
+  "162": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
@@ -1244,20 +848,410 @@
     },
     "total_instructions": 6
   },
-  "194": {
-    "basicblocks": 77,
-    "calls": "36 6 11 103 187 130 58 181 33 114 92 125 92 125 92 125 125 52 118",
-    "file": "core.cpp",
-    "fileloc": 506,
-    "instructions": 814,
+  "163": {
+    "basicblocks": 1,
+    "calls": "154",
+    "file": "ac_int.h",
+    "fileloc": 2287,
+    "instructions": 3,
+    "name": "operator!",
+    "total_instructions": 10
+  },
+  "164": {
+    "basicblocks": 1,
+    "calls": "41 186 86",
+    "file": "ac_int.h",
+    "fileloc": 1573,
+    "instructions": 22,
     "loads": {
-      "L": 202
+      "L": 2
     },
-    "name": "doCycle",
+    "name": "set_slc<1>",
     "stores": {
-      "L": 172
+      "L": 2
     },
-    "total_instructions": 5878
+    "total_instructions": 45
+  },
+  "165": {
+    "basicblocks": 57,
+    "calls": "119 51 156 51 100 25 155 191 159 119 101 21 183 128 73 73 34 73 73 103 51 156 51 156 119 51 156 183 215 73 73 34 215 161 43 76 113 70 206 102 11 79 73 102 11 148 39 206 119 206 144 156 51 156 113 70 183 215 73 73 34 215 161 206 113 79 73 113 148 39 43 76 119 43 84 73 60 156 43 84 73 60 156",
+    "file": "core.cpp",
+    "fileloc": 206,
+    "instructions": 588,
+    "loads": {
+      "L": 49
+    },
+    "name": "execute",
+    "stores": {
+      "L": 63
+    },
+    "total_instructions": 2354
+  },
+  "166": {
+    "basicblocks": 1,
+    "calls": "30 75",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 4,
+    "name": "slc<5>",
+    "total_instructions": 52
+  },
+  "167": {
+    "basicblocks": 1,
+    "calls": "82",
+    "file": "ac_int.h",
+    "fileloc": 2412,
+    "instructions": 3,
+    "name": "operator!=<32, true>",
+    "total_instructions": 11
+  },
+  "168": {
+    "basicblocks": 1,
+    "calls": "78",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<12, false>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 12
+  },
+  "169": {
+    "basicblocks": 1,
+    "calls": "30 68",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 3,
+    "name": "slc<10>",
+    "total_instructions": 51
+  },
+  "17": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 2813,
+    "instructions": 5,
+    "name": "ac_int",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 5
+  },
+  "170": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1908,
+    "instructions": 5,
+    "loads": {
+      "L": 1
+    },
+    "name": "bit_adjust",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 5
+  },
+  "171": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1908,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "bit_adjust",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 6
+  },
+  "172": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1555,
+    "instructions": 4,
+    "loads": {
+      "L": 1
+    },
+    "name": "to_uint64",
+    "total_instructions": 4
+  },
+  "173": {
+    "basicblocks": 1,
+    "calls": "81",
+    "file": "ac_int.h",
+    "fileloc": 1501,
+    "instructions": 4,
+    "name": "bitwise_complement<1>",
+    "total_instructions": 10
+  },
+  "174": {
+    "basicblocks": 1,
+    "calls": "109",
+    "file": "ac_int.h",
+    "fileloc": 1516,
+    "instructions": 4,
+    "name": "less_than<1>",
+    "total_instructions": 8
+  },
+  "175": {
+    "basicblocks": 1,
+    "calls": "127 127",
+    "file": "pipelineRegisters.h",
+    "fileloc": 40,
+    "instructions": 4,
+    "name": "FtoDC",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 14
+  },
+  "176": {
+    "basicblocks": 1,
+    "calls": "171",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<13, false>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 12
+  },
+  "177": {
+    "basicblocks": 1,
+    "calls": "104 145 170",
+    "file": "ac_int.h",
+    "fileloc": 2455,
+    "instructions": 8,
+    "name": "set_slc<5, false>",
+    "total_instructions": 38
+  },
+  "178": {
+    "basicblocks": 1,
+    "calls": "53",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<10, false>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 12
+  },
+  "179": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1908,
+    "instructions": 5,
+    "loads": {
+      "L": 1
+    },
+    "name": "bit_adjust",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 5
+  },
+  "18": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1908,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "bit_adjust",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 6
+  },
+  "180": {
+    "basicblocks": 1,
+    "calls": "32 112",
+    "file": "ac_int.h",
+    "fileloc": 2029,
+    "instructions": 3,
+    "name": "ac_int",
+    "total_instructions": 14
+  },
+  "181": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1908,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "bit_adjust",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 6
+  },
+  "182": {
+    "basicblocks": 1,
+    "calls": "111",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<12, true>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 7
+  },
+  "183": {
+    "basicblocks": 1,
+    "calls": "174",
+    "file": "ac_int.h",
+    "fileloc": 2413,
+    "instructions": 2,
+    "name": "operator<<32, true>",
+    "total_instructions": 10
+  },
+  "184": {
+    "basicblocks": 19,
+    "calls": "163 132 20 163 137 119 129 14 52 93 108 48 13 42 199 52 89 136 147 137 119 129 98 73 13 42 45 73 127 137 119 65 50 13 6 77 132 20",
+    "file": "memoryInterface.h",
+    "fileloc": 42,
+    "instructions": 248,
+    "loads": {
+      "L": 20
+    },
+    "name": "process",
+    "stores": {
+      "L": 28
+    },
+    "total_instructions": 1711
+  },
+  "185": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 247,
+    "instructions": 1,
+    "name": "iv_copy<0>",
+    "total_instructions": 1
+  },
+  "186": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1555,
+    "instructions": 4,
+    "loads": {
+      "L": 1
+    },
+    "name": "to_uint64",
+    "total_instructions": 4
+  },
+  "187": {
+    "basicblocks": 1,
+    "calls": "167",
+    "file": "ac_int.h",
+    "fileloc": 2956,
+    "instructions": 2,
+    "name": "operator!=<5, false>",
+    "total_instructions": 13
+  },
+  "188": {
+    "basicblocks": 1,
+    "calls": "25 159",
+    "file": "core.cpp",
+    "fileloc": 21,
+    "instructions": 30,
+    "loads": {
+      "L": 6
+    },
+    "name": "fetch",
+    "stores": {
+      "L": 7
+    },
+    "total_instructions": 73
+  },
+  "189": {
+    "basicblocks": 1,
+    "calls": "30 170",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 3,
+    "name": "slc<12>",
+    "total_instructions": 51
+  },
+  "19": {
+    "basicblocks": 1,
+    "calls": "28",
+    "file": "ac_int.h",
+    "fileloc": 2956,
+    "instructions": 2,
+    "name": "operator==<5, false>",
+    "total_instructions": 12
+  },
+  "190": {
+    "basicblocks": 1,
+    "calls": "213",
+    "file": "ac_int.h",
+    "fileloc": 1498,
+    "instructions": 4,
+    "name": "shift_r2<2>",
+    "total_instructions": 112
+  },
+  "191": {
+    "basicblocks": 1,
+    "calls": "146",
+    "file": "ac_int.h",
+    "fileloc": 2138,
+    "instructions": 2,
+    "name": "operator+<32, true>",
+    "total_instructions": 28
+  },
+  "192": {
+    "basicblocks": 1,
+    "calls": "26 145 207",
+    "file": "ac_int.h",
+    "fileloc": 2455,
+    "instructions": 8,
+    "name": "set_slc<6, false>",
+    "total_instructions": 38
+  },
+  "193": {
+    "basicblocks": 1,
+    "calls": "106",
+    "file": "ac_int.h",
+    "fileloc": 1030,
+    "instructions": 2,
+    "name": "iv_bitwise_and<1, 1, 1>",
+    "total_instructions": 7
+  },
+  "194": {
+    "basicblocks": 1,
+    "calls": "67",
+    "file": "ac_int.h",
+    "fileloc": 1497,
+    "instructions": 4,
+    "name": "shift_r<1>",
+    "total_instructions": 42
   },
   "195": {
     "basicblocks": 1,
@@ -1276,92 +1270,17 @@
   },
   "196": {
     "basicblocks": 1,
-    "calls": "122",
-    "file": "ac_int.h",
-    "fileloc": 1601,
-    "instructions": 3,
-    "loads": {
-      "L": 1
-    },
-    "name": "iv_conv<int>",
-    "total_instructions": 6
-  },
-  "197": {
-    "basicblocks": 1,
-    "calls": "196 21",
-    "file": "ac_int.h",
-    "fileloc": 2029,
-    "instructions": 3,
-    "name": "ac_int",
-    "total_instructions": 14
-  },
-  "198": {
-    "basicblocks": 1,
-    "calls": "66",
-    "file": "ac_int.h",
-    "fileloc": 1483,
-    "instructions": 5,
-    "name": "sub<1, 2>",
-    "total_instructions": 19
-  },
-  "199": {
-    "basicblocks": 1,
-    "calls": "208",
-    "file": "ac_int.h",
-    "fileloc": 2317,
-    "instructions": 2,
-    "name": "operator^<32, true>",
-    "total_instructions": 14
-  },
-  "2": {
-    "basicblocks": 1,
-    "calls": "48",
-    "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "ac_int<32, true>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 11
-  },
-  "20": {
-    "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
-    "fileloc": 1020,
-    "instructions": 5,
-    "loads": {
-      "L": 2
-    },
-    "name": "iv_bitwise_and_n<1>",
+    "fileloc": 420,
+    "instructions": 2,
+    "name": "iv_extend<1>",
     "stores": {
       "L": 1
     },
-    "total_instructions": 5
+    "total_instructions": 2
   },
-  "200": {
-    "basicblocks": 1,
-    "calls": "179 19 171",
-    "file": "ac_int.h",
-    "fileloc": 2455,
-    "instructions": 10,
-    "name": "set_slc<8, false>",
-    "total_instructions": 70
-  },
-  "201": {
-    "basicblocks": 1,
-    "calls": "196 96",
-    "file": "ac_int.h",
-    "fileloc": 2029,
-    "instructions": 3,
-    "name": "ac_int",
-    "total_instructions": 14
-  },
-  "202": {
+  "197": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
@@ -1376,22 +1295,7 @@
     },
     "total_instructions": 5
   },
-  "203": {
-    "basicblocks": 1,
-    "calls": "61",
-    "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 10,
-    "loads": {
-      "L": 2
-    },
-    "name": "ac_int<33, true>",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 13
-  },
-  "204": {
+  "198": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
@@ -1406,70 +1310,115 @@
     },
     "total_instructions": 4
   },
-  "205": {
+  "199": {
     "basicblocks": 1,
-    "calls": "55",
+    "calls": "194 95",
     "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "ac_int<1, true>",
+    "fileloc": 2429,
+    "instructions": 3,
+    "name": "slc<1>",
+    "total_instructions": 50
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "17 17",
+    "file": "pipelineRegisters.h",
+    "fileloc": 40,
+    "instructions": 7,
+    "name": "FtoDC",
     "stores": {
       "L": 1
     },
-    "total_instructions": 12
+    "total_instructions": 17
   },
-  "206": {
+  "20": {
     "basicblocks": 1,
-    "calls": "143",
+    "calls": "38",
     "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "ac_int<20, false>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 12
+    "fileloc": 1597,
+    "instructions": 2,
+    "name": "operator unsigned long long",
+    "total_instructions": 11
   },
-  "207": {
+  "200": {
+    "basicblocks": 1,
+    "calls": "37",
+    "file": "ac_int.h",
+    "fileloc": 2305,
+    "instructions": 2,
+    "name": "operator&<32, true>",
+    "total_instructions": 14
+  },
+  "201": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 6,
+    "fileloc": 2082,
+    "instructions": 3,
     "loads": {
       "L": 1
     },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
+    "name": "to_uint",
+    "total_instructions": 3
+  },
+  "202": {
+    "basicblocks": 4,
+    "calls": "73 119 73",
+    "file": "core.cpp",
+    "fileloc": 393,
+    "instructions": 54,
+    "loads": {
+      "L": 7
     },
-    "total_instructions": 6
+    "name": "memory",
+    "stores": {
+      "L": 13
+    },
+    "total_instructions": 118
   },
-  "208": {
+  "203": {
     "basicblocks": 1,
-    "calls": "76",
+    "calls": "16",
     "file": "ac_int.h",
-    "fileloc": 1510,
-    "instructions": 5,
-    "name": "bitwise_xor<1, 1>",
-    "total_instructions": 12
+    "fileloc": 1497,
+    "instructions": 4,
+    "name": "shift_r<1>",
+    "total_instructions": 43
   },
-  "209": {
+  "204": {
     "basicblocks": 1,
-    "calls": "16 214 161",
+    "calls": "168 145 78",
     "file": "ac_int.h",
     "fileloc": 2455,
     "instructions": 8,
-    "name": "set_slc<13, false>",
+    "name": "set_slc<12, false>",
     "total_instructions": 39
   },
-  "21": {
+  "205": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 382,
+    "instructions": 28,
+    "loads": {
+      "L": 4
+    },
+    "name": "iv_compare<2, 2, false>",
+    "total_instructions": 28
+  },
+  "206": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 2525,
+    "instructions": 14,
+    "loads": {
+      "L": 1
+    },
+    "name": "operator[]",
+    "total_instructions": 14
+  },
+  "207": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
@@ -1484,129 +1433,432 @@
     },
     "total_instructions": 5
   },
+  "208": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1050,
+    "instructions": 5,
+    "loads": {
+      "L": 2
+    },
+    "name": "iv_bitwise_or_n<1>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 5
+  },
+  "209": {
+    "basicblocks": 15,
+    "calls": "10 166 166 3 166 10 122 10 49 166 177 189 168 151 46 204 157 69 207 116 192 27 1 69 207 90 47 15 83 150 180 129 135 69 112 169 55 112 160 153 119 35 119 35 119 39 25 155 91 159 39 182 39 39 58 39 182 39 182 39 39 182 39 39 19",
+    "file": "core.cpp",
+    "fileloc": 29,
+    "instructions": 417,
+    "loads": {
+      "L": 34
+    },
+    "name": "decode",
+    "stores": {
+      "L": 87
+    },
+    "total_instructions": 2104
+  },
+  "21": {
+    "basicblocks": 1,
+    "calls": "82",
+    "file": "ac_int.h",
+    "fileloc": 2412,
+    "instructions": 3,
+    "name": "operator!=<32, true>",
+    "total_instructions": 11
+  },
   "210": {
     "basicblocks": 1,
-    "calls": "93",
+    "calls": "7",
+    "file": "ac_int.h",
+    "fileloc": 1423,
+    "instructions": 4,
+    "name": "iv<2>",
+    "total_instructions": 7
+  },
+  "211": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1908,
+    "instructions": 5,
+    "loads": {
+      "L": 1
+    },
+    "name": "bit_adjust",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 5
+  },
+  "212": {
+    "basicblocks": 1,
+    "calls": "38 186 86",
+    "file": "ac_int.h",
+    "fileloc": 1573,
+    "instructions": 22,
+    "loads": {
+      "L": 2
+    },
+    "name": "set_slc<1>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 45
+  },
+  "213": {
+    "basicblocks": 4,
+    "calls": "143 74",
+    "file": "ac_int.h",
+    "fileloc": 1158,
+    "instructions": 8,
+    "name": "iv_shift_r2<2, 2, true>",
+    "total_instructions": 108
+  },
+  "214": {
+    "basicblocks": 1,
+    "calls": "74",
+    "file": "ac_int.h",
+    "fileloc": 1497,
+    "instructions": 4,
+    "name": "shift_r<2>",
+    "total_instructions": 58
+  },
+  "215": {
+    "basicblocks": 1,
+    "calls": "23 111",
+    "file": "ac_int.h",
+    "fileloc": 2023,
+    "instructions": 5,
+    "name": "ac_int",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 13
+  },
+  "22": {
+    "basicblocks": 1,
+    "calls": "29 190 118",
+    "file": "ac_int.h",
+    "fileloc": 2363,
+    "instructions": 5,
+    "name": "operator>><32>",
+    "total_instructions": 123
+  },
+  "23": {
+    "basicblocks": 1,
+    "calls": "62",
+    "file": "ac_int.h",
+    "fileloc": 1610,
+    "instructions": 4,
+    "loads": {
+      "L": 1
+    },
+    "name": "iv_conv<bool>",
+    "total_instructions": 7
+  },
+  "24": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 578,
+    "instructions": 18,
+    "loads": {
+      "L": 2
+    },
+    "name": "iv_add_int_carry<2>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 18
+  },
+  "25": {
+    "basicblocks": 1,
+    "calls": "191",
+    "file": "ac_int.h",
+    "fileloc": 2956,
+    "instructions": 2,
+    "name": "operator+<32, false>",
+    "total_instructions": 30
+  },
+  "26": {
+    "basicblocks": 1,
+    "calls": "162",
     "file": "ac_int.h",
     "fileloc": 2017,
     "instructions": 6,
     "loads": {
       "L": 1
     },
-    "name": "ac_int<16, false>",
+    "name": "ac_int<6, false>",
     "stores": {
       "L": 1
     },
     "total_instructions": 12
   },
-  "211": {
+  "27": {
     "basicblocks": 1,
-    "calls": "61",
+    "calls": "30 211",
     "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 10,
-    "loads": {
-      "L": 2
-    },
-    "name": "ac_int<34, true>",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 13
+    "fileloc": 2429,
+    "instructions": 3,
+    "name": "slc<4>",
+    "total_instructions": 51
   },
-  "212": {
+  "28": {
+    "basicblocks": 1,
+    "calls": "82",
+    "file": "ac_int.h",
+    "fileloc": 2411,
+    "instructions": 2,
+    "name": "operator==<32, true>",
+    "total_instructions": 10
+  },
+  "29": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
-    "fileloc": 420,
-    "instructions": 2,
-    "name": "iv_extend<1>",
+    "fileloc": 2081,
+    "instructions": 3,
+    "loads": {
+      "L": 1
+    },
+    "name": "to_int",
+    "total_instructions": 3
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "30 99",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 3,
+    "name": "slc<3>",
+    "total_instructions": 51
+  },
+  "30": {
+    "basicblocks": 1,
+    "calls": "16",
+    "file": "ac_int.h",
+    "fileloc": 1497,
+    "instructions": 4,
+    "name": "shift_r<1>",
+    "total_instructions": 43
+  },
+  "31": {
+    "basicblocks": 1,
+    "calls": "142 111",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 9,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<32, false>",
     "stores": {
       "L": 1
     },
-    "total_instructions": 2
+    "total_instructions": 17
   },
-  "213": {
+  "32": {
     "basicblocks": 1,
-    "calls": "20",
+    "calls": "62",
     "file": "ac_int.h",
-    "fileloc": 1030,
-    "instructions": 2,
-    "name": "iv_bitwise_and<1, 1, 1>",
-    "total_instructions": 7
+    "fileloc": 1601,
+    "instructions": 3,
+    "loads": {
+      "L": 1
+    },
+    "name": "iv_conv<int>",
+    "total_instructions": 6
   },
-  "214": {
+  "33": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
-    "fileloc": 1569,
+    "fileloc": 1908,
+    "instructions": 3,
+    "name": "bit_adjust",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 3
+  },
+  "34": {
+    "basicblocks": 1,
+    "calls": "85",
+    "file": "ac_int.h",
+    "fileloc": 2413,
+    "instructions": 2,
+    "name": "operator<<32, false>",
+    "total_instructions": 34
+  },
+  "35": {
+    "basicblocks": 1,
+    "calls": "36 118",
+    "file": "ac_int.h",
+    "fileloc": 2017,
     "instructions": 13,
     "loads": {
       "L": 2
     },
-    "name": "set_slc<1>",
+    "name": "ac_int<32, true>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 30
+  },
+  "36": {
+    "basicblocks": 1,
+    "calls": "7 196",
+    "file": "ac_int.h",
+    "fileloc": 1423,
+    "instructions": 9,
+    "loads": {
+      "L": 1
+    },
+    "name": "iv<1>",
+    "total_instructions": 14
+  },
+  "37": {
+    "basicblocks": 1,
+    "calls": "193",
+    "file": "ac_int.h",
+    "fileloc": 1502,
+    "instructions": 5,
+    "name": "bitwise_and<1, 1>",
+    "total_instructions": 12
+  },
+  "38": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1564,
+    "instructions": 9,
+    "loads": {
+      "L": 2
+    },
+    "name": "to_uint64",
+    "total_instructions": 9
+  },
+  "39": {
+    "basicblocks": 1,
+    "calls": "210 111",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 8,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<32, false>",
     "stores": {
       "L": 1
     },
-    "total_instructions": 13
+    "total_instructions": 16
   },
-  "215": {
+  "4": {
     "basicblocks": 1,
-    "calls": "101 115",
+    "calls": "12",
     "file": "ac_int.h",
-    "fileloc": 2429,
+    "fileloc": 1482,
     "instructions": 5,
-    "name": "slc<8>",
-    "total_instructions": 53
+    "name": "add<1, 2>",
+    "total_instructions": 19
   },
-  "22": {
+  "40": {
     "basicblocks": 1,
-    "calls": "68",
+    "calls": "",
     "file": "ac_int.h",
-    "fileloc": 2411,
-    "instructions": 2,
-    "name": "operator==<32, true>",
-    "total_instructions": 10
+    "fileloc": 1908,
+    "instructions": 5,
+    "loads": {
+      "L": 1
+    },
+    "name": "bit_adjust",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 5
   },
-  "23": {
+  "41": {
     "basicblocks": 1,
-    "calls": "83 133",
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1564,
+    "instructions": 9,
+    "loads": {
+      "L": 2
+    },
+    "name": "to_uint64",
+    "total_instructions": 9
+  },
+  "42": {
+    "basicblocks": 1,
+    "calls": "30 80",
     "file": "ac_int.h",
     "fileloc": 2429,
-    "instructions": 3,
-    "name": "slc<1>",
-    "total_instructions": 50
+    "instructions": 4,
+    "name": "slc<16>",
+    "total_instructions": 52
   },
-  "24": {
+  "43": {
     "basicblocks": 1,
-    "calls": "68",
-    "file": "ac_int.h",
-    "fileloc": 2411,
-    "instructions": 2,
-    "name": "operator==<32, true>",
-    "total_instructions": 10
-  },
-  "25": {
-    "basicblocks": 1,
-    "calls": "79",
+    "calls": "63",
     "file": "ac_int.h",
     "fileloc": 2311,
     "instructions": 2,
     "name": "operator|<32, true>",
     "total_instructions": 14
   },
-  "26": {
-    "basicblocks": 1,
-    "calls": "144",
+  "44": {
+    "basicblocks": 6,
+    "calls": "",
     "file": "ac_int.h",
-    "fileloc": 2414,
-    "instructions": 3,
-    "name": "operator>=<32, false>",
-    "total_instructions": 35
+    "fileloc": 1105,
+    "instructions": 26,
+    "loads": {
+      "L": 2
+    },
+    "name": "iv_shift_l<1, 1>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 26
   },
-  "27": {
+  "45": {
     "basicblocks": 1,
-    "calls": "19 171",
+    "calls": "200",
+    "file": "ac_int.h",
+    "fileloc": 2956,
+    "instructions": 2,
+    "name": "operator&<16, false>",
+    "total_instructions": 16
+  },
+  "46": {
+    "basicblocks": 1,
+    "calls": "194 170",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 3,
+    "name": "slc<12>",
+    "total_instructions": 50
+  },
+  "47": {
+    "basicblocks": 1,
+    "calls": "176 145 171",
+    "file": "ac_int.h",
+    "fileloc": 2455,
+    "instructions": 8,
+    "name": "set_slc<13, false>",
+    "total_instructions": 39
+  },
+  "48": {
+    "basicblocks": 1,
+    "calls": "164 33",
     "file": "ac_int.h",
     "fileloc": 2455,
     "instructions": 12,
@@ -1619,406 +1871,100 @@
     },
     "total_instructions": 60
   },
-  "28": {
-    "basicblocks": 1,
-    "calls": "81",
-    "file": "ac_int.h",
-    "fileloc": 2956,
-    "instructions": 2,
-    "name": "operator+<32, false>",
-    "total_instructions": 30
-  },
-  "29": {
-    "basicblocks": 1,
-    "calls": "101 67",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 5,
-    "name": "slc<16>",
-    "total_instructions": 53
-  },
-  "3": {
-    "basicblocks": 1,
-    "calls": "13",
-    "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "ac_int<10, false>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 12
-  },
-  "30": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 6
-  },
-  "31": {
-    "basicblocks": 1,
-    "calls": "57",
-    "file": "ac_int.h",
-    "fileloc": 2956,
-    "instructions": 2,
-    "name": "operator!=<5, false>",
-    "total_instructions": 13
-  },
-  "32": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 2081,
-    "instructions": 3,
-    "loads": {
-      "L": 1
-    },
-    "name": "to_int",
-    "total_instructions": 3
-  },
-  "33": {
-    "basicblocks": 1,
-    "calls": "185",
-    "file": "ac_int.h",
-    "fileloc": 1597,
-    "instructions": 3,
-    "name": "operator unsigned long long",
-    "total_instructions": 7
-  },
-  "34": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 2082,
-    "instructions": 3,
-    "loads": {
-      "L": 1
-    },
-    "name": "to_uint",
-    "total_instructions": 3
-  },
-  "35": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 1,
-    "name": "bit_adjust",
-    "total_instructions": 1
-  },
-  "36": {
-    "basicblocks": 1,
-    "calls": "168 168",
-    "file": "pipelineRegisters.h",
-    "fileloc": 40,
-    "instructions": 4,
-    "name": "FtoDC",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 14
-  },
-  "37": {
-    "basicblocks": 8,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1123,
-    "instructions": 39,
-    "loads": {
-      "L": 4
-    },
-    "name": "iv_shift_r<2, 1>",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 39
-  },
-  "38": {
-    "basicblocks": 1,
-    "calls": "101 42",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 4,
-    "name": "slc<2>",
-    "total_instructions": 52
-  },
-  "39": {
-    "basicblocks": 1,
-    "calls": "191 214 44",
-    "file": "ac_int.h",
-    "fileloc": 2455,
-    "instructions": 8,
-    "name": "set_slc<21, false>",
-    "total_instructions": 39
-  },
-  "4": {
-    "basicblocks": 1,
-    "calls": "138",
-    "file": "ac_int.h",
-    "fileloc": 1060,
-    "instructions": 2,
-    "name": "iv_bitwise_or<1, 1, 1>",
-    "total_instructions": 7
-  },
-  "40": {
-    "basicblocks": 1,
-    "calls": "48",
-    "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "ac_int<5, true>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 11
-  },
-  "41": {
-    "basicblocks": 1,
-    "calls": "50 214 21",
-    "file": "ac_int.h",
-    "fileloc": 2455,
-    "instructions": 8,
-    "name": "set_slc<4, false>",
-    "total_instructions": 38
-  },
-  "42": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 5,
-    "loads": {
-      "L": 1
-    },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 5
-  },
-  "43": {
-    "basicblocks": 1,
-    "calls": "179 214 80",
-    "file": "ac_int.h",
-    "fileloc": 2455,
-    "instructions": 8,
-    "name": "set_slc<8, false>",
-    "total_instructions": 38
-  },
-  "44": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 6
-  },
-  "45": {
-    "basicblocks": 8,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1123,
-    "instructions": 38,
-    "loads": {
-      "L": 4
-    },
-    "name": "iv_shift_r<1, 1>",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 38
-  },
-  "46": {
-    "basicblocks": 1,
-    "calls": "85",
-    "file": "ac_int.h",
-    "fileloc": 1482,
-    "instructions": 5,
-    "name": "add<1, 2>",
-    "total_instructions": 26
-  },
-  "47": {
-    "basicblocks": 1,
-    "calls": "150",
-    "file": "ac_int.h",
-    "fileloc": 1597,
-    "instructions": 2,
-    "name": "operator unsigned long long",
-    "total_instructions": 11
-  },
-  "48": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 5,
-    "loads": {
-      "L": 1
-    },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 5
-  },
   "49": {
-    "basicblocks": 3,
-    "calls": "",
+    "basicblocks": 1,
+    "calls": "72 145 170",
     "file": "ac_int.h",
-    "fileloc": 2525,
-    "instructions": 14,
-    "loads": {
-      "L": 1
-    },
-    "name": "operator[]",
-    "total_instructions": 14
+    "fileloc": 2455,
+    "instructions": 8,
+    "name": "set_slc<7, false>",
+    "total_instructions": 38
   },
   "5": {
     "basicblocks": 1,
-    "calls": "93",
+    "calls": "",
     "file": "ac_int.h",
-    "fileloc": 2017,
+    "fileloc": 1908,
     "instructions": 6,
     "loads": {
       "L": 1
     },
-    "name": "ac_int<1, true>",
+    "name": "bit_adjust",
     "stores": {
       "L": 1
     },
-    "total_instructions": 12
+    "total_instructions": 6
   },
   "50": {
     "basicblocks": 1,
-    "calls": "193",
+    "calls": "126 212 118",
+    "file": "ac_int.h",
+    "fileloc": 2455,
+    "instructions": 9,
+    "name": "set_slc<8, false>",
+    "total_instructions": 69
+  },
+  "51": {
+    "basicblocks": 1,
+    "calls": "4",
+    "file": "ac_int.h",
+    "fileloc": 2138,
+    "instructions": 2,
+    "name": "operator+<32, true>",
+    "total_instructions": 21
+  },
+  "52": {
+    "basicblocks": 1,
+    "calls": "5",
     "file": "ac_int.h",
     "fileloc": 2017,
     "instructions": 6,
     "loads": {
       "L": 1
     },
-    "name": "ac_int<4, false>",
+    "name": "ac_int<1, false>",
     "stores": {
       "L": 1
     },
     "total_instructions": 12
   },
-  "51": {
+  "53": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
-    "fileloc": 407,
-    "instructions": 4,
-    "loads": {
-      "L": 2
-    },
-    "name": "iv_compare<1, 1, false>",
-    "total_instructions": 4
-  },
-  "52": {
-    "basicblocks": 1,
-    "calls": "70",
-    "file": "ac_int.h",
-    "fileloc": 1597,
-    "instructions": 2,
-    "name": "operator unsigned long long",
-    "total_instructions": 6
-  },
-  "53": {
-    "basicblocks": 1,
-    "calls": "123 60",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 3,
-    "name": "slc<10>",
-    "total_instructions": 51
-  },
-  "54": {
-    "basicblocks": 1,
-    "calls": "35",
-    "file": "ac_int.h",
-    "fileloc": 2017,
+    "fileloc": 1908,
     "instructions": 6,
     "loads": {
       "L": 1
     },
-    "name": "ac_int<12, true>",
+    "name": "bit_adjust",
     "stores": {
       "L": 1
+    },
+    "total_instructions": 6
+  },
+  "54": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 442,
+    "instructions": 7,
+    "name": "iv_assign_int64<2>",
+    "stores": {
+      "L": 2
     },
     "total_instructions": 7
   },
   "55": {
     "basicblocks": 1,
-    "calls": "",
+    "calls": "178 145 112",
     "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 6
+    "fileloc": 2455,
+    "instructions": 8,
+    "name": "set_slc<10, false>",
+    "total_instructions": 38
   },
   "56": {
-    "basicblocks": 1,
-    "calls": "14",
-    "file": "ac_int.h",
-    "fileloc": 1423,
-    "instructions": 4,
-    "name": "iv<2>",
-    "total_instructions": 7
-  },
-  "57": {
-    "basicblocks": 1,
-    "calls": "68",
-    "file": "ac_int.h",
-    "fileloc": 2412,
-    "instructions": 3,
-    "name": "operator!=<32, true>",
-    "total_instructions": 11
-  },
-  "58": {
-    "basicblocks": 3,
-    "calls": "31",
-    "file": "core.cpp",
-    "fileloc": 423,
-    "instructions": 23,
-    "loads": {
-      "L": 3
-    },
-    "name": "writeback",
-    "stores": {
-      "L": 5
-    },
-    "total_instructions": 36
-  },
-  "59": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
@@ -2033,183 +1979,18 @@
     },
     "total_instructions": 5
   },
-  "6": {
+  "57": {
     "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 2813,
-    "instructions": 5,
-    "name": "ac_int",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 5
-  },
-  "60": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 5,
-    "loads": {
-      "L": 1
-    },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 5
-  },
-  "61": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 3,
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 3
-  },
-  "62": {
-    "basicblocks": 1,
-    "calls": "153 35",
-    "file": "ac_int.h",
-    "fileloc": 2023,
-    "instructions": 5,
-    "name": "ac_int",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 13
-  },
-  "63": {
-    "basicblocks": 1,
-    "calls": "73",
-    "file": "ac_int.h",
-    "fileloc": 2414,
-    "instructions": 3,
-    "name": "operator>=<32, true>",
-    "total_instructions": 11
-  },
-  "64": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 2805,
-    "instructions": 3,
-    "name": "ac_int",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 3
-  },
-  "65": {
-    "basicblocks": 1,
-    "calls": "123 96",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 3,
-    "name": "slc<12>",
-    "total_instructions": 51
-  },
-  "66": {
-    "basicblocks": 1,
-    "calls": "174",
-    "file": "ac_int.h",
-    "fileloc": 773,
-    "instructions": 7,
-    "loads": {
-      "L": 2
-    },
-    "name": "iv_sub<1, 1, 2>",
-    "total_instructions": 14
-  },
-  "67": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1908,
-    "instructions": 5,
-    "loads": {
-      "L": 1
-    },
-    "name": "bit_adjust",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 5
-  },
-  "68": {
-    "basicblocks": 1,
-    "calls": "117",
-    "file": "ac_int.h",
-    "fileloc": 1514,
-    "instructions": 4,
-    "name": "equal<1>",
-    "total_instructions": 8
-  },
-  "69": {
-    "basicblocks": 1,
-    "calls": "78",
+    "calls": "121",
     "file": "ac_int.h",
     "fileloc": 1502,
     "instructions": 5,
     "name": "bitwise_and<2, 2>",
     "total_instructions": 27
   },
-  "7": {
+  "58": {
     "basicblocks": 1,
-    "calls": "189",
-    "file": "ac_int.h",
-    "fileloc": 1482,
-    "instructions": 5,
-    "name": "add<1, 2>",
-    "total_instructions": 19
-  },
-  "70": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "ac_int.h",
-    "fileloc": 1555,
-    "instructions": 4,
-    "loads": {
-      "L": 1
-    },
-    "name": "to_uint64",
-    "total_instructions": 4
-  },
-  "71": {
-    "basicblocks": 1,
-    "calls": "163",
-    "file": "ac_int.h",
-    "fileloc": 2290,
-    "instructions": 2,
-    "name": "operator~",
-    "total_instructions": 12
-  },
-  "72": {
-    "basicblocks": 1,
-    "calls": "69",
-    "file": "ac_int.h",
-    "fileloc": 2305,
-    "instructions": 2,
-    "name": "operator&<32, false>",
-    "total_instructions": 29
-  },
-  "73": {
-    "basicblocks": 1,
-    "calls": "51",
-    "file": "ac_int.h",
-    "fileloc": 1516,
-    "instructions": 4,
-    "name": "less_than<1>",
-    "total_instructions": 8
-  },
-  "74": {
-    "basicblocks": 1,
-    "calls": "35",
+    "calls": "111",
     "file": "ac_int.h",
     "fileloc": 2017,
     "instructions": 6,
@@ -2222,55 +2003,118 @@
     },
     "total_instructions": 7
   },
-  "75": {
+  "59": {
     "basicblocks": 1,
-    "calls": "68",
+    "calls": "",
     "file": "ac_int.h",
-    "fileloc": 2412,
-    "instructions": 3,
-    "name": "operator!=<32, true>",
-    "total_instructions": 11
-  },
-  "76": {
-    "basicblocks": 1,
-    "calls": "59",
-    "file": "ac_int.h",
-    "fileloc": 1090,
-    "instructions": 2,
-    "name": "iv_bitwise_xor<1, 1, 1>",
-    "total_instructions": 7
-  },
-  "77": {
-    "basicblocks": 1,
-    "calls": "100",
-    "file": "ac_int.h",
-    "fileloc": 2956,
-    "instructions": 2,
-    "name": "operator&<8, false>",
-    "total_instructions": 16
-  },
-  "78": {
-    "basicblocks": 4,
-    "calls": "20 14 212",
-    "file": "ac_int.h",
-    "fileloc": 1030,
-    "instructions": 12,
+    "fileloc": 1908,
+    "instructions": 6,
     "loads": {
       "L": 1
     },
-    "name": "iv_bitwise_and<1, 2, 2>",
-    "total_instructions": 22
+    "name": "bit_adjust",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 6
   },
-  "79": {
+  "6": {
     "basicblocks": 1,
-    "calls": "4",
+    "calls": "203 80",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 5,
+    "name": "slc<16>",
+    "total_instructions": 53
+  },
+  "60": {
+    "basicblocks": 1,
+    "calls": "57",
+    "file": "ac_int.h",
+    "fileloc": 2305,
+    "instructions": 2,
+    "name": "operator&<32, false>",
+    "total_instructions": 29
+  },
+  "61": {
+    "basicblocks": 1,
+    "calls": "54",
+    "file": "ac_int.h",
+    "fileloc": 773,
+    "instructions": 7,
+    "loads": {
+      "L": 2
+    },
+    "name": "iv_sub<1, 1, 2>",
+    "total_instructions": 14
+  },
+  "62": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1431,
+    "instructions": 3,
+    "name": "iv",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 3
+  },
+  "63": {
+    "basicblocks": 1,
+    "calls": "9",
     "file": "ac_int.h",
     "fileloc": 1506,
     "instructions": 5,
     "name": "bitwise_or<1, 1>",
     "total_instructions": 12
   },
-  "8": {
+  "64": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "memoryInterface.h",
+    "fileloc": 25,
+    "instructions": 3,
+    "name": "MemoryInterface",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 3
+  },
+  "65": {
+    "basicblocks": 1,
+    "calls": "203 114",
+    "file": "ac_int.h",
+    "fileloc": 2429,
+    "instructions": 5,
+    "name": "slc<8>",
+    "total_instructions": 53
+  },
+  "66": {
+    "basicblocks": 1,
+    "calls": "44",
+    "file": "ac_int.h",
+    "fileloc": 1495,
+    "instructions": 4,
+    "name": "shift_l<1>",
+    "total_instructions": 30
+  },
+  "67": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1123,
+    "instructions": 38,
+    "loads": {
+      "L": 4
+    },
+    "name": "iv_shift_r<1, 1>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 38
+  },
+  "68": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
@@ -2284,6 +2128,171 @@
       "L": 1
     },
     "total_instructions": 5
+  },
+  "69": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 2525,
+    "instructions": 14,
+    "loads": {
+      "L": 1
+    },
+    "name": "operator[]",
+    "total_instructions": 14
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 252,
+    "instructions": 3,
+    "loads": {
+      "L": 1
+    },
+    "name": "iv_copy<1>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 3
+  },
+  "70": {
+    "basicblocks": 1,
+    "calls": "201 66 111",
+    "file": "ac_int.h",
+    "fileloc": 2356,
+    "instructions": 4,
+    "name": "operator<<<5>",
+    "total_instructions": 38
+  },
+  "71": {
+    "basicblocks": 1,
+    "calls": "94",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<16, false>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 12
+  },
+  "72": {
+    "basicblocks": 1,
+    "calls": "125",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "ac_int<7, false>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 12
+  },
+  "73": {
+    "basicblocks": 1,
+    "calls": "141 118",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 12,
+    "loads": {
+      "L": 2
+    },
+    "name": "ac_int<32, true>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 29
+  },
+  "74": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1123,
+    "instructions": 54,
+    "loads": {
+      "L": 4
+    },
+    "name": "iv_shift_r<2, 2>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 54
+  },
+  "75": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1908,
+    "instructions": 5,
+    "loads": {
+      "L": 1
+    },
+    "name": "bit_adjust",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 5
+  },
+  "76": {
+    "basicblocks": 1,
+    "calls": "37",
+    "file": "ac_int.h",
+    "fileloc": 2305,
+    "instructions": 2,
+    "name": "operator&<32, true>",
+    "total_instructions": 14
+  },
+  "77": {
+    "basicblocks": 1,
+    "calls": "71 212 118",
+    "file": "ac_int.h",
+    "fileloc": 2455,
+    "instructions": 9,
+    "name": "set_slc<16, false>",
+    "total_instructions": 69
+  },
+  "78": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1908,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "bit_adjust",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 6
+  },
+  "79": {
+    "basicblocks": 1,
+    "calls": "201 194 111",
+    "file": "ac_int.h",
+    "fileloc": 2370,
+    "instructions": 4,
+    "name": "operator>><5>",
+    "total_instructions": 50
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 460,
+    "instructions": 7,
+    "name": "iv_assign_uint64<2>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 7
   },
   "80": {
     "basicblocks": 1,
@@ -2302,55 +2311,70 @@
   },
   "81": {
     "basicblocks": 1,
-    "calls": "46",
+    "calls": "198",
     "file": "ac_int.h",
-    "fileloc": 2138,
+    "fileloc": 1008,
     "instructions": 2,
-    "name": "operator+<32, true>",
-    "total_instructions": 28
+    "name": "iv_bitwise_complement<1, 1>",
+    "total_instructions": 6
   },
   "82": {
-    "basicblocks": 10,
-    "calls": "",
+    "basicblocks": 1,
+    "calls": "97",
     "file": "ac_int.h",
-    "fileloc": 1123,
-    "instructions": 54,
-    "loads": {
-      "L": 4
-    },
-    "name": "iv_shift_r<2, 2>",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 54
+    "fileloc": 1514,
+    "instructions": 4,
+    "name": "equal<1>",
+    "total_instructions": 8
   },
   "83": {
     "basicblocks": 1,
-    "calls": "45",
+    "calls": "30 197",
     "file": "ac_int.h",
-    "fileloc": 1497,
-    "instructions": 4,
-    "name": "shift_r<1>",
-    "total_instructions": 42
+    "fileloc": 2429,
+    "instructions": 3,
+    "name": "slc<20>",
+    "total_instructions": 51
   },
   "84": {
     "basicblocks": 1,
-    "calls": "184",
+    "calls": "173",
     "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "ac_int<6, false>",
-    "stores": {
-      "L": 1
-    },
+    "fileloc": 2290,
+    "instructions": 2,
+    "name": "operator~",
     "total_instructions": 12
   },
   "85": {
     "basicblocks": 1,
-    "calls": "1",
+    "calls": "205",
+    "file": "ac_int.h",
+    "fileloc": 1516,
+    "instructions": 4,
+    "name": "less_than<2>",
+    "total_instructions": 32
+  },
+  "86": {
+    "basicblocks": 1,
+    "calls": "8",
+    "file": "ac_int.h",
+    "fileloc": 1430,
+    "instructions": 3,
+    "name": "iv",
+    "total_instructions": 10
+  },
+  "87": {
+    "basicblocks": 1,
+    "calls": "61",
+    "file": "ac_int.h",
+    "fileloc": 1483,
+    "instructions": 5,
+    "name": "sub<1, 2>",
+    "total_instructions": 19
+  },
+  "88": {
+    "basicblocks": 1,
+    "calls": "24",
     "file": "ac_int.h",
     "fileloc": 640,
     "instructions": 3,
@@ -2360,91 +2384,67 @@
     "name": "iv_add<2, 1, 2>",
     "total_instructions": 21
   },
-  "86": {
-    "basicblocks": 1,
-    "calls": "123 155",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 4,
-    "name": "slc<7>",
-    "total_instructions": 52
-  },
-  "87": {
-    "basicblocks": 1,
-    "calls": "83 133",
-    "file": "ac_int.h",
-    "fileloc": 2429,
-    "instructions": 3,
-    "name": "slc<1>",
-    "total_instructions": 50
-  },
-  "88": {
-    "basicblocks": 1,
-    "calls": "141",
-    "file": "ac_int.h",
-    "fileloc": 2305,
-    "instructions": 2,
-    "name": "operator&<32, true>",
-    "total_instructions": 14
-  },
   "89": {
     "basicblocks": 1,
-    "calls": "207",
+    "calls": "71 164 33",
     "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "ac_int<5, false>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 12
+    "fileloc": 2455,
+    "instructions": 10,
+    "name": "set_slc<16, false>",
+    "total_instructions": 70
   },
   "9": {
     "basicblocks": 1,
-    "calls": "82",
+    "calls": "208",
     "file": "ac_int.h",
-    "fileloc": 1497,
-    "instructions": 4,
-    "name": "shift_r<2>",
-    "total_instructions": 58
+    "fileloc": 1060,
+    "instructions": 2,
+    "name": "iv_bitwise_or<1, 1, 1>",
+    "total_instructions": 7
   },
   "90": {
     "basicblocks": 1,
-    "calls": "7",
+    "calls": "124 171",
     "file": "ac_int.h",
-    "fileloc": 2138,
-    "instructions": 2,
-    "name": "operator+<32, true>",
-    "total_instructions": 21
+    "fileloc": 2029,
+    "instructions": 3,
+    "name": "ac_int",
+    "total_instructions": 15
   },
   "91": {
     "basicblocks": 1,
-    "calls": "204",
+    "calls": "146",
     "file": "ac_int.h",
-    "fileloc": 1008,
+    "fileloc": 2138,
     "instructions": 2,
-    "name": "iv_bitwise_complement<1, 1>",
-    "total_instructions": 6
+    "name": "operator+<21, true>",
+    "total_instructions": 28
   },
   "92": {
-    "basicblocks": 1,
-    "calls": "56 35",
-    "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 9,
+    "basicblocks": 9,
+    "calls": "",
+    "file": "core.cpp",
+    "fileloc": 433,
+    "instructions": 36,
     "loads": {
-      "L": 1
+      "L": 6
     },
-    "name": "ac_int<32, false>",
+    "name": "branchUnit",
     "stores": {
-      "L": 1
+      "L": 9
     },
-    "total_instructions": 17
+    "total_instructions": 36
   },
   "93": {
+    "basicblocks": 1,
+    "calls": "126 164 33",
+    "file": "ac_int.h",
+    "fileloc": 2455,
+    "instructions": 10,
+    "name": "set_slc<8, false>",
+    "total_instructions": 70
+  },
+  "94": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
@@ -2459,25 +2459,7 @@
     },
     "total_instructions": 6
   },
-  "94": {
-    "basicblocks": 1,
-    "calls": "132 161",
-    "file": "ac_int.h",
-    "fileloc": 2029,
-    "instructions": 3,
-    "name": "ac_int",
-    "total_instructions": 15
-  },
   "95": {
-    "basicblocks": 1,
-    "calls": "109",
-    "file": "ac_int.h",
-    "fileloc": 2287,
-    "instructions": 3,
-    "name": "operator!",
-    "total_instructions": 10
-  },
-  "96": {
     "basicblocks": 1,
     "calls": "",
     "file": "ac_int.h",
@@ -2492,37 +2474,55 @@
     },
     "total_instructions": 5
   },
+  "96": {
+    "basicblocks": 1,
+    "calls": "36 33",
+    "file": "ac_int.h",
+    "fileloc": 2017,
+    "instructions": 13,
+    "loads": {
+      "L": 2
+    },
+    "name": "ac_int<32, true>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 30
+  },
   "97": {
     "basicblocks": 1,
-    "calls": "123 67",
+    "calls": "",
     "file": "ac_int.h",
-    "fileloc": 2429,
+    "fileloc": 317,
     "instructions": 4,
-    "name": "slc<16>",
-    "total_instructions": 52
+    "loads": {
+      "L": 2
+    },
+    "name": "iv_equal<1, 1>",
+    "total_instructions": 4
   },
   "98": {
     "basicblocks": 1,
-    "calls": "147",
-    "file": "ac_int.h",
-    "fileloc": 2017,
-    "instructions": 6,
-    "loads": {
-      "L": 1
-    },
-    "name": "ac_int<12, false>",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 12
-  },
-  "99": {
-    "basicblocks": 1,
-    "calls": "127",
+    "calls": "120",
     "file": "ac_int.h",
     "fileloc": 2956,
     "instructions": 2,
-    "name": "operator>><32, false>",
-    "total_instructions": 125
+    "name": "operator&<8, false>",
+    "total_instructions": 16
+  },
+  "99": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "ac_int.h",
+    "fileloc": 1908,
+    "instructions": 5,
+    "loads": {
+      "L": 1
+    },
+    "name": "bit_adjust",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 5
   }
 }

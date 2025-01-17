@@ -1,8 +1,8 @@
-obj/core.o: ../../../../../../riscvISA_comet_to_vitis_hls/core.cpp \
-  ../../../../../../riscvISA_comet_to_vitis_hls/ac_int.h \
-  ../../../../../../riscvISA_comet_to_vitis_hls/cacheMemory.h \
-  ../../../../../../riscvISA_comet_to_vitis_hls/logarithm.h \
-  ../../../../../../riscvISA_comet_to_vitis_hls/memoryInterface.h \
-  ../../../../../../riscvISA_comet_to_vitis_hls/core.h \
-  ../../../../../../riscvISA_comet_to_vitis_hls/riscvISA.h \
-  ../../../../../../riscvISA_comet_to_vitis_hls/pipelineRegisters.h
+obj/core.o: ../../../../../design_files/core.cpp \
+  ../../../../../design_files/ac_int.h \
+  ../../../../../design_files/cacheMemory.h \
+  ../../../../../design_files/logarithm.h \
+  ../../../../../design_files/memoryInterface.h \
+  ../../../../../design_files/core.h \
+  ../../../../../design_files/riscvISA.h \
+  ../../../../../design_files/pipelineRegisters.h
