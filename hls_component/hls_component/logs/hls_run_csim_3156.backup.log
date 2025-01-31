@@ -1,0 +1,115 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component\hls_component.hlsrun_csim_summary, at 01/17/25 10:20:36
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component -config C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg -cmdlineconfig C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1.2 (64-bit)
+  **** SW Build 5096458 on Sep  5 2024
+  **** IP Build 5164407 on Fri Sep  6 08:18:11 MDT 2024
+  **** SharedData Build 5164864 on Thu Sep 05 13:09:09 MDT 2024
+  **** Start of session at: Fri Jan 17 10:20:38 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'kwokt' on host 'desktop-q1lrole' (Windows NT_amd64 version 10.0) on Fri Jan 17 10:20:39 -0500 2025
+INFO: [HLS 200-10] In directory 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component'
+INFO: [HLS 200-2005] Using work_dir C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+make: 'csim.exe' is up to date.
+Mismatch at [0][0]: Expected 16084, Got 11422
+Mismatch at [0][1]: Expected 6656, Got 28918
+Mismatch at [0][2]: Expected 12100, Got 2970
+Mismatch at [0][3]: Expected 21283, Got -18956
+Mismatch at [0][4]: Expected -1574, Got -18468
+Mismatch at [0][5]: Expected 566, Got 8961
+Mismatch at [0][6]: Expected -16, Got -15761
+Mismatch at [0][7]: Expected -7646, Got 9239
+Mismatch at [1][0]: Expected -5499, Got 5989
+Mismatch at [1][1]: Expected -4050, Got -15327
+Mismatch at [1][2]: Expected 21946, Got 10394
+Mismatch at [1][3]: Expected 31647, Got -16056
+Mismatch at [1][4]: Expected -1290, Got 11010
+Mismatch at [1][5]: Expected -11062, Got 10910
+Mismatch at [1][6]: Expected 16413, Got 16727
+Mismatch at [1][7]: Expected -30173, Got -8072
+Mismatch at [2][0]: Expected 14932, Got 20291
+Mismatch at [2][1]: Expected -2663, Got 18968
+Mismatch at [2][2]: Expected -1848, Got -12940
+Mismatch at [2][3]: Expected -11799, Got 5753
+Mismatch at [2][4]: Expected -799, Got 71
+Mismatch at [2][5]: Expected -3182, Got 15926
+Mismatch at [2][6]: Expected 3258, Got -31802
+Mismatch at [2][7]: Expected -933, Got -6150
+Mismatch at [3][0]: Expected -15860, Got 17193
+Mismatch at [3][1]: Expected 6393, Got 19121
+Mismatch at [3][2]: Expected -9170, Got -16535
+Mismatch at [3][3]: Expected 1141, Got -8778
+Mismatch at [3][4]: Expected 21807, Got -13041
+Mismatch at [3][5]: Expected -2134, Got -21418
+Mismatch at [3][6]: Expected 17153, Got 7506
+Mismatch at [3][7]: Expected 32273, Got 26335
+Mismatch at [4][0]: Expected 816, Got -1169
+Mismatch at [4][1]: Expected -2503, Got -7915
+Mismatch at [4][2]: Expected 32457, Got 1555
+Mismatch at [4][3]: Expected -29333, Got 3953
+Mismatch at [4][4]: Expected 15418, Got 3062
+Mismatch at [4][5]: Expected -3864, Got 817
+Mismatch at [4][6]: Expected -22094, Got 4178
+Mismatch at [4][7]: Expected -6929, Got -16113
+Mismatch at [5][0]: Expected 180, Got 2379
+Mismatch at [5][1]: Expected -348, Got 1184
+Mismatch at [5][2]: Expected 22784, Got 6448
+Mismatch at [5][3]: Expected 2646, Got -12903
+Mismatch at [5][4]: Expected -6729, Got 3247
+Mismatch at [5][5]: Expected -8292, Got 13457
+Mismatch at [5][6]: Expected 1416, Got 902
+Mismatch at [5][7]: Expected -12323, Got -20031
+Mismatch at [6][0]: Expected -3664, Got 914
+Mismatch at [6][1]: Expected -3731, Got 450
+Mismatch at [6][2]: Expected 8007, Got 14309
+Mismatch at [6][3]: Expected 22812, Got 14148
+Mismatch at [6][4]: Expected 5217, Got 7653
+Mismatch at [6][5]: Expected -7135, Got 13621
+Mismatch at [6][6]: Expected 1336, Got 1295
+Mismatch at [6][7]: Expected -27106, Got -11686
+Mismatch at [7][0]: Expected 107, Got 5900
+Mismatch at [7][1]: Expected 2679, Got 6159
+Mismatch at [7][2]: Expected -27136, Got -8084
+Mismatch at [7][3]: Expected 17623, Got 27934
+Mismatch at [7][4]: Expected 3693, Got 8789
+Mismatch at [7][5]: Expected 4895, Got -18212
+Mismatch at [7][6]: Expected 10555, Got 13854
+Mismatch at [7][7]: Expected -24316, Got 24197
+16084    6656    12100    21283    -1574    566    -16    -7646    
+-5499    -4050    21946    31647    -1290    -11062    16413    -30173    
+14932    -2663    -1848    -11799    -799    -3182    3258    -933    
+-15860    6393    -9170    1141    21807    -2134    17153    32273    
+816    -2503    32457    -29333    15418    -3864    -22094    -6929    
+180    -348    22784    2646    -6729    -8292    1416    -12323    
+-3664    -3731    8007    22812    5217    -7135    1336    -27106    
+107    2679    -27136    17623    3693    4895    10555    -24316    
+Test Failed!
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 4.452 seconds; peak allocated memory: 236.156 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 10s

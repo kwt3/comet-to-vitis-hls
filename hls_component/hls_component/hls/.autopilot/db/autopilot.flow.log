@@ -562,3 +562,1398 @@ Execute   close_project
 Execute     close_solution 
 Execute       cleanup_all 
 Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls opened at Fri Jan 17 10:20:39 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+Execute     add_files -tb C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+Execute     set_top doCore 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 2.048 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.178 sec.
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.274 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 2.342 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute     source run_sim.tcl 
+Command     ap_source done; 0.102 sec.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command   csim_design done; 0.874 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls opened at Fri Jan 17 11:10:21 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+Execute     add_files -tb C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+Execute     set_top doCore 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 1.943 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.065 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 2.111 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute     source run_sim.tcl 
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command   csim_design done; 0.501 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls opened at Thu Jan 23 22:59:26 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+Execute     add_files -tb C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+Execute     set_top doCore 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 2.672 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.17 sec.
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.899 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 2.966 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xcvu9p-flga2104-2-i -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 1.438 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls opened at Thu Jan 23 23:03:54 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+Execute     add_files -tb C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+Execute     set_top doCore 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 1.929 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.048 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 2.086 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xcvu9p-flga2104-2-i -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 0.4 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls opened at Thu Jan 23 23:05:44 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+Execute     add_files -tb C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+Execute     set_top doCore 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 1.94 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.057 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 2.098 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.O=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(3) 
+INFO: [HLS 200-1465] Applying ini 'csim.O=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(3)
+Execute     config_csim -O=0 
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(4)
+Execute     config_csim -clean=1 
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.setup=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(2) 
+INFO: [HLS 200-1465] Applying ini 'csim.setup=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(2)
+Execute     config_csim -setup=1 
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xcvu9p-flga2104-2-i -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] CSim file generation failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+5
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 5
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 0.451 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls opened at Thu Jan 23 23:06:05 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+Execute     add_files -tb C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+Execute     set_top doCore 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 2.007 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.127 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 2.176 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xcvu9p-flga2104-2-i -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 0.405 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls opened at Thu Jan 23 23:12:59 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+Execute     add_files -tb C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+Execute     set_top doCore 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 1.995 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.117 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11)
+Execute     config_csim -clean=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.code_analyzer=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12)
+Execute     config_csim -code_analyzer=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 2.172 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO-FLOW: ::SLX::run_csim failed: child process exited abnormally
+INFO-FLOW: Caught error in csim_design: Problem running csim: child process exited abnormally
+    while executing
+"error "Problem running $stage: $result""
+    (procedure "::AP::hls_slx_hook" line 54)
+    invoked from within
+"::AP::hls_slx_hook csim $config_value_dict replace_flow"
+    (procedure "ap_internal_csim_design" line 104)
+    invoked from within
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 24.504 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls opened at Thu Jan 23 23:15:22 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+Execute     add_files -tb C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+Execute     set_top doCore 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 1.999 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.121 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11)
+Execute     config_csim -clean=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.code_analyzer=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12)
+Execute     config_csim -code_analyzer=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 2.184 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.O=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(3) 
+INFO: [HLS 200-1465] Applying ini 'csim.O=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(3)
+Execute     config_csim -O=0 
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(4)
+Execute     config_csim -clean=1 
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.setup=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(2) 
+INFO: [HLS 200-1465] Applying ini 'csim.setup=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(2)
+Execute     config_csim -setup=1 
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xcvu9p-flga2104-2-i -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] CSim file generation failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+5
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 5
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 0.439 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls opened at Thu Jan 23 23:17:58 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+Execute     add_files -tb C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+Execute     set_top doCore 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 1.858 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 1.98 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11)
+Execute     config_csim -clean=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.code_analyzer=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12)
+Execute     config_csim -code_analyzer=0 
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 2.031 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xcvu9p-flga2104-2-i -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 0.415 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls opened at Thu Jan 23 23:21:02 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12)
+Execute     add_files -tb C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+Execute     set_top doCore 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 1.907 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.02 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+Execute     config_csim -clean=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.code_analyzer=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+Execute     config_csim -code_analyzer=0 
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 2.06 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xcvu9p-flga2104-2-i -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 0.395 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls opened at Thu Jan 23 23:22:34 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12)
+Execute     add_files -tb C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+Execute     set_top doCore 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 1.992 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.112 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+Execute     config_csim -clean=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.code_analyzer=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+Execute     config_csim -code_analyzer=0 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.sanitize_address=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'csim.sanitize_address=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(13)
+Execute     config_csim -sanitize_address=0 
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 2.163 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xcvu9p-flga2104-2-i -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 0.409 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls opened at Thu Jan 23 23:22:53 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12)
+Execute     add_files -tb C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+Execute     set_top doCore 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 2.144 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.267 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+Execute     config_csim -clean=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.code_analyzer=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+Execute     config_csim -code_analyzer=0 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.sanitize_address=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'csim.sanitize_address=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(13)
+Execute     config_csim -sanitize_address=0 
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 2.311 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xcvu9p-flga2104-2-i -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 0.416 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls opened at Fri Jan 24 00:02:10 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12)
+Execute     add_files -tb C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+Execute     set_top doCore 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 3.189 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.183 sec.
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 3.433 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+Execute     config_csim -clean=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.code_analyzer=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+Execute     config_csim -code_analyzer=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.sanitize_address=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'csim.sanitize_address=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(13)
+Execute     config_csim -sanitize_address=0 
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 3.528 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO-FLOW: ::SLX::run_csim failed: child process exited abnormally
+INFO-FLOW: Caught error in csim_design: Problem running csim: child process exited abnormally
+    while executing
+"error "Problem running $stage: $result""
+    (procedure "::AP::hls_slx_hook" line 54)
+    invoked from within
+"::AP::hls_slx_hook csim $config_value_dict replace_flow"
+    (procedure "ap_internal_csim_design" line 104)
+    invoked from within
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 26.172 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls opened at Fri Jan 24 00:05:04 -0500 2025
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(13)
+Execute     add_files C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/tests/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/tests/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+Execute     add_files -tb C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/tests/dct-test.c 
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/tests/dct-test.c' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+Execute     set_top doCore 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vitis 
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_latency=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+Execute     config_interface -m_axi_latency=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_alignment_byte_size=64 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+Execute     config_interface -m_axi_alignment_byte_size=64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_interface -m_axi_max_widen_bitwidth=512 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+Execute     config_interface -m_axi_max_widen_bitwidth=512 
+INFO-FLOW: Setting macro_cmd open_solution -flow_target vitis configuration: config_interface -default_interface=kernel
+Execute     config_interface -default_interface=kernel 
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vitis' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+Execute     config_rtl -register_reset_num=3 
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+Execute     set_part xcvu9p-flga2104-2-i 
+Execute       create_platform xcvu9p-flga2104-2-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+Command       create_platform done; 2.125 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcvu9p-flga2104-2-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 2.256 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+Execute     config_csim -clean=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.code_analyzer=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+Execute     config_csim -code_analyzer=1 
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.sanitize_address=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'csim.sanitize_address=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11)
+Execute     config_csim -sanitize_address=0 
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 2.319 sec.
+Execute   apply_ini C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO-FLOW: ::SLX::run_csim failed: child process exited abnormally
+INFO-FLOW: Caught error in csim_design: Problem running csim: child process exited abnormally
+    while executing
+"error "Problem running $stage: $result""
+    (procedure "::AP::hls_slx_hook" line 54)
+    invoked from within
+"::AP::hls_slx_hook csim $config_value_dict replace_flow"
+    (procedure "ap_internal_csim_design" line 104)
+    invoked from within
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 22.012 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 

@@ -1,44 +1,55 @@
-INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_component\hls_component.hlsrun_csim_summary, at 01/17/25 00:43:34
-INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_component -config C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_config.cfg -cmdlineconfig C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component\hls_component.hlsrun_csim_summary, at 01/24/25 00:05:01
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component -config C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg -cmdlineconfig C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline
 
-****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
-  **** SW Build 5069499 on May 21 2024
-  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
-  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Fri Jan 17 00:43:37 2025
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1.2 (64-bit)
+  **** SW Build 5096458 on Sep  5 2024
+  **** IP Build 5164407 on Fri Sep  6 08:18:11 MDT 2024
+  **** SharedData Build 5164864 on Thu Sep 05 13:09:09 MDT 2024
+  **** Start of session at: Fri Jan 24 00:05:03 2025
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
-INFO: [HLS 200-10] For user 'kwokt' on host 'billy' (Windows NT_amd64 version 10.0) on Fri Jan 17 00:43:38 -0500 2025
-INFO: [HLS 200-10] In directory 'C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component'
-INFO: [HLS 200-2005] Using work_dir C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_component 
+INFO: [HLS 200-10] For user 'kwokt' on host 'desktop-q1lrole' (Windows NT_amd64 version 10.0) on Fri Jan 24 00:05:03 -0500 2025
+INFO: [HLS 200-10] In directory 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component'
+INFO: [HLS 200-2005] Using work_dir C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component 
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
 Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
-INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
-INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
-INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
-INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/core.cpp' to the project
-INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
-INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/dct-test.c' to the project
-INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
-INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(13)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/tests/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/tests/dct-test.c' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
 INFO: [HLS 200-1505] Using flow_target 'vitis'
 Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
 INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
 INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
 INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
 INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
-INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
 INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
-INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
-INFO: [SIM 211-2] *************** CSIM start ***************
-INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
-INFO: [HLS 200-2036] Building debug C Simulation binaries
-   Compiling ../../../../../design_files/dct-test.c in debug mode
-   Compiling ../../../../../design_files/core.cpp in debug mode
-   Compiling ../../../../../design_files/riscvISA.cpp in debug mode
-   Generating csim.exe
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'csim.sanitize_address=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+INFO: [SIM 211-200] Executing Code Analyzer instead of classic HLS C simulation
+INFO: [SIM 211-200] Cleaning
+[ Cleaned build and execution files ]
+INFO: [SIM 211-200] Compiling source code ../design_files/riscvISA.cpp as hardware code with instrumentation
+INFO: [SIM 211-200] Compiling source code ../design_files/core.cpp as hardware code with instrumentation
+INFO: [SIM 211-200] Compiling source code ../design_files/tests/dct-test.c as test bench code with instrumentation
+INFO: [SIM 211-200] Compiling source code ../design_files/core.cpp as test bench code with instrumentation
+INFO: [SIM 211-200] Compiling source code ../design_files/riscvISA.cpp as test bench code with instrumentation
+INFO: [SIM 211-200] Linking hardware code
+INFO: [SIM 211-200] Transforming hardware bitcode
+INFO: [SIM 211-200] Linking executable
+INFO: [SIM 211-200] Determining source code dependencies
+INFO: [SIM 211-200] Generating static call graph
+INFO: [SIM 211-200] Analyzing Interfaces
+INFO: [SIM 211-200] Running executable
 Mismatch at [0][0]: Expected 16084, Got 11422
 Mismatch at [0][1]: Expected 6656, Got 28918
 Mismatch at [0][2]: Expected 12100, Got 2970
@@ -112,7 +123,30 @@ Mismatch at [7][7]: Expected -24316, Got 24197
 -3664    -3731    8007    22812    5217    -7135    1336    -27106    
 107    2679    -27136    17623    3693    4895    10555    -24316    
 Test Failed!
-INFO: [SIM 211-1] CSim done with 0 errors.
-INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 6.016 seconds; peak allocated memory: 230.727 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 11s
+INFO: [SIM 211-200] Analyzing trace data
+INFO: [SIM 211-208] Running Code Analyzer
+Assertion failed: ExitReg && "Could not get exit region from function region", file ../vcxx/libraries/cdfTaskGraph/src/Builder/Helpers.cpp, line 88
+PLEASE submit a bug report and include the crash backtrace.
+Stack dump:
+0.	Program arguments: c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/parallelismSelector.exe -g C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\output\\reduced_programmodel.app --basepath C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component --static-xml C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml --fpga-part xcvu9p-flga2104-2-i --device-totals c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\platform\\logic\\fpga.devicetotals --clock-frequency 100.0 --out-dir C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\output --log-dir C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\log --mapping C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\output\\app.functionMapping --objective none --performance-target target_both --max-array-optimization-factor 1024 --complete-partition-limit 4 --lut-constraint 100.0 --ff-constraint 100.0 --dsp-constraint 100.0 --bram-constraint 100.0 --uram-constraint 100.0 --ir-module C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\project.symbols.bc --max-iterations 1000 --max-iterations-branch-full-log 20 --df-id 0 --df-target %F968
+ #0 0x00007ff6494f1de6 boost::archive::detail::oserializer<boost::archive::xml_oarchive, std::pair<nsTraceReader::ThreadId const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::oserializer() (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\parallelismSelector.exe+0x2a1de6)
+ #1 0x00007ff8b8c2adfb (C:\Windows\System32\msvcrt.dll+0x2adfb)
+ #2 0x00007ff8b8c2f1fb (C:\Windows\System32\msvcrt.dll+0x2f1fb)
+ #3 0x00007ff8b8c2bbc5 (C:\Windows\System32\msvcrt.dll+0x2bbc5)
+ #4 0x00007ff6496881f6 boost::archive::detail::oserializer<boost::archive::xml_oarchive, std::pair<nsTraceReader::ThreadId const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::oserializer() (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\parallelismSelector.exe+0x4381f6)
+ #5 0x00007ff649649403 boost::archive::detail::oserializer<boost::archive::xml_oarchive, std::pair<nsTraceReader::ThreadId const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::oserializer() (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\parallelismSelector.exe+0x3f9403)
+ #6 0x00007ff649647ccf boost::archive::detail::oserializer<boost::archive::xml_oarchive, std::pair<nsTraceReader::ThreadId const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::oserializer() (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\parallelismSelector.exe+0x3f7ccf)
+ #7 0x00007ff649647b86 boost::archive::detail::oserializer<boost::archive::xml_oarchive, std::pair<nsTraceReader::ThreadId const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::oserializer() (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\parallelismSelector.exe+0x3f7b86)
+ #8 0x00007ff6492d08ea boost::serialization::singleton_module::is_locked() (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\parallelismSelector.exe+0x808ea)
+ #9 0x00007ff6492cfd9d boost::serialization::singleton_module::is_locked() (c:\xilinx\vitis_hls\2024.1\vcxx\libexec\parallelismSelector.exe+0x7fd9d)
+#10 0x00007ff64925a1a3 
+#11 0x00007ff6492513c4 
+#12 0x00007ff649251506 
+#13 0x00007ff8b8b47374 
+#14 0x00007ff8b8b47374 (C:\Windows\System32\KERNEL32.DLL+0x17374)
+#15 0x00007ff8b9c1cc91 (C:\Windows\SYSTEM32\ntdll.dll+0x4cc91)
+slxcmd:0:0: warning: Non-zero exit code: 3221225501 returned by 'INFO: [SIM 211-208] Running Code Analyzer'
+ERROR: [SIM 211-200] An unexpected internal error occured, please report this as a bug.
+ERROR: [SIM 211-200] Code Analyzer execution failed. Consider running the classic C simulation instead by disabling the hls.csim.code_analyzer option in the config file.
+ERROR: Problem running csim: child process exited abnormally
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 25.446 seconds; peak allocated memory: 237.078 MB.

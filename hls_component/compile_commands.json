@@ -1,38 +1,38 @@
 [
   {
-    "directory": "C:\\Users\\kwokt\\Desktop\\Vitis_HLS2\\comet-to-vitis-hls\\hls_component",
+    "directory": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
       "-fhls",
       "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
       "",
       "-c",
-      "C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/riscvISA.cpp"
+      "C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp"
     ],
-    "file": "C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/riscvISA.cpp"
+    "file": "C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp"
   },
   {
-    "directory": "C:\\Users\\kwokt\\Desktop\\Vitis_HLS2\\comet-to-vitis-hls\\hls_component",
+    "directory": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
       "-fhls",
       "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
       "",
       "-c",
-      "C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/core.cpp"
+      "C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp"
     ],
-    "file": "C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/core.cpp"
+    "file": "C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp"
   },
   {
-    "directory": "C:\\Users\\kwokt\\Desktop\\Vitis_HLS2\\comet-to-vitis-hls\\hls_component",
+    "directory": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
       "-fhls-tb",
       "-hls-sim-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\include",
       "",
       "-c",
-      "C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/dct-test.c"
+      "C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/tests/dct-test.c"
     ],
-    "file": "C:/Users/kwokt/Desktop/Vitis_HLS2/comet-to-vitis-hls/design_files/dct-test.c"
+    "file": "C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/tests/dct-test.c"
   }
 ]

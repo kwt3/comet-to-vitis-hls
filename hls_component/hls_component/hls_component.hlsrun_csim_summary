@@ -1,6 +1,6 @@
 <ENTRY>
 {
- "thisFile": "C:/Users\\kwokt\\Desktop\\Vitis_HLS2\\comet-to-vitis-hls\\hls_component\\hls_component\\hls_component.hlsrun_csim_summary",
+ "thisFile": "C:/Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls_component.hlsrun_csim_summary",
  "connectId": "",
  "serverToken": "",
  "timestamp": "0"
@@ -9,34 +9,34 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "01/17/25 00:43:34",
- "timestampMillis": "1925827080",
+ "dateTimestamp": "01/24/25 00:05:01",
+ "timestampMillis": "2528313599",
  "buildStep": {
-  "cmdId": "64692296-d7b5-43b6-ac43-81571e9d9429",
+  "cmdId": "c94f8ca9-58a2-45b0-ac92-ad54a5fb424a",
   "name": "vitis-run",
-  "logFile": "C:/Users\\kwokt\\Desktop\\Vitis_HLS2\\comet-to-vitis-hls\\hls_component\\hls_component\\logs\\hls_component.steps.log",
-  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\kwokt\\Desktop\\Vitis_HLS2\\comet-to-vitis-hls\\hls_component\\hls_config.cfg --work_dir hls_component ",
+  "logFile": "C:/Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\logs\\hls_component.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_config.cfg --work_dir hls_component ",
   "args": [
    "--mode",
    "hls",
    "--csim",
    "--config",
-   "C:\\Users\\kwokt\\Desktop\\Vitis_HLS2\\comet-to-vitis-hls\\hls_component\\hls_config.cfg",
+   "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_config.cfg",
    "--work_dir",
    "hls_component"
   ],
   "iniFiles": [],
-  "cwd": "C:\\Users\\kwokt\\Desktop\\Vitis_HLS2\\comet-to-vitis-hls\\hls_component"
+  "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "01/17/25 00:43:34",
- "timestampMillis": "1925827081",
+ "dateTimestamp": "01/24/25 00:05:01",
+ "timestampMillis": "2528313599",
  "status": {
-  "cmdId": "64692296-d7b5-43b6-ac43-81571e9d9429",
+  "cmdId": "c94f8ca9-58a2-45b0-ac92-ad54a5fb424a",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "01/17/25 00:43:40",
- "timestampMillis": "1925832971",
+ "dateTimestamp": "01/24/25 00:05:06",
+ "timestampMillis": "2528318925",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -64,8 +64,8 @@
      "uuid": ""
     },
     "sources": [
-     "C:/Users\\kwokt\\Desktop\\Vitis_HLS2\\comet-to-vitis-hls\\design_files\\riscvISA.cpp",
-     "C:/Users\\kwokt\\Desktop\\Vitis_HLS2\\comet-to-vitis-hls\\design_files\\core.cpp"
+     "C:/Users\\kwokt\\Desktop\\comet-to-vitis-hls\\design_files\\riscvISA.cpp",
+     "C:/Users\\kwokt\\Desktop\\comet-to-vitis-hls\\design_files\\core.cpp"
     ],
     "psSources": [],
     "cuNames": [],
@@ -81,26 +81,26 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "01/17/25 00:43:40",
- "timestampMillis": "1925832973",
+ "dateTimestamp": "01/24/25 00:05:06",
+ "timestampMillis": "2528318927",
  "buildStep": {
-  "cmdId": "4566e348-4394-4b9a-8e66-99906463d0e9",
+  "cmdId": "dcc80932-02b2-42f1-8ab9-f129ea1c7f3a",
   "name": "csim_design",
-  "logFile": "C:/Users\\kwokt\\Desktop\\Vitis_HLS2\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\hls.log",
+  "logFile": "C:/Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\hls.log",
   "commandLine": "csim_design",
   "args": [],
   "iniFiles": [],
-  "cwd": "C:\\Users\\kwokt\\Desktop\\Vitis_HLS2\\comet-to-vitis-hls\\hls_component"
+  "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "01/17/25 00:43:40",
- "timestampMillis": "1925832973",
+ "dateTimestamp": "01/24/25 00:05:06",
+ "timestampMillis": "2528318927",
  "status": {
-  "cmdId": "4566e348-4394-4b9a-8e66-99906463d0e9",
+  "cmdId": "dcc80932-02b2-42f1-8ab9-f129ea1c7f3a",
   "state": "CS_RUNNING"
  }
 }
@@ -108,30 +108,30 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "01/17/25 00:43:43",
- "timestampMillis": "1925835623",
+ "dateTimestamp": "01/24/25 00:05:28",
+ "timestampMillis": "2528340938",
  "status": {
-  "cmdId": "4566e348-4394-4b9a-8e66-99906463d0e9",
-  "state": "CS_PASSED"
+  "cmdId": "dcc80932-02b2-42f1-8ab9-f129ea1c7f3a",
+  "state": "CS_FAILED"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "01/17/25 00:43:43",
- "timestampMillis": "1925835797",
+ "dateTimestamp": "01/24/25 00:05:28",
+ "timestampMillis": "2528341093",
  "status": {
-  "cmdId": "64692296-d7b5-43b6-ac43-81571e9d9429",
-  "state": "CS_PASSED"
+  "cmdId": "c94f8ca9-58a2-45b0-ac92-ad54a5fb424a",
+  "state": "CS_FAILED"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "01/17/25 00:43:43",
- "timestampMillis": "1925835797",
+ "dateTimestamp": "01/24/25 00:05:28",
+ "timestampMillis": "2528341094",
  "report": {
   "path": "",
   "name": "",
@@ -144,8 +144,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "01/17/25 00:43:43",
- "timestampMillis": "1925835797",
+ "dateTimestamp": "01/24/25 00:05:28",
+ "timestampMillis": "2528341094",
  "report": {
   "path": "",
   "name": "",

@@ -1,0 +1,218 @@
+{
+    "rules": {
+        "['C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\riscvISA.cpp.0.bc', 'C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\riscvISA.cpp.0.bc.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\riscvISA.cpp.0.bc.d",
+                "-fhls",
+                "-hls-syn-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\autopilot",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=doCore",
+                "-fslxtrace",
+                "../design_files/riscvISA.cpp",
+                "-o",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\riscvISA.cpp.0.bc"
+            ],
+            "exectime": 1.2079949378967285,
+            "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component"
+        },
+        "['C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\core.cpp.0.bc', 'C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\core.cpp.0.bc.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\core.cpp.0.bc.d",
+                "-fhls",
+                "-hls-syn-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\autopilot",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=doCore",
+                "-fslxtrace",
+                "../design_files/core.cpp",
+                "-o",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\core.cpp.0.bc"
+            ],
+            "exectime": 1.4559955596923828,
+            "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component"
+        },
+        "['C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\dct-test.c.0.o', 'C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\dct-test.c.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\dct-test.c.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=doCore",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "../design_files/tests/dct-test.c",
+                "-o",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\dct-test.c.0.o"
+            ],
+            "exectime": 0.06503629684448242,
+            "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component"
+        },
+        "['C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\core.cpp.0.o', 'C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\core.cpp.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\core.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=doCore",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "../design_files/core.cpp",
+                "-o",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\core.cpp.0.o"
+            ],
+            "exectime": 2.234956979751587,
+            "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component"
+        },
+        "['C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\riscvISA.cpp.0.o', 'C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\riscvISA.cpp.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\riscvISA.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=doCore",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "../design_files/riscvISA.cpp",
+                "-o",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\riscvISA.cpp.0.o"
+            ],
+            "exectime": 1.529994249343872,
+            "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component"
+        },
+        "['C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/llvm-link.exe",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\riscvISA.cpp.0.bc",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\core.cpp.0.bc",
+                "-o",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc"
+            ],
+            "exectime": 0.11700177192687988,
+            "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component"
+        },
+        "['C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.opt.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/opt.exe",
+                "-check-single-toplevel",
+                "-make-non-toplevel-internal",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc",
+                "-o",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc"
+            ],
+            "exectime": 0.10699868202209473,
+            "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component"
+        },
+        "['C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\app.exe']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang++.exe",
+                "-o",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\app.exe",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\dct-test.c.0.o",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\core.cpp.0.o",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\riscvISA.cpp.0.o",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc",
+                "-fhls",
+                "-fhlstoplevel=doCore",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "-fslxtrace",
+                "-Wl,-mllvm,-profilerOutputDirectory=C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\profiler\\0",
+                "-fslxpthreads",
+                "-lpthread",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt"
+            ],
+            "exectime": 5.466967821121216,
+            "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component"
+        },
+        "['C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_0\\\\binary_dependencies.json']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\libexec\\clang-scan-deps.exe",
+                "--compilation-database=C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\compile_commands.json",
+                "--format=vitiscxx",
+                "--reuse-filemanager=false",
+                "--output=C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\binary_dependencies.json"
+            ],
+            "exectime": 0.1080007553100586,
+            "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component"
+        },
+        "['C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\output\\\\app.functionGraph']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/staticCallGraph.exe",
+                "-i",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml",
+                "-o",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\output\\app.functionGraph"
+            ],
+            "exectime": 1.7179927825927734,
+            "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component"
+        },
+        "['C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\output\\\\app.functionMapping']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/functionMapper.exe",
+                "--static-xml",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml",
+                "--function-mapping",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\output\\app.functionMapping",
+                "--ir-module",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "--fn",
+                "968"
+            ],
+            "exectime": 0.7659978866577148,
+            "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component"
+        },
+        "['C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\bin\\\\.tracing_stdout.txt', 'C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\bin\\\\.tracing_stderr.txt']": {
+            "command": [
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\build\\app.exe"
+            ],
+            "exectime": 0.07100272178649902,
+            "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\tracing\\csim\\build"
+        },
+        "['C:\\\\Users\\\\kwokt\\\\Desktop\\\\comet-to-vitis-hls\\\\hls_component\\\\hls_component\\\\hls\\\\csim\\\\code_analyzer\\\\output\\\\reduced_programmodel.app']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/optimizer.exe",
+                "-DFGPass",
+                "-appName=app",
+                "-outputDir",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\output",
+                "-logDir",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\log",
+                "-pmout=C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\output\\reduced_programmodel.app",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "-staticFile",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml",
+                "-traceFile",
+                "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component\\hls_component\\hls\\csim\\code_analyzer\\.internal\\profiler\\0\\app_0_0\\thread0000-trace.txt",
+                "-o",
+                "nul"
+            ],
+            "exectime": 1.0160009860992432,
+            "cwd": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls\\hls_component"
+        }
+    }
+}

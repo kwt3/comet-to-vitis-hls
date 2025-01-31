@@ -15,7 +15,6 @@
 
 #include <sstream>
 #include <string>
-
 #include "riscvISA.h"
 
 const char* riscvNamesOP[8]   = {"ADD", "SLL", "CMPLT", "CMPLTU", "XOR", "", "OR", "AND"};
@@ -183,9 +182,15 @@ std::string printDecodedInstrRISCV(unsigned int oneInstruction)
   return result;
 }
 
-bool isRecognized(ac_int<32, false> instruction){
-  const ac_int<3, false> funct3 = instruction.slc<3>(12);
-  const ac_int<7, false> opCode = instruction.slc<7>(0);
+// bool isRecognized(ac_int<32, false> instruction){
+//   const ac_int<3, false> funct3 = instruction.slc<3>(12);
+//   const ac_int<7, false> opCode = instruction.slc<7>(0);
+
+// check if a given 32-bit RISC-V instruction is valid or belongs to a recognized set of opcodes 
+// and formats defined by the RISC-V ISA.
+bool isRecognized(ap_uint<32> instruction){
+  const ap_uint<3> funct3 = instruction.range(14,12); //funct3	14:12
+  const ap_uint<7> opCode = instruction.range(6,0); // opcode	6:0
   switch (opCode) {
     case RISCV_LUI:
       break;

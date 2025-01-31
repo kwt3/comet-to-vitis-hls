@@ -1,0 +1,15 @@
+parallelismSelector::VERBO: Summary of inputs: 
+parallelismSelector::VERBO: Output directory: "C:\Users\kwokt\Desktop\comet-to-vitis-hls\hls_component\hls_component\hls\csim\code_analyzer\output"
+parallelismSelector::VERBO: spec:0:0: info: Will use basepath at location C:\Users\kwokt\Desktop\comet-to-vitis-hls\hls_component
+parallelismSelector::VERBO: FPGA clock frequency is set to 100 MHz
+parallelismSelector::VERBO: Will use user-driven complete partitioning settings
+parallelismSelector::VERBO: Arrays with less than or equal to 4 elements that appear in the codegen directives will be completely partitioned
+parallelismSelector::VERBO: spec:0:0: info: Will use IR Module file at location C:\Users\kwokt\Desktop\comet-to-vitis-hls\hls_component\hls_component\hls\csim\code_analyzer\.internal\instrument\app_0\project.symbols.bc
+parallelismSelector::VERBO: FPGA frequency: 100000000 Hz
+parallelismSelector::VERBO: Using FPGA frequency for HLS estimations: 100000000 Hz
+parallelismSelector::VERBO: [Model Builder] Extracting logic model object from: C:\Xilinx\Vitis_HLS\2024.1\vcxx\data\platform\logic\virtexuplus.logic
+parallelismSelector::VERBO: Using Program Model file: C:\Users\kwokt\Desktop\comet-to-vitis-hls\hls_component\hls_component\hls\csim\code_analyzer\output\reduced_programmodel.app
+parallelismSelector::VERBO: Device characteristics: Area -- (LUTs: 1182240, FFs: 2364480, DSPs: 6840, BRAMs: 4320, URAMs: 960)
+parallelismSelector::VERBO: Maximum area for the hardware functions: AreaConstraint -- (LUTs: 1182240, FFs: 2364480, DSPs: 6840, BRAMs: 4320, URAMs: 960)
+parallelismSelector::VERBO: Code Analyzer Id: 0
+parallelismSelector::VERBO: Dataflow Hardware Function: _Z6doCorebP7ap_uintILi32EES1_

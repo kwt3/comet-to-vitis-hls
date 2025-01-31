@@ -1,8 +1,9 @@
 {
-  "workspaceRoot": "C:\\Users\\kwokt\\Desktop\\Vitis_HLS2\\comet-to-vitis-hls",
+  "workspaceRoot": "C:\\Users\\kwokt\\Desktop\\comet-to-vitis-hls",
   "mapping": {
     "design_files\\riscvISA.cpp": "hls_component",
     "design_files\\core.cpp": "hls_component",
-    "design_files\\dct-test.c": "hls_component"
+    "design_files\\dct-test.c": "hls_component",
+    "design_files\\tests\\dct-test.c": "hls_component"
   }
 }

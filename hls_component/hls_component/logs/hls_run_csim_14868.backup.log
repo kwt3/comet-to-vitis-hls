@@ -1,0 +1,49 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component\hls_component.hlsrun_csim_summary, at 01/23/25 23:05:42
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component -config C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg -config C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg -cmdlineconfig C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1.2 (64-bit)
+  **** SW Build 5096458 on Sep  5 2024
+  **** IP Build 5164407 on Fri Sep  6 08:18:11 MDT 2024
+  **** SharedData Build 5164864 on Thu Sep 05 13:09:09 MDT 2024
+  **** Start of session at: Thu Jan 23 23:05:43 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'kwokt' on host 'desktop-q1lrole' (Windows NT_amd64 version 10.0) on Thu Jan 23 23:05:44 -0500 2025
+INFO: [HLS 200-10] In directory 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component'
+INFO: [HLS 200-2005] Using work_dir C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/riscvISA.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/core.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/kwokt/Desktop/comet-to-vitis-hls/design_files/dct-test.c' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=doCore' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1465] Applying ini 'part=xcvu9p-flga2104-2-i' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xcvu9p-flga2104-2-i'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_config.cfg(5)
+INFO: [HLS 200-1465] Applying ini 'csim.O=0' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(3)
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+INFO: [HLS 200-1465] Applying ini 'csim.clean=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(4)
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+INFO: [HLS 200-1465] Applying ini 'csim.setup=1' from C:/Users/kwokt/Desktop/comet-to-vitis-hls/hls_component/hls_component/hls-debug.cfg(2)
+INFO: [HLS 200-1907] Replacing 'config_csim -O=0' with 'config_sim -O=0' in current solution file
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+The system cannot find the path specified.
+make: *** [Makefile.rules:444: obj/.dir] Error 1
+ERROR: [SIM 211-100] CSim file generation failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+ERROR: 5
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 3.55 seconds; peak allocated memory: 236.383 MB.

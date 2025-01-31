@@ -16,13 +16,14 @@
 #ifndef __CORE_H__
 #define __CORE_H__
 
-#include "ac_int.h"
+// #include "ac_int.h"
+#include "ap_int.h"
 #include "riscvISA.h"
 
 // all the possible memories
 #include "cacheMemory.h"
-#include "memoryInterface.h"
-#include "pipelineRegisters.h"
+#include "memoryInterface.h" // finished
+#include "pipelineRegisters.h" //finished
 
 #ifndef MEMORY_INTERFACE
 #define MEMORY_INTERFACE SimpleMemory
@@ -46,8 +47,8 @@ struct Core {
   // Interface size are configured with 4 bytes interface size (32 bits)
   MemoryInterface<4>*dm, *im;
 
-  ac_int<32, true> regFile[32];
-  ac_int<32, false> pc;
+  ap_int<32> regFile[32];
+  ap_uint<32> pc;
 
   // stall
   bool stallSignals[5] = {0, 0, 0, 0, 0};

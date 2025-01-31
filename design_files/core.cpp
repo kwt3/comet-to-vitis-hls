@@ -13,12 +13,13 @@
 
 
 
-#include "ac_int.h"
+// #include "ac_int.h"
+#include "ap_int.h" 
 #include "cacheMemory.h"
 #include "core.h"
 
 
-void fetch(const ac_int<32, false> pc, struct FtoDC& ftoDC, const ac_int<32, false> instruction)
+void fetch(const ap_uint<32> pc, struct FtoDC& ftoDC, const ap_uint<32> instruction)
 {
   ftoDC.instruction = instruction;
   ftoDC.pc          = pc;
@@ -26,52 +27,69 @@ void fetch(const ac_int<32, false> pc, struct FtoDC& ftoDC, const ac_int<32, fal
   ftoDC.we          = 1;
 }
 
-void decode(const struct FtoDC ftoDC, struct DCtoEx& dctoEx, const ac_int<32, true> registerFile[32])
+void decode(const struct FtoDC ftoDC, struct DCtoEx& dctoEx, const ap_int<32> registerFile[32])
 {
-  const ac_int<32, false> pc          = ftoDC.pc;
-  const ac_int<32, false> instruction = ftoDC.instruction;
+  const ap_uint<32> pc          = ftoDC.pc;
+  const ap_uint<32> instruction = ftoDC.instruction;
 
   // R-type instruction
-  const ac_int<7, false> funct7 = instruction.slc<7>(25);
-  const ac_int<5, false> rs2    = instruction.slc<5>(20);
-  const ac_int<5, false> rs1    = instruction.slc<5>(15);
-  const ac_int<3, false> funct3 = instruction.slc<3>(12);
-  const ac_int<5, false> rd     = instruction.slc<5>(7);
-  const ac_int<7, false> opCode = instruction.slc<7>(0); // could be reduced to 5 bits because 1:0 is always 11
-
+//   const ap_uint<7> funct7 = instruction.slc<7>(25);
+//   const ap_uint<5> rs2    = instruction.slc<5>(20);
+//   const ap_uint<5> rs1    = instruction.slc<5>(15);
+//   const ap_uint<3> funct3 = instruction.slc<3>(12);
+//   const ap_uint<5> rd     = instruction.slc<5>(7);
+//   const ap_uint<7> opCode = instruction.slc<7>(0); // could be reduced to 5 bits because 1:0 is always 11
+  const ap_uint<7> funct7 = instruction.range(31, 25); // Extract bits [31:25]
+  const ap_uint<5> rs2    = instruction.range(24, 20); // Extract bits [24:20]
+  const ap_uint<5> rs1    = instruction.range(19, 15); // Extract bits [19:15]
+  const ap_uint<3> funct3 = instruction.range(14, 12); // Extract bits [14:12]
+  const ap_uint<5> rd     = instruction.range(11, 7);  // Extract bits [11:7]
+  const ap_uint<7> opCode = instruction.range(6, 0);   // Extract bits [6:0] (opCode)
+  
   // Construction of different immediate values
-  ac_int<12, false> imm12_S = 0;
-  imm12_S.set_slc(5, instruction.slc<7>(25));
-  imm12_S.set_slc(0, instruction.slc<5>(7));
+  ap_uint<12> imm12_S = 0;
+//   imm12_S.set_slc(5, instruction.slc<7>(25));
+//   imm12_S.set_slc(0, instruction.slc<5>(7));
+  imm12_S.range(11, 5) = instruction.range(31, 25); // Extract bits [31:25] and assign to imm12_S[11:5]
+  imm12_S.range(4, 0) = instruction.range(11, 7);  // Extract bits [11:7] and assign to imm12_S[4:0]
 
-  ac_int<12, true> imm12_I_signed = instruction.slc<12>(20);
-  ac_int<12, true> imm12_S_signed = 0;
-  imm12_S_signed.set_slc(0, imm12_S.slc<12>(0));
+//   ap_int<12> imm12_I_signed = instruction.slc<12>(20);
+  ap_int<12> imm12_I_signed = instruction.range(31, 20); // Extract bits [31:20] as signed value
+  ap_int<12> imm12_S_signed = 0;
+//   imm12_S_signed.set_slc(0, imm12_S.slc<12>(0));
+  imm12_S_signed.range(11, 0) = imm12_S.range(11, 0); // Copy all bits from imm12_S to imm12_S_signed
 
-  ac_int<13, false> imm13 = 0;
-  imm13[12]               = instruction[31];
-  imm13.set_slc(5, instruction.slc<6>(25));
-  imm13.set_slc(1, instruction.slc<4>(8));
-  imm13[11] = instruction[7];
+  ap_uint<13> imm13 = 0;
+  imm13[12]= instruction[31]; // Assign bit 31 (sign bit) to imm13[12]
+//   imm13.set_slc(5, instruction.slc<6>(25));
+  imm13.range(11, 5) = instruction.range(30, 25);   // Extract bits [30:25] and assign to imm13[11:5]
+//   imm13.set_slc(1, instruction.slc<4>(8));
+  imm13.range(4, 1) = instruction.range(11, 8);     // Extract bits [11:8] and assign to imm13[4:1]
+  imm13[11] = instruction[7]; // Assign bit 7 to imm13[0]
 
-  ac_int<13, true> imm13_signed = 0;
-  imm13_signed.set_slc(0, imm13);
+  ap_int<13> imm13_signed = 0;
+//   imm13_signed.set_slc(0, imm13);
+  imm13_signed.range(12, 0) = imm13.range(12, 0); // Copy all 13 bits from imm13 to imm13_signed
 
-  ac_int<32, true> imm31_12 = 0;
-  imm31_12.set_slc(12, instruction.slc<20>(12));
+  ap_int<32> imm31_12 = 0;
+//   imm31_12.set_slc(12, instruction.slc<20>(12));
+  imm31_12.range(31, 12) = instruction.range(31, 12); // Copy bits [31:12] from instruction to imm31_12
 
-  ac_int<21, false> imm21_1 = 0;
-  imm21_1.set_slc(12, instruction.slc<8>(12));
+  ap_uint<21> imm21_1 = 0;
+//   imm21_1.set_slc(12, instruction.slc<8>(12));
+  imm21_1.range(20, 12) = instruction.range(31, 24); // Copy bits [31:24] to imm21_1[20:12]
   imm21_1[11] = instruction[20];
-  imm21_1.set_slc(1, instruction.slc<10>(21));
+//   imm21_1.set_slc(1, instruction.slc<10>(21));
+  imm21_1.range(10, 1) = instruction.range(30, 21);  // Copy bits [30:21] to imm21_1[10:1]
   imm21_1[20] = instruction[31];
 
-  ac_int<21, true> imm21_1_signed = 0;
-  imm21_1_signed.set_slc(0, imm21_1);
+  ap_int<21> imm21_1_signed = 0;
+//   imm21_1_signed.set_slc(0, imm21_1);
+  imm21_1_signed.range(20, 0) = imm21_1.range(20, 0); // Copy all 21 bits from imm21_1 to imm21_1_signed
 
   // Register access
-  const ac_int<32, false> valueReg1 = registerFile[rs1];
-  const ac_int<32, false> valueReg2 = registerFile[rs2];
+  const ap_uint<32> valueReg1 = registerFile[rs1];
+  const ap_uint<32> valueReg2 = registerFile[rs2];
 
   dctoEx.rs1         = rs1;
   dctoEx.rs2         = rs2;
@@ -254,10 +272,10 @@ void execute(const struct DCtoEx dctoEx, struct ExtoMem& extoMem)
           extoMem.isBranch = (dctoEx.lhs >= dctoEx.rhs);
           break;
         case RISCV_BR_BLTU:
-          extoMem.isBranch = ((ac_int<32, false>)dctoEx.lhs < (ac_int<32, false>)dctoEx.rhs);
+          extoMem.isBranch = ((ap_uint<32>)dctoEx.lhs < (ap_uint<32>)dctoEx.rhs);
           break;
         case RISCV_BR_BGEU:
-          extoMem.isBranch = ((ac_int<32, false>)dctoEx.lhs >= (ac_int<32, false>)dctoEx.rhs);
+          extoMem.isBranch = ((ap_uint<32>)dctoEx.lhs >= (ap_uint<32>)dctoEx.rhs);
           break;
       }
       break;
@@ -278,7 +296,7 @@ void execute(const struct DCtoEx dctoEx, struct ExtoMem& extoMem)
           extoMem.result = dctoEx.lhs < dctoEx.rhs;
           break;
         case RISCV_OPI_SLTIU:
-          extoMem.result = (ac_int<32, false>)dctoEx.lhs < (ac_int<32, false>)dctoEx.rhs;
+          extoMem.result = (ap_uint<32>)dctoEx.lhs < (ap_uint<32>)dctoEx.rhs;
           break;
         case RISCV_OPI_XORI:
           extoMem.result = dctoEx.lhs ^ dctoEx.rhs;
@@ -292,13 +310,15 @@ void execute(const struct DCtoEx dctoEx, struct ExtoMem& extoMem)
         case RISCV_OPI_SLLI: // cast rhs as 5 bits, otherwise generated hardware
                              // is 32 bits
           // & shift amount held in the lower 5 bits (riscv spec)
-          extoMem.result = dctoEx.lhs << (ac_int<5, false>)dctoEx.rhs;
+          extoMem.result = dctoEx.lhs << (ap_uint<5>)dctoEx.rhs;
           break;
         case RISCV_OPI_SRI:
           if (dctoEx.funct7[5]) // SRAI
-            extoMem.result = dctoEx.lhs >> (ac_int<5, false>)dctoEx.rhs.slc<5>(0);
+            // extoMem.result = dctoEx.lhs >> (ap_uint<5>)dctoEx.rhs.slc<5>(0);
+            extoMem.result = dctoEx.lhs >> (ap_uint<5>)dctoEx.rhs.range(4, 0);
           else // SRLI
-            extoMem.result = (ac_int<32, false>)dctoEx.lhs >> (ac_int<5, false>)dctoEx.rhs.slc<5>(0);
+            // extoMem.result = (ap_uint<32>)dctoEx.lhs >> (ap_uint<5>)dctoEx.rhs.slc<5>(0);
+            extoMem.result = (ap_uint<32>)dctoEx.lhs >> (ap_uint<5>)dctoEx.rhs.range(4, 0);
           break;
       }
       break;
@@ -315,22 +335,22 @@ void execute(const struct DCtoEx dctoEx, struct ExtoMem& extoMem)
               extoMem.result = dctoEx.lhs + dctoEx.rhs;
             break;
           case RISCV_OP_SLL:
-            extoMem.result = dctoEx.lhs << (ac_int<5, false>)dctoEx.rhs;
+            extoMem.result = dctoEx.lhs << (ap_uint<5>)dctoEx.rhs;
             break;
           case RISCV_OP_SLT:
             extoMem.result = dctoEx.lhs < dctoEx.rhs;
             break;
           case RISCV_OP_SLTU:
-            extoMem.result = (ac_int<32, false>)dctoEx.lhs < (ac_int<32, false>)dctoEx.rhs;
+            extoMem.result = (ap_uint<32>)dctoEx.lhs < (ap_uint<32>)dctoEx.rhs;
             break;
           case RISCV_OP_XOR:
             extoMem.result = dctoEx.lhs ^ dctoEx.rhs;
             break;
           case RISCV_OP_SR:
             if (dctoEx.funct7[5]) // SRA
-              extoMem.result = dctoEx.lhs >> (ac_int<5, false>)dctoEx.rhs;
+              extoMem.result = dctoEx.lhs >> (ap_uint<5>)dctoEx.rhs;
             else // SRL
-              extoMem.result = (ac_int<32, false>)dctoEx.lhs >> (ac_int<5, false>)dctoEx.rhs;
+              extoMem.result = (ap_uint<32>)dctoEx.lhs >> (ap_uint<5>)dctoEx.rhs;
             break;
           case RISCV_OP_OR:
             extoMem.result = dctoEx.lhs | dctoEx.rhs;
@@ -364,7 +384,7 @@ void execute(const struct DCtoEx dctoEx, struct ExtoMem& extoMem)
           extoMem.result = dctoEx.lhs;
           break;
         case RISCV_SYSTEM_CSRRC:
-          extoMem.datac  = dctoEx.lhs & ((ac_int<32, false>)~dctoEx.rhs);
+          extoMem.datac  = dctoEx.lhs & ((ap_uint<32>)~dctoEx.rhs);
           extoMem.result = dctoEx.lhs;
           break;
         case RISCV_SYSTEM_CSRRWI:
@@ -376,7 +396,7 @@ void execute(const struct DCtoEx dctoEx, struct ExtoMem& extoMem)
           extoMem.result = dctoEx.lhs;
           break;
         case RISCV_SYSTEM_CSRRCI:
-          extoMem.datac  = dctoEx.lhs & ((ac_int<32, false>)~dctoEx.rhs);
+          extoMem.datac  = dctoEx.lhs & ((ap_uint<32>)~dctoEx.rhs);
           extoMem.result = dctoEx.lhs;
           break;
       }
@@ -397,7 +417,7 @@ void memory(const struct ExtoMem extoMem, struct MemtoWB& memtoWB)
   memtoWB.result            = extoMem.result;
   memtoWB.rd                = extoMem.rd;
 
-  ac_int<32, false> mem_read;
+  ap_uint<32> mem_read;
 
   switch (extoMem.opCode) {
     case RISCV_LD:
@@ -430,8 +450,8 @@ void writeback(const struct MemtoWB memtoWB, struct WBOut& wbOut)
   }
 }
 
-void branchUnit(const ac_int<32, false> nextPC_fetch, const ac_int<32, false> nextPC_decode, const bool isBranch_decode,
-                const ac_int<32, false> nextPC_execute, const bool isBranch_execute, ac_int<32, false>& pc, bool& we_fetch,
+void branchUnit(const ap_uint<32> nextPC_fetch, const ap_uint<32> nextPC_decode, const bool isBranch_decode,
+                const ap_uint<32> nextPC_execute, const bool isBranch_execute, ap_uint<32>& pc, bool& we_fetch,
                 bool& we_decode, const bool stall_fetch)
 {
 
@@ -449,13 +469,13 @@ void branchUnit(const ac_int<32, false> nextPC_fetch, const ac_int<32, false> ne
   }
 }
 
-void forwardUnit(const ac_int<5, false> decodeRs1, const bool decodeUseRs1,
-                 const ac_int<5, false> decodeRs2, const bool decodeUseRs2,
-                 const ac_int<5, false> decodeRs3, const bool decodeUseRs3,
-                 const ac_int<5, false> executeRd, const bool executeUseRd,
+void forwardUnit(const ap_uint<5> decodeRs1, const bool decodeUseRs1,
+                 const ap_uint<5> decodeRs2, const bool decodeUseRs2,
+                 const ap_uint<5> decodeRs3, const bool decodeUseRs3,
+                 const ap_uint<5> executeRd, const bool executeUseRd,
                  const bool executeIsLongComputation,
-                 const ac_int<5, false> memoryRd, const bool memoryUseRd,
-                 const ac_int<5, false> writebackRd, const bool writebackUseRd,
+                 const ap_uint<5> memoryRd, const bool memoryUseRd,
+                 const ap_uint<5> writebackRd, const bool writebackUseRd,
                  bool stall[5], struct ForwardReg& forwardRegisters)
 {
 
@@ -555,7 +575,7 @@ void doCycle(struct Core& core, // Core containing all values
   forwardRegisters.forwardWBtoVal3  = 0;
 
   // declare temporary register file
-  ac_int<32, false> nextInst;
+  ap_uint<32> nextInst;
 
   core.im->process(core.pc, WORD, (!localStall && !core.stallDm) ? LOAD : NONE, 0, nextInst, core.stallIm);
 
@@ -660,8 +680,8 @@ void doCycle(struct Core& core, // Core containing all values
 }
 
 // void doCore(IncompleteMemory im, IncompleteMemory dm, bool globalStall)
-void doCore(bool globalStall, ac_int<32, false> imData[1 << 24],
-            ac_int<32, false> dmData[1 << 24])
+void doCore(bool globalStall, ap_uint<32> imData[1 << 24],
+            ap_uint<32> dmData[1 << 24])
 {
   Core core;
 
